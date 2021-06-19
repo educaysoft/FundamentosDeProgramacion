@@ -8,7 +8,7 @@ int main()
   float suma[10],resta[10],producto[10],division[10];
   //Mostrar las matrices Stalin Francis
   do{
-     cout<<Matriz1[c];
+     cout<<matriz1[c];
      c=c+1;  
      if(c<10){
        cout<<" - ";
@@ -17,7 +17,7 @@ int main()
     cout<<endl;
     c=0;
     do{
-     cout<<Matriz2[c];
+     cout<<matriz2[c];
      c=c+1;  
      if(c<10){
        cout<<" - ";
