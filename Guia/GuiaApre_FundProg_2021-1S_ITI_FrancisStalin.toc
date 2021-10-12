@@ -1,0 +1,91 @@
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}DATOS INFORMATIVOS DE LA ASIGNATURA}{4}%
+\contentsline {subsection}{\numberline {1.1}Datos Generales}{4}%
+\contentsline {subsection}{\numberline {1.2}JUSTIFICACIÓN:}{4}%
+\contentsline {subsection}{\numberline {1.3}PROBLEMA DE LA PROFESION:}{5}%
+\contentsline {subsection}{\numberline {1.4}OBJETO DE ESTUDIO}{5}%
+\contentsline {section}{\numberline {2}OBJETIVOS}{6}%
+\contentsline {subsection}{\numberline {2.1}Objetivo General}{6}%
+\contentsline {subsection}{\numberline {2.2}Resultados de aprendizaje:}{6}%
+\contentsline {section}{\numberline {3}CONTENIDOS}{7}%
+\contentsline {section}{\numberline {4}PROGRAMACIÓN ANALÍTICA DE APRENDIZAJE Y ACTIVIDADES BÁSICAS}{8}%
+\contentsline {subsection}{\numberline {4.1}UNIDAD \# 0: Presentación, motivación y diagnostico}{9}%
+\contentsline {subsubsection}{\numberline {4.1.1}Presentación del docente}{9}%
+\contentsline {subsubsection}{\numberline {4.1.2}Presentación de los estudiantes}{9}%
+\contentsline {subsubsection}{\numberline {4.1.3}Presentación de la asignatura}{9}%
+\contentsline {subsection}{\numberline {4.2}Unidad \# 1: Introducción a las computadoras y los lenguajes de programación}{10}%
+\contentsline {subsubsection}{\numberline {4.2.1}Introduccion a las computadoras}{10}%
+\contentsline {subsubsection}{\numberline {4.2.2}Recursos y actividades de aprendizaje}{11}%
+\contentsline {subsubsection}{\numberline {4.2.3}Preguntas de autocontrol}{11}%
+\contentsline {section}{Referencias}{14}%
+\contentsline {subsubsection}{\numberline {4.2.4}Arquitectura de la computadora}{16}%
+\contentsline {subsubsection}{\numberline {4.2.5}Sistema de numeración}{17}%
+\contentsline {subsubsection}{\numberline {4.2.6}Los lenguaje de programación}{17}%
+\contentsline {subsubsection}{\numberline {4.2.7}Preguntas de autocontrol}{19}%
+\contentsline {subsubsection}{\numberline {4.2.8}Introducción a Linux y termux}{21}%
+\contentsline {subsubsection}{\numberline {4.2.9}Comando/Paquetes de linux: Instalación, configuración y prácticas de uso}{22}%
+\contentsline {subsubsection}{\numberline {4.2.10}Taller: Utilización de termux en la programación}{22}%
+\contentsline {paragraph}{Objetivo:}{22}%
+\contentsline {subsubsection}{\numberline {4.2.11}Preguntas de autocontrol}{26}%
+\contentsline {subsubsection}{\numberline {4.2.12}Introducción a Vim y sus comandos}{28}%
+\contentsline {section}{\numberline {5}Vim en modo normal}{30}%
+\contentsline {paragraph}{VIM en modo insertar }{31}%
+\contentsline {subsubsection}{\numberline {5.0.1}Ejercicos practicos con vim: Creación de directorios y archivo}{31}%
+\contentsline {subsubsection}{\numberline {5.0.2}TAller de vim}{35}%
+\contentsline {subsubsection}{\numberline {5.0.3}Preguntas para el autocontrol}{38}%
+\contentsline {subsubsection}{\numberline {5.0.4}Introducción a la programación}{41}%
+\contentsline {section}{\numberline {6}Ciclo de vida del Software}{41}%
+\contentsline {section}{\numberline {7}Creación del Software: Principios básicos.}{41}%
+\contentsline {subsection}{\numberline {7.1}El análisis y diseñó}{41}%
+\contentsline {subsection}{\numberline {7.2}La etapa de la codificación}{42}%
+\contentsline {subsection}{\numberline {7.3}La etapa de compilación y ejecución}{42}%
+\contentsline {subsection}{\numberline {7.4}La etapa de verificación y depuración}{43}%
+\contentsline {subsection}{\numberline {7.5}La etapa de mantenimiento}{43}%
+\contentsline {subsection}{\numberline {7.6}Documentación}{44}%
+\contentsline {subsubsection}{\numberline {7.6.1}Taller de programación básica 1}{45}%
+\contentsline {subsubsection}{\numberline {7.6.2}Taller de programación 2: Elaboración de informe}{45}%
+\contentsline {subsubsection}{\numberline {7.6.3}Figuras para el diagrama de flujo}{48}%
+\contentsline {subsection}{\numberline {7.7}Inicio/fin}{49}%
+\contentsline {subsection}{\numberline {7.8}Símbolo de Proceso}{49}%
+\contentsline {subsection}{\numberline {7.9}Símbolo de decisión}{49}%
+\contentsline {subsection}{\numberline {7.10}Símbolo de entrada y salida}{50}%
+\contentsline {subsubsection}{\numberline {7.10.1}Taller de Diagrama de flujo}{50}%
+\contentsline {section}{\numberline {8}Resolviendo un problema muy simple}{50}%
+\contentsline {subsection}{\numberline {8.1}Análisis del problema}{51}%
+\contentsline {subsection}{\numberline {8.2}Mejorando nuestro algoritmo utilizando seudo-código}{51}%
+\contentsline {subsection}{\numberline {8.3}El diagrama de flujo para la resta de dos números}{52}%
+\contentsline {section}{\numberline {9}El clásico programa del punto de venta}{54}%
+\contentsline {paragraph}{Enunciado:}{54}%
+\contentsline {subsection}{\numberline {9.1}Operaciones matemáticas}{54}%
+\contentsline {subsection}{\numberline {9.2}Operaciones lógicas}{54}%
+\contentsline {subsection}{\numberline {9.3}Preguntas de autocontrol}{56}%
+\contentsline {subsection}{\numberline {9.4}Diagrama de Flujo (Descisiones)}{58}%
+\contentsline {paragraph}{El clásico programa del número mayor}{58}%
+\contentsline {paragraph}{Enunciado :}{58}%
+\contentsline {subsection}{\numberline {9.5}Diagrama de Flujo (Estructura de repetición)}{58}%
+\contentsline {paragraph}{El clásico programa de sumar varios números}{58}%
+\contentsline {paragraph}{Enunciado:}{58}%
+\contentsline {subsubsection}{\numberline {9.5.1}Taller de Diagrama de Flujo}{59}%
+\contentsline {section}{\numberline {10}Un programa que cuenta y suma los número pares e impares. }{59}%
+\contentsline {paragraph}{Enunciado:}{59}%
+\contentsline {section}{\numberline {11}Problemas propuestos. }{60}%
+\contentsline {subsubsection}{\numberline {11.0.1}Preguntas para el autocontrol}{62}%
+\contentsline {subsubsection}{\numberline {11.0.2}Estructura básica de un programa en C++}{65}%
+\contentsline {section}{\numberline {12}Elementos básicos de un programa en c++}{66}%
+\contentsline {section}{\numberline {13}Identificadores}{66}%
+\contentsline {section}{\numberline {14}Bloques}{67}%
+\contentsline {section}{\numberline {15}Las bibliotecas de C++}{70}%
+\contentsline {section}{\numberline {16}La directiva}{70}%
+\contentsline {section}{\numberline {17}Espacio de nombres}{71}%
+\contentsline {subsection}{\numberline {17.1}Personalizando el espacio de nombre}{72}%
+\contentsline {section}{\numberline {18}Datos, tipos de datos y operaciones primitivas}{73}%
+\contentsline {subsubsection}{\numberline {18.0.1}Estructura de selección (if-else) en C++}{83}%
+\contentsline {subsubsection}{\numberline {18.0.2}Estructura de repetición (do-while) }{87}%
+\contentsline {subsubsection}{\numberline {18.0.3}Taller para estructura de repetición}{87}%
+\contentsline {subsubsection}{\numberline {18.0.4}Proyecto Final Integrador }{91}%
+\contentsline {section}{\numberline {19}Funciones declaradas por el usuario}{98}%
+\contentsline {subsection}{\numberline {19.1}Clases: Estructura}{103}%
+\contentsline {subsection}{\numberline {19.2}Preguntas de autocontrol}{106}%
+\contentsline {subsection}{\numberline {19.3}Formas y tipos de evaluación}{110}%
+\contentsline {subsection}{\numberline {19.4}Rubricas para autoevaluación del silabo}{111}%

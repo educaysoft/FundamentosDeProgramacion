@@ -1,0 +1,120 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Aguilar%
+}{%
+Aguilar%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+aguilar2008}
+\APACinsertmetastar {%
+aguilar2008}%
+\begin{APACrefauthors}%
+Aguilar, L\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {FUNDAMENTOS DE PROGRAMACIÓN:Algoritmos, estructura de datos y
+  objetos} {Fundamentos de programaciÓn:algoritmos, estructura de datos y
+  objetos}.
+\newblock
+\APACaddressPublisher{}{McGraw-Hill}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cobbaut%
+}{%
+Cobbaut%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+cobbaut15:_linux_fundam}
+\APACinsertmetastar {%
+cobbaut15:_linux_fundam}%
+\begin{APACrefauthors}%
+Cobbaut, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Linux Fundamental} {Linux fundamental}.
+\newblock
+\APACaddressPublisher{}{Netsec BVBA}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Francis%
+}{%
+Francis%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Francis2020}
+\APACinsertmetastar {%
+Francis2020}%
+\begin{APACrefauthors}%
+Francis, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2020}.
+\newblock
+\APACrefbtitle {Fundamentos de programación: Desarrollo en C++ utilizando
+  dispositivos moviles} {Fundamentos de programación: Desarrollo en c++
+  utilizando dispositivos moviles}.
+\newblock
+\APACaddressPublisher{}{EDUCAYSOFT}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sierra%
+}{%
+Sierra%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+sierra98}
+\APACinsertmetastar {%
+sierra98}%
+\begin{APACrefauthors}%
+Sierra, F\BPBI J\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1998}.
+\newblock
+\APACrefbtitle {Programación orientada a objetos con C++} {Programación
+  orientada a objetos con c++}.
+\newblock
+\APACaddressPublisher{}{RA-MA Editor}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Youtube%
+}{%
+Youtube%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Arquiecturapc2}
+\APACinsertmetastar {%
+Arquiecturapc2}%
+\begin{APACrefauthors}%
+Youtube.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Estructura de Computadores - Unidad 2: Introducción - José
+  Luis Abellán.} {Estructura de computadores - unidad 2: Introducción - josé
+  luis abellán.}
+\newblock
+\APAChowpublished {url{https://www.youtube.com/watch?v=6EPsiLs8HPM}}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
