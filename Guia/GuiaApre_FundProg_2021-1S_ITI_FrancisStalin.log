@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.2)  11 OCT 2021 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.2)  14 OCT 2021 05:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1690,7 +1690,7 @@ Overfull \vbox (18.79704pt too high) detected at line 1391
  []
 
 
-Overfull \vbox (25.3221pt too high) detected at line 1391
+Overfull \vbox (48.64989pt too high) detected at line 1391
  []
 
 
@@ -2071,11 +2071,11 @@ Overfull \vbox (54.14609pt too high) detected at line 1582
  []
 
 
-Overfull \vbox (18.79704pt too high) detected at line 1582
+Overfull \vbox (42.12483pt too high) detected at line 1582
  []
 
 
-Overfull \vbox (25.3221pt too high) detected at line 1582
+Overfull \vbox (48.64989pt too high) detected at line 1582
  []
 
 
@@ -2227,11 +2227,11 @@ Overfull \vbox (52.62209pt too high) detected at line 1709
  []
 
 
-Overfull \vbox (18.79704pt too high) detected at line 1709
+Overfull \vbox (42.12483pt too high) detected at line 1709
  []
 
 
-Overfull \vbox (25.3221pt too high) detected at line 1709
+Overfull \vbox (48.64989pt too high) detected at line 1709
  []
 
 
@@ -2385,7 +2385,7 @@ Overfull \vbox (42.33842pt too high) detected at line 1979
  []
 
 
-Overfull \vbox (18.79704pt too high) detected at line 1979
+Overfull \vbox (42.12483pt too high) detected at line 1979
  []
 
 
@@ -2718,7 +2718,7 @@ Overfull \vbox (42.12483pt too high) detected at line 2438
  []
 
 
-Overfull \vbox (48.64989pt too high) detected at line 2438
+Overfull \vbox (29.31805pt too high) detected at line 2438
  []
 
 
@@ -2979,11 +2979,11 @@ Overfull \vbox (33.19418pt too high) detected at line 2703
  []
 
 
-Overfull \vbox (32.12888pt too high) detected at line 2703
+Overfull \vbox (22.793pt too high) detected at line 2703
  []
 
 
-Overfull \vbox (48.64989pt too high) detected at line 2703
+Overfull \vbox (29.31805pt too high) detected at line 2703
  []
 
 
@@ -3166,11 +3166,11 @@ Overfull \vbox (47.96596pt too high) detected at line 3265
  []
 
 
-Overfull \vbox (42.12483pt too high) detected at line 3265
+Overfull \vbox (22.793pt too high) detected at line 3265
  []
 
 
-Overfull \vbox (48.64989pt too high) detected at line 3265
+Overfull \vbox (29.31805pt too high) detected at line 3265
  []
 
 
@@ -3286,7 +3286,7 @@ Overfull \vbox (41.39023pt too high) detected at line 3566
  []
 
 
-Overfull \vbox (42.12483pt too high) detected at line 3566
+Overfull \vbox (22.793pt too high) detected at line 3566
  []
 
 
@@ -3709,11 +3709,11 @@ Overfull \vbox (41.95407pt too high) detected at line 4193
  []
 
 
-Overfull \vbox (8.11716pt too high) detected at line 4193
+Overfull \vbox (38.60907pt too high) detected at line 4193
  []
 
 
-Overfull \vbox (14.64221pt too high) detected at line 4193
+Overfull \vbox (45.13412pt too high) detected at line 4193
  []
 
 
@@ -3937,11 +3937,11 @@ Overfull \vbox (45.00209pt too high) detected at line 4310
  []
 
 
-Overfull \vbox (22.793pt too high) detected at line 4310
+Overfull \vbox (39.46088pt too high) detected at line 4310
  []
 
 
-Overfull \vbox (29.31805pt too high) detected at line 4310
+Overfull \vbox (45.13412pt too high) detected at line 4310
  []
 
 
@@ -4034,11 +4034,11 @@ Overfull \vbox (52.16605pt too high) detected at line 4411
  []
 
 
-Overfull \vbox (22.793pt too high) detected at line 4411
+Overfull \vbox (38.60907pt too high) detected at line 4411
  []
 
 
-Overfull \vbox (29.31805pt too high) detected at line 4411
+Overfull \vbox (45.13412pt too high) detected at line 4411
  []
 
 
@@ -4357,7 +4357,7 @@ Overfull \vbox (38.60907pt too high) detected at line 4633
  []
 
 
-Overfull \vbox (45.13412pt too high) detected at line 4633
+Overfull \vbox (41.30605pt too high) detected at line 4633
  []
 
 
@@ -4514,11 +4514,11 @@ Overfull \vbox (64.0459pt too high) detected at line 4907
  []
 
 
-Overfull \vbox (38.60907pt too high) detected at line 4907
+Overfull \vbox (34.78099pt too high) detected at line 4907
  []
 
 
-Overfull \vbox (45.13412pt too high) detected at line 4907
+Overfull \vbox (41.30605pt too high) detected at line 4907
  []
 
 
@@ -4616,29 +4616,29 @@ LaTeX Info: Redefining \% on input line 4938.
 
 
 ]
-Overfull \hbox (136.63141pt too wide) in paragraph at lines 4941--4969
+Overfull \hbox (133.61942pt too wide) in paragraph at lines 4941--4967
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 4975.
-LaTeX Info: Redefining \% on input line 4975.
+LaTeX Info: Redefining \. on input line 4973.
+LaTeX Info: Redefining \% on input line 4973.
 [109]
-Overfull \hbox (14.84929pt too wide) in paragraph at lines 4980--4997
+Overfull \hbox (14.84929pt too wide) in paragraph at lines 4978--4995
 [][] 
  []
 
 
-Overfull \hbox (16.66277pt too wide) in paragraph at lines 5000--5008
+Overfull \hbox (16.66277pt too wide) in paragraph at lines 4998--5006
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 5055.
-LaTeX Info: Redefining \% on input line 5055.
+LaTeX Info: Redefining \. on input line 5053.
+LaTeX Info: Redefining \% on input line 5053.
 [110
 
 ]
-LaTeX Info: Redefining \. on input line 5060.
-LaTeX Info: Redefining \% on input line 5060.
+LaTeX Info: Redefining \. on input line 5058.
+LaTeX Info: Redefining \% on input line 5058.
  [111] (./GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
@@ -4658,7 +4658,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  40503 strings out of 492993
  815464 string characters out of 6157172
- 1627290 words of memory out of 5000000
+ 1627289 words of memory out of 5000000
  45090 multiletter control sequences out of 15000+600000
  589743 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -4674,7 +4674,7 @@ er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.pdf (112 pages, 8
-84858 bytes).
+84627 bytes).
 PDF statistics:
  457 PDF objects out of 1000 (max. 8388607)
  293 compressed objects within 3 object streams
