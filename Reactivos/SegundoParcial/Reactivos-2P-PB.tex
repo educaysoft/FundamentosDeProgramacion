@@ -1,0 +1,169 @@
+
+\documentclass[12pt]{exam}
+\usepackage[top=1.5cm,left=2cm,right=2cm]{geometry}
+\usepackage{graphicx}
+\graphicspath{{../images/}}
+\usepackage{float}
+\usepackage[utf8x]{inputenc}
+\usepackage{wasysym}
+        \usepackage{makecell}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{mindmap}
+\pagestyle{headandfoot}
+\firstpagefooter{{\bf nota:} Tanto los diagrama de flujo como los programas en c++, deben ser totalmente funcionables.}{}{}
+
+
+
+ 
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=3.5em, text badly centered, node distance=1.5cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text centered, rounded corners, minimum
+    height=1em, minimum width=0.5cm]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!10, node distance=2cm,
+minimum height=2em]
+\tikzstyle{conector}=[circle, scale=0.75, color=white, fill=blue!10]
+
+\tikzstyle{output1} = [signal, signal from=nowhere, signal to=east, minimum width=2cm, minimum height=0.5cm, text centered, draw=black, fill=blue!10]
+
+\tikzstyle{input1} = [signal, signal from=east, signal to=nowhere, minimum width=2cm, minimum height=0.5cm, text centered, draw=black, fill=red!30]
+
+
+
+
+
+
+\begin{document}
+
+\thispagestyle{headandfoot}
+
+
+\begin{minipage}[H]{0.10\linewidth}
+  \flushleft
+  \includegraphics[scale=0.12]{logoutlvte}
+\end{minipage}
+\begin{minipage}[H]{0.70\linewidth}
+  \begin{center}
+    UNIVERSIDAD TÉCNICA LUIS VARGAS TORRES\\  FACULTAD DE INGENIERÍAS\\
+    CARRERA DE TECNOLOGÍAS DE LA INFORMACIÓN \\ Examen del Segundo hemisemestre
+  \end{center}
+\end{minipage}
+\begin{minipage}[H]{0.10\linewidth}
+    \flushleft
+    \includegraphics[scale=0.3]{logofit}
+\end{minipage}
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}[H]{llll}
+    Asignatura: & Fundamentos de Programación & Periodo & 2021-1S\\
+              &                     &            & \\     
+    Apellidos y nombres: &\rule{7cm}{0.4pt}    &  & \\
+              &                     &            & \\
+    Fecha: &\rule{5cm}{0.4pt}   & Paralelo: & {\Large B} \\
+  \end{tabular}
+\end{table}
+
+
+
+
+\begin{questions}
+\question[20] ¿Cuál será la salida del siguiente programa?
+
+  \begin{minipage}[H]{0.45\linewidth}
+  \includegraphics[scale=0.5]{1}
+\end{minipage}
+  \begin{minipage}[H]{0.45\linewidth}
+
+  Alternativa:\\
+  A. Twelve.\\
+  B. Twelve Zero.\\
+  C. Default.\\
+  D. Compilation fails.\\
+\end{minipage}
+
+  
+
+
+
+
+\begin{minipage}[H]{0.45\linewidth}
+\question[20] Crear un programa en c++ que permita llenar un arreglo de dimensión 3 (A[3]) y ordene sus elementos en otro arregla (B[3]); mostrar el arreglo resultante. 
+\vspace{8cm}
+  
+\end{minipage} \hspace{1cm}
+\begin{minipage}[H]{0.45\linewidth}
+\question[20] Crear un programa en c++  que permita ingresar una hora de inicio en un arreglo( hi[3]) y una hora de finalización en otro arreglo (hf[3]) el programa calculará las horas, minutos y segundos transcurridos y los guardará en un arreglo (ht[3]), el programa debe transformar los minutos y segundos a horas para presentar el resultado solo en horas. 
+\vspace{6cm}
+
+
+\end{minipage}
+
+
+
+
+\newpage
+
+\begin{minipage}[H]{0.45\linewidth}
+\question[20] Utilizando el diagrama de flujo, diseñar un programa que permita llenar un arreglo de dimensión 3 (A[3]) y ordene sus elementos en otro arreglo (B[3]), mostrar el arreglo resultante. 
+
+  \begin{center}
+    \begin{tikzpicture}[node distance=1cm,auto]
+      \node [cloud] (inicio) {inicio};
+      \node [block, below  of=inicio,yshift=-0.3cm,text width=5cm,minimum size=1cm]  (declara) {c=0; A[3],B[3]};
+      \node [input1, below of=declara,yshift=-0.3cm, text width=3cm,minimum size=1cm] (in1) {};
+
+  
+    
+   \node [output1, below of=in1, yshift=-12cm,text width=5cm,minimum size=1cm] (out1) {}; 
+    
+     \node [cloud, below of=out1 ] (fin) {fin};
+
+
+      \path [line] (inicio) -- (declara);
+      \path [line] (declara) --    (in1);
+    
+
+
+     \path [line] (out1) -- (fin);
+      
+    \end{tikzpicture}
+  
+  \end{center}
+\end{minipage} \hspace{1cm}
+\begin{minipage}[H]{0.45\linewidth}
+\question[20] Utilizando el diagrama de flujo, diseñar un programa que permita ingresar una hora de inicio en un arreglo( hi[3]) y una hora de finalización en otro arreglo (hf[3]) el programa calculará la hora minutos y segundos transcurridos y los guardará en un arreglo (ht[3], el programa debe transformar los minutos y segundos a horas para presentar el resultado solo en horas. 
+
+
+  \begin{center}
+    \begin{tikzpicture}[node distance=1cm,auto]
+      \node [cloud] (inicio) {inicio};
+      \node [block, below  of=inicio,yshift=-0.3cm,text width=5cm,minimum size=1cm]  (declara) {hi[3],hf[3],ht[3],horas};
+      \node [input1, below of=declara,yshift=-0.3cm, text width=3cm,minimum size=1cm] (in1) {};
+
+  
+    
+   \node [output1, below of=in1, yshift=-9.5cm,text width=3cm,minimum size=1cm] (out1) {}; 
+     \node [cloud, below of=out1,yshift=0.1cm ] (fin) {fin};
+
+
+      \path [line] (inicio) -- (declara);
+      \path [line] (declara) --    (in1);
+     \path [line] (out1) -- (fin);
+      
+    \end{tikzpicture}
+  
+  \end{center}
+\end{minipage}
+
+
+\end{questions}
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

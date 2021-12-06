@@ -1,0 +1,452 @@
+% Created 2021-12-06 Mon 01:39
+% Intended LaTeX compiler: pdflatex
+\documentclass[presentation, aspectratio=54]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\AtBeginSection[]{\begin{frame}\frametitle{}\LARGE\insertsectionhead\vspace{0.1cm}\hrule\end{frame}}
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\renewcommand{\Large}{\large}
+\usetheme{Montpellier}
+\usecolortheme{wolverine}
+\usefonttheme[stillsansserifsmall,stillsansseriflarge,structure]{serif}
+\author{Ing. Stalin Francis}
+\date{\today}
+\title{Fundamentos de programación}
+\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{\put(\LenToUnit{0.85\paperwidth},\LenToUnit{0.9\paperheight}){#1}}}\AddToShipoutPictureFG{\AtPagemyUpperLeft{{\includegraphics[width=1.cm,keepaspectratio]{logo-utlvte.png}}}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{bg-utlvte.png}}%
+\hypersetup{
+ pdfauthor={Ing. Stalin Francis},
+ pdftitle={Fundamentos de programación},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2 (Org mode 9.4.4)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+
+
+
+\section{Cración de grupos wattsapp}
+\label{sec:org3926ea4}
+\begin{frame}[label={sec:orge942bd8}]{Grupos de Whatsapp}
+\begin{itemize}
+\item Fundamentos-2020-2S-PB
+\begin{itemize}
+\item Creador y administrador: Loor Perea Patrick
+\end{itemize}
+\item Fundamentos-2020-2S-PA
+\begin{itemize}
+\item Crador y administrador: Jorge Ortiz
+\end{itemize}
+\end{itemize}
+\end{frame}
+\begin{frame}[label={sec:orgf88dc08}]{Grupos de trabajos}
+\begin{itemize}
+\item 5 personas
+\end{itemize}
+\end{frame}
+
+\section{UNIDAD 0: Presentación.}
+\label{sec:orgbb81a18}
+\begin{frame}[label={sec:org87fb2b4}]{\textit{<2021-09-13 Mon 09:00>--<2021-09-13 Mon 11:00> } Session No 1}
+\begin{block}{Presentación del Docente}
+\begin{enumerate}
+\item Nombre: Stalin Francis Quinde.
+\item Titulos:
+\begin{itemize}
+\item Pregrado: Ingeniero en computación (ESPOL).
+\item Postgrado1: Magister en
+Curriculo(UTLVTE)
+\item Postgrado2: Magister en Ciencias de la Computación(ESPOL).
+\end{itemize}
+\item Contacto:
+\begin{itemize}
+\item Correo: stalin.francis@utelvt.edu.ec
+\item Telefono: 0997919650.
+\end{itemize}
+\end{enumerate}
+\begin{block}{Presentación de cada uno de los estudiantes.}
+\begin{itemize}
+\item Apellidos y Nombres, ¿Cuantos años tienes?, Título de bachiller que obtuvo., ¿Qué le motivo a  seguir la carrera de Tecnología en Tecnología de la Información?,¿Qué aspira ser al terminar esta carrera?
+\end{itemize}
+\end{block}
+\end{block}
+\end{frame}
+\begin{frame}[label={sec:org8f0bad9}]{\textit{<2021-09-14 Tue 11:00>--<2021-09-14 Tue 13:00> } Session No 2}
+\begin{block}{\textit{<2021-09-14 Tue 11:00>--<2021-09-14 Tue 10:00> } Video motivacionales}
+\begin{itemize}
+\item Se dedicará una clase a ver los videos y luego cada estudiante realizará un comentario del mensaje que dejo el video.
+\item \url{https://www.youtube.com/watch?v=xKka6kzTQgw\&t=822s}
+\end{itemize}
+\end{block}
+
+\begin{block}{\textit{<2021-09-14 Tue 11:00>--<2021-09-14 Tue 13:00> } Prueba de diagnostivo:}
+\begin{itemize}
+\item Para esta prueba se dedicará un sesión de clase para que los estudiates respondan en las dos horas de clases.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section{UNIDAD 1: Introducción a las computadoras y los lenguajes de programación.}
+\label{sec:org74e0768}
+\begin{frame}[label={sec:org6897069}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Introducción a la computadora}
+\begin{itemize}
+\item ¿Que es el computador?
+\begin{itemize}
+\item ¿De que esta compuesto el computador?
+\item ¿Para qué sirve el computador?
+\end{itemize}
+\item ¿Porqué se ha vuelto tan importante el computador?
+\item ¿Quien creo el computador?
+\item ¿Comó sera el computador en el futuro?
+\item ¿Quién es el responsable de al arquitectura del computador?
+\item ¿Cuál es la arquitectura del computador?
+\item ¿Qué hace cada uno de las partes del computador?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:org866e288}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Historia del computador}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=180px]{./images/historia1.png}
+\caption{Historia del comptuador}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}[label={sec:org994b496}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Historia del computador}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=180px]{./images/historia2.png}
+\caption{Historia del comptuador}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}[label={sec:orgae91db4}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Arquitectura del computador}
+\begin{block}{Diagrama de la arquitectura Von Neuman}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=180px]{./images/Arquitecturaneumann.jpg}
+\caption{Arquitectura Von Neumann}
+\end{figure}
+\end{block}
+\end{frame}
+
+
+\begin{frame}[label={sec:orgbc7743f}]{El software.}
+\begin{itemize}
+\item ¿Que es el software?
+\item ¿Qué es numeración binaria?
+\item ¿Que es sitemas de númeración?
+\item ¿Como transformas de un sistemas de numeración a otro?
+\item Ejercicio para el fin de semana.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[label={sec:orgcefcd57}]{Sistema de Numeración Binaria}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=120px]{./images/memoria.png}
+\caption{La memoria del computador}
+\end{figure}
+\end{frame}
+
+\begin{frame}[label={sec:org98e3b9d}]{Sistemas de Numeración}
+\begin{itemize}
+\item Sistema de númeración Binaria.
+\item Sistema de númeración Octal.
+\item Sistema de númeración Decimal.
+\item Sistema de númeración Exadecimal.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[label={sec:orgba218f1}]{Conversión Sistemas de Númeración.}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=250px]{./images/DecimalBinario.jpg}
+\caption{Conversión Sistemas de Númeración.}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}[label={sec:orgb9eabdd}]{Lenguaje de programación}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./images/LenguajesDeProgramacion.jpg}
+\caption{Todos los lenguajes de programación}
+\end{figure}
+\end{frame}
+\begin{frame}[label={sec:orgf944ff1}]{Lenguaje a utilizar para esta curso.}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=150px]{./images/cpp.jpg}
+\caption{Lenguaje a utilizar en este}
+\end{figure}
+\end{frame}
+
+\section{UNIDAD 2: Nociones de linux, vim, clang}
+\label{sec:org79769cd}
+\begin{frame}[label={sec:org009e6d6}]{Introducción a Linux y termux}
+\end{frame}
+\begin{frame}[label={sec:org32eced3}]{Paquetes de Linux: ejercicios prácticos}
+\end{frame}
+\begin{frame}[label={sec:org6ecc671}]{Introducción a Vim  y sus comandos.}
+\end{frame}
+\begin{frame}[label={sec:org19868cd}]{Ejercicios prácticos con Vim.}
+\end{frame}
+\section{UNIDAD 3: Metodología de la programación y Diagrama de flujo}
+\label{sec:orgdef4223}
+\begin{frame}[label={sec:org7e7ad38}]{Introducción a al programación}
+\end{frame}
+\begin{frame}[label={sec:orgc0e8cf8}]{Ciclo de Vida del Software.}
+\end{frame}
+\begin{frame}[label={sec:org8781636}]{Diagrama de Flujo: Hola Mundo.}
+\end{frame}
+\section{Semana de Evuación sumativa}
+\label{sec:org65e579e}
+\section{UNIDAD 4: Programaciíón en C++: Introducción}
+\label{sec:org4330d9d}
+\section{UNIDAD 5: Flujo de control :Selección y Repetición.}
+\label{sec:orge241be2}
+\begin{frame}[label={sec:orgc569fc7}]{Estructuras de control son:}
+\begin{block}{Estructura de selección}
+\begin{itemize}
+\item Estructura if-else
+\item Estructura if
+\item Estructura switch
+\end{itemize}
+\end{block}
+\begin{block}{Estructura de repetición}
+\begin{itemize}
+\item Estructura do-while
+\item Estructura while
+\item Estructura for
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[label={sec:org90cc701}]{Estructura de selección (if-else).}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/ifsino.png}
+\end{center}
+\end{column}
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-ifsino.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}[label={sec:orgcd49a3a}]{Estructura de control (if-else)}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/ifsino2.png}
+\end{center}
+\end{column}
+
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-ifsino.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}[label={sec:org7fadc40}]{Estructura de control (if)}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/if.png}
+\end{center}
+\end{column}
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-if.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}[label={sec:org9ac9aee}]{Estructura de control (if excluyentes)}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/ifexcluyentes.png}
+\end{center}
+\end{column}
+
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-ifexcluyentes.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}[label={sec:org1a1d6cc}]{Estructura de control (switch)}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/ifexcluyentes.png}
+\end{center}
+\end{column}
+
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-switch.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+
+
+\begin{frame}[label={sec:org55ea943}]{Estructura de control (do-while)}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/dowhile.png}
+\end{center}
+\end{column}
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-dowhile.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}[label={sec:orgf0bb77f}]{Estructura de control (while)}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/for.png}
+\end{center}
+\end{column}
+
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-while.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}[label={sec:org40153c7}]{Estructura de control (for)}
+\begin{columns}
+\begin{column}{0.4\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/for.png}
+\end{center}
+\end{column}
+\begin{column}{0.6\columnwidth}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/codigo/code-for.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\section{UNIDAD 6: Flujo de control II: Estructura Repetiviva}
+\label{sec:org15d3265}
+\begin{frame}[label={sec:org2308126}]{org-mode + beamer =  love}
+\begin{columns}
+\begin{column}{0.7\columnwidth}
+<example block>
+\end{column}
+\begin{column}{0.3\columnwidth}
+\begin{block}{Simple block}
+it's that easy!
+\end{block}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\section{UNIDAD 7: Funciones y librerias personales}
+\label{sec:orgf598b1a}
+\begin{frame}[label={sec:orgc264c4f}]{monolítico}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.5\linewidth]{./images/codigo/monolitico-1.png}
+monolítico-1.cpp
+\end{figure}
+\end{frame}
+\begin{frame}[label={sec:org9a22977}]{monolítico2}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.1\linewidth]{./images/codigo/monolitico-2.png}
+monolítico-2.cpp
+\end{figure}
+\end{frame}
+\begin{frame}[label={sec:org7341fe4}]{Programación monolítica con funciones}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./images/codigo/funcion1.png}
+funcion-1.cpp
+\end{figure}
+\end{frame}
+\begin{frame}[label={sec:org0c43cd5}]{Programación monolítica con prototipo de funciones}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\linewidth]{./images/codigo/funcion2.png}
+funcion-2.cpp
+\end{figure}
+\end{frame}
+
+\begin{frame}[label={sec:org6661cb5}]{Programa monolítico.}
+\begin{columns}
+\begin{column}{0.45\columnwidth}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.3\textwidth]{./images/codigo/principal.png}
+principal.cpp
+\end{figure}
+\end{column}
+\begin{column}{0.45\columnwidth}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\linewidth]{./images/codigo/milibreria.png}
+milibreria.h
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\section{UNIDAD 8: Programación Orientada a Objetos: clases}
+\label{sec:orgb495cc5}
+\end{document}

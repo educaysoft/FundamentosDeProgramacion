@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-07-03 Sat 13:39 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Fundamentos de programación</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Ing. Stalin Francis" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Fundamentos de programación</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgcba2f54">1. Cración de grupos wattsapp</a>
+<ul>
+<li><a href="#orgb4a4e0e">1.1. Grupos de Whatsapp</a></li>
+<li><a href="#org33b0702">1.2. Grupos de trabajos</a></li>
+</ul>
+</li>
+<li><a href="#orgc4f2273">2. UNIDAD 0: Presentación.</a>
+<ul>
+<li><a href="#org3e3d987">2.1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-06 Tue&gt; </span></span> Session No 1</a></li>
+<li><a href="#org3a89d5f">2.2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-07 Wed&gt; </span></span> Session No 2</a></li>
+</ul>
+</li>
+<li><a href="#org30a1423">3. UNIDAD 1: Introducción a las computadoras y los lenguajes de programación.</a>
+<ul>
+<li><a href="#orgcabd015">3.1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-08 Thu 08:00&gt;&#x2013;&lt;2021-04-08 Thu 09:00&gt; </span></span> Introducción a la computadora</a></li>
+<li><a href="#org0e111a5">3.2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-08 Thu 09:00&gt;&#x2013;&lt;2021-04-08 Thu 10:00&gt; </span></span> Arquitectura del computador</a></li>
+<li><a href="#org60fab54">3.3. Sistemas de númeración.</a></li>
+<li><a href="#org5ed340b">3.4. Lenguaje de programación</a></li>
+<li><a href="#org17409ff">3.5. Lenguaja a utilizar para esta curso.</a></li>
+</ul>
+</li>
+<li><a href="#orgf7f5fab">4. UNIDAD 2: Nociones de linux, vim, clang</a>
+<ul>
+<li><a href="#org4ea8f7c">4.1. Introducción a Linux y termux</a></li>
+<li><a href="#org0a13b49">4.2. Paquetes de Linux: ejercicios prácticos</a></li>
+<li><a href="#org7cf66fa">4.3. Introducción a Vim  y sus comandos.</a></li>
+<li><a href="#org30227d6">4.4. Ejercicios prácticos con Vim.</a></li>
+</ul>
+</li>
+<li><a href="#org2706e4e">5. UNIDAD 3: Metodología de la programación y Diagrama de flujo</a>
+<ul>
+<li><a href="#org108033a">5.1. Introducción a al programación</a></li>
+<li><a href="#org460a765">5.2. Ciclo de Vida del Software.</a></li>
+<li><a href="#orgf08a06b">5.3. Diagrama de Flujo: Hola Mundo.</a></li>
+</ul>
+</li>
+<li><a href="#org4a6f20b">6. Semana de Evuación sumativa</a></li>
+<li><a href="#orgf2ee32f">7. UNIDAD 4: Programaciíón en C++: Introducción</a></li>
+<li><a href="#org1b694d1">8. UNIDAD 5: Flujo de control :Selección y Repetición.</a>
+<ul>
+<li><a href="#org3fdab63">8.1. Estructuras de control son:</a></li>
+<li><a href="#org75e08b8">8.2. Estructura de selección (if-else).</a></li>
+<li><a href="#org9661dc2">8.3. Estructura de control (if-else)</a></li>
+<li><a href="#orgd420ac6">8.4. Estructura de control (if)</a></li>
+<li><a href="#org1f27e87">8.5. Estructura de control (if excluyentes)</a></li>
+<li><a href="#org2972584">8.6. Estructura de control (switch)</a></li>
+<li><a href="#org641de9b">8.7. Estructura de control (do-while)</a></li>
+<li><a href="#orgc04de24">8.8. Estructura de control (while)</a></li>
+<li><a href="#orgcc651a0">8.9. Estructura de control (for)</a></li>
+</ul>
+</li>
+<li><a href="#org5473dc7">9. UNIDAD 6: Flujo de control II: Estructura Repetiviva</a>
+<ul>
+<li><a href="#org49120fe">9.1. org-mode + beamer =  love</a></li>
+</ul>
+</li>
+<li><a href="#orge6c61db">10. UNIDAD 7: Funciones y librerar personalizadas</a>
+<ul>
+<li><a href="#orgb45d2cc">10.1. Programa monolítico.</a></li>
+<li><a href="#org018cdbc">10.2. Programación monolítica con funciones&#xa0;&#xa0;&#xa0;<span class="tag"><span class="B_frame">B_frame</span></span></a></li>
+<li><a href="#org0b2590d">10.3. Programación monolítica con prototipo de funciones&#xa0;&#xa0;&#xa0;<span class="tag"><span class="B_frame">B_frame</span></span></a></li>
+<li><a href="#org4f83dfe">10.4. Programa monolítico.</a></li>
+</ul>
+</li>
+<li><a href="#orga280dfd">11. UNIDAD 8: Programación Orientada a Objetos: clases</a></li>
+</ul>
+</div>
+</div>
+<p>
+;#+BEAMER<sub>HEADER</sub>: \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{bg-utlvte.png}}%
+</p>
+
+<div id="outline-container-orgcba2f54" class="outline-2">
+<h2 id="orgcba2f54"><span class="section-number-2">1</span> Cración de grupos wattsapp</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgb4a4e0e" class="outline-3">
+<h3 id="orgb4a4e0e"><span class="section-number-3">1.1</span> Grupos de Whatsapp</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Fundamentos-2020-2S-PB
+<ul class="org-ul">
+<li>Creador y administrador: Loor Perea Patrick</li>
+</ul></li>
+<li>Fundamentos-2020-2S-PA
+<ul class="org-ul">
+<li>Crador y administrador: Jorge Ortiz</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org33b0702" class="outline-3">
+<h3 id="org33b0702"><span class="section-number-3">1.2</span> Grupos de trabajos</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>5 personas</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc4f2273" class="outline-2">
+<h2 id="orgc4f2273"><span class="section-number-2">2</span> UNIDAD 0: Presentación.</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org3e3d987" class="outline-3">
+<h3 id="org3e3d987"><span class="section-number-3">2.1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-06 Tue&gt; </span></span> Session No 1</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-06 Tue 07:00&gt;&#x2013;&lt;2021-04-06 Tue 08:00&gt; </span></span> Presentación del Docente
+<ul class="org-ul">
+<li>Nombre: Stalin Francis Quinde.</li>
+<li>Titulos:
+<ul class="org-ul">
+<li>Pregrado: Ingeniero en computación (ESPOL).</li>
+<li>Postgrado1: Magister en Desarrollo del Curriculo(UTLVTE)</li>
+<li>Postgrado2: Magister en Ciencias de la Computación(ESPOL).</li>
+</ul></li>
+<li>Contacto:
+<ul class="org-ul">
+<li>Correo: stalin.francis@utelvt.edu.ec</li>
+<li>Telefono: 0997919650.</li>
+</ul></li>
+</ul></li>
+<li><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-06 Tue 08:00&gt;&#x2013;&lt;2021-04-06 Tue 09:00&gt; </span></span> Presentación de cada uno de los estudiantes.
+<ul class="org-ul">
+<li>Apellidos y Nombres.</li>
+<li>¿Cuantos años tienes?</li>
+<li>Escriba el nombre del título de bachiller que obtuvo.</li>
+<li>Escriba en breves palabras ¿Qué le motivo a  seguir la carrera de Tecnología en Tecnología de la Información?.</li>
+<li>Escriba en breves palabras ¿Qué aspira ser al terminar esta carrera?</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3a89d5f" class="outline-3">
+<h3 id="org3a89d5f"><span class="section-number-3">2.2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-07 Wed&gt; </span></span> Session No 2</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgf47a50d"></a><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-06 Tue 08:00&gt;&#x2013;&lt;2021-04-06 Tue 10:00&gt; </span></span> Video motivacionales<br />
+<div class="outline-text-4" id="text-2-2-1">
+<ul class="org-ul">
+<li>Se dedicara un clase a ver los videos y luego cada estudiantes raelizara un comentario del mensaje que dejo el video.</li>
+</ul>
+</div>
+</li>
+
+<li><a id="org432df96"></a><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-07 Wed 08:00&gt;&#x2013;&lt;2021-04-07 Wed 10:00&gt; </span></span> Prueba de diagnostivo:<br />
+<div class="outline-text-4" id="text-2-2-2">
+<ul class="org-ul">
+<li>Para esta prueba se dedicara un sesion de clase para que los estudianes respondan en las dos horas de clases.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org30a1423" class="outline-2">
+<h2 id="org30a1423"><span class="section-number-2">3</span> UNIDAD 1: Introducción a las computadoras y los lenguajes de programación.</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgcabd015" class="outline-3">
+<h3 id="orgcabd015"><span class="section-number-3">3.1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-08 Thu 08:00&gt;&#x2013;&lt;2021-04-08 Thu 09:00&gt; </span></span> Introducción a la computadora</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>¿Que es el computador?
+<ul class="org-ul">
+<li>¿De que esta compuesto en computador?</li>
+<li>¿Para que sirve el computador?</li>
+</ul></li>
+<li>¿Porqué se ha vuelto tan importante el computador?</li>
+<li>¿Quien creo el computador?</li>
+<li>¿Comó sera el computador en el futuro?</li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0e111a5" class="outline-3">
+<h3 id="org0e111a5"><span class="section-number-3">3.2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-04-08 Thu 09:00&gt;&#x2013;&lt;2021-04-08 Thu 10:00&gt; </span></span> Arquitectura del computador</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li>¿Quien es el responsable de al arquitectura del computador?</li>
+<li>¿Cual es la arquitectura del computador?</li>
+<li>¿Qué hace cada uno de las partes del computador?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org60fab54" class="outline-3">
+<h3 id="org60fab54"><span class="section-number-3">3.3</span> Sistemas de númeración.</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>¿Que es el software?</li>
+<li>¿Qué es numeración binaria?</li>
+<li>¿Que es sitemas de númeración?</li>
+<li>¿Como transformas de un sistemas de numeración a otro?</li>
+<li>Ejercicio para el fin de semana.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5ed340b" class="outline-3">
+<h3 id="org5ed340b"><span class="section-number-3">3.4</span> Lenguaje de programación</h3>
+<div class="outline-text-3" id="text-3-4">
+
+<div id="org836535a" class="figure">
+<p><img src="./images/LenguajesDeProgramacion.jpg" alt="LenguajesDeProgramacion.jpg" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Todos los lenguajes de programación</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org17409ff" class="outline-3">
+<h3 id="org17409ff"><span class="section-number-3">3.5</span> Lenguaja a utilizar para esta curso.</h3>
+<div class="outline-text-3" id="text-3-5">
+
+<div id="org2c368e3" class="figure">
+<p><img src="./images/cpp.jpg" alt="cpp.jpg" />
+</p>
+<p><span class="figure-number">Figure 2: </span>Lenguaje a utilizar en este</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf7f5fab" class="outline-2">
+<h2 id="orgf7f5fab"><span class="section-number-2">4</span> UNIDAD 2: Nociones de linux, vim, clang</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org4ea8f7c" class="outline-3">
+<h3 id="org4ea8f7c"><span class="section-number-3">4.1</span> Introducción a Linux y termux</h3>
+</div>
+<div id="outline-container-org0a13b49" class="outline-3">
+<h3 id="org0a13b49"><span class="section-number-3">4.2</span> Paquetes de Linux: ejercicios prácticos</h3>
+</div>
+<div id="outline-container-org7cf66fa" class="outline-3">
+<h3 id="org7cf66fa"><span class="section-number-3">4.3</span> Introducción a Vim  y sus comandos.</h3>
+</div>
+<div id="outline-container-org30227d6" class="outline-3">
+<h3 id="org30227d6"><span class="section-number-3">4.4</span> Ejercicios prácticos con Vim.</h3>
+</div>
+</div>
+<div id="outline-container-org2706e4e" class="outline-2">
+<h2 id="org2706e4e"><span class="section-number-2">5</span> UNIDAD 3: Metodología de la programación y Diagrama de flujo</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org108033a" class="outline-3">
+<h3 id="org108033a"><span class="section-number-3">5.1</span> Introducción a al programación</h3>
+</div>
+<div id="outline-container-org460a765" class="outline-3">
+<h3 id="org460a765"><span class="section-number-3">5.2</span> Ciclo de Vida del Software.</h3>
+</div>
+<div id="outline-container-orgf08a06b" class="outline-3">
+<h3 id="orgf08a06b"><span class="section-number-3">5.3</span> Diagrama de Flujo: Hola Mundo.</h3>
+</div>
+</div>
+<div id="outline-container-org4a6f20b" class="outline-2">
+<h2 id="org4a6f20b"><span class="section-number-2">6</span> Semana de Evuación sumativa</h2>
+</div>
+<div id="outline-container-orgf2ee32f" class="outline-2">
+<h2 id="orgf2ee32f"><span class="section-number-2">7</span> UNIDAD 4: Programaciíón en C++: Introducción</h2>
+</div>
+<div id="outline-container-org1b694d1" class="outline-2">
+<h2 id="org1b694d1"><span class="section-number-2">8</span> UNIDAD 5: Flujo de control :Selección y Repetición.</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org3fdab63" class="outline-3">
+<h3 id="org3fdab63"><span class="section-number-3">8.1</span> Estructuras de control son:</h3>
+<div class="outline-text-3" id="text-8-1">
+</div>
+<ol class="org-ol">
+<li><a id="org5d51c57"></a>Estructura de selección<br />
+<div class="outline-text-4" id="text-8-1-1">
+<ul class="org-ul">
+<li>Estructura if-else</li>
+<li>Estructura if</li>
+<li>Estructura switch</li>
+</ul>
+</div>
+</li>
+<li><a id="orgc97e764"></a>Estructura de repetición<br />
+<div class="outline-text-4" id="text-8-1-2">
+<ul class="org-ul">
+<li>Estructura do-while</li>
+<li>Estructura while</li>
+<li>Estructura for</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org75e08b8" class="outline-3">
+<h3 id="org75e08b8"><span class="section-number-3">8.2</span> Estructura de selección (if-else).</h3>
+<div class="outline-text-3" id="text-8-2">
+</div>
+<ol class="org-ol">
+<li><a id="org0afed8b"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-2-1">
+
+<div id="orge9a369d" class="figure">
+<p><img src="./images/codigo/ifsino.png" alt="ifsino.png" />
+</p>
+</div>
+</div>
+</li>
+<li><a id="org1d31631"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-2-2">
+
+<div id="org7aa7599" class="figure">
+<p><img src="./images/codigo/code-ifsino.png" alt="code-ifsino.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org9661dc2" class="outline-3">
+<h3 id="org9661dc2"><span class="section-number-3">8.3</span> Estructura de control (if-else)</h3>
+<div class="outline-text-3" id="text-8-3">
+</div>
+<ol class="org-ol">
+<li><a id="orgf899719"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-3-1">
+
+<div id="org49b00bb" class="figure">
+<p><img src="./images/codigo/ifsino2.png" alt="ifsino2.png" />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge58e430"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-3-2">
+
+<div id="orgab11078" class="figure">
+<p><img src="./images/codigo/code-ifsino.png" alt="code-ifsino.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+
+
+<div id="outline-container-orgd420ac6" class="outline-3">
+<h3 id="orgd420ac6"><span class="section-number-3">8.4</span> Estructura de control (if)</h3>
+<div class="outline-text-3" id="text-8-4">
+</div>
+<ol class="org-ol">
+<li><a id="org9679943"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-4-1">
+
+<div id="org0472145" class="figure">
+<p><img src="./images/codigo/if.png" alt="if.png" />
+</p>
+</div>
+</div>
+</li>
+<li><a id="org942370d"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-4-2">
+
+<div id="orga83640f" class="figure">
+<p><img src="./images/codigo/code-if.png" alt="code-if.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+
+
+<div id="outline-container-org1f27e87" class="outline-3">
+<h3 id="org1f27e87"><span class="section-number-3">8.5</span> Estructura de control (if excluyentes)</h3>
+<div class="outline-text-3" id="text-8-5">
+</div>
+<ol class="org-ol">
+<li><a id="orgd11f025"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-5-1">
+
+<div id="org59d79b7" class="figure">
+<p><img src="./images/codigo/ifexcluyentes.png" alt="ifexcluyentes.png" />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orge6399e8"></a>Estructura de control (if excluyentes)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-5-2">
+
+<div id="org4316963" class="figure">
+<p><img src="./images/codigo/code-ifexcluyentes.png" alt="code-ifexcluyentes.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+
+
+
+<div id="outline-container-org2972584" class="outline-3">
+<h3 id="org2972584"><span class="section-number-3">8.6</span> Estructura de control (switch)</h3>
+<div class="outline-text-3" id="text-8-6">
+</div>
+<ol class="org-ol">
+<li><a id="org8d9eede"></a>Estructura de control (switch)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-6-1">
+
+<div id="orgafb7008" class="figure">
+<p><img src="./images/codigo/ifexcluyentes.png" alt="ifexcluyentes.png" />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="orgc08972e"></a>Estructura de control (switch)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-6-2">
+
+<div id="org67c6645" class="figure">
+<p><img src="./images/codigo/code-switch.png" alt="code-switch.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+
+
+
+
+
+<div id="outline-container-org641de9b" class="outline-3">
+<h3 id="org641de9b"><span class="section-number-3">8.7</span> Estructura de control (do-while)</h3>
+<div class="outline-text-3" id="text-8-7">
+</div>
+<ol class="org-ol">
+<li><a id="org65168be"></a>Estructura de control (do-while)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-7-1">
+
+<div id="org53dc426" class="figure">
+<p><img src="./images/codigo/dowhile.png" alt="dowhile.png" />
+</p>
+</div>
+</div>
+</li>
+<li><a id="orgc24da57"></a>Estructura de control (for)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-7-2">
+
+<div id="org31ac1eb" class="figure">
+<p><img src="./images/codigo/code-dowhile.png" alt="code-dowhile.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+
+
+<div id="outline-container-orgc04de24" class="outline-3">
+<h3 id="orgc04de24"><span class="section-number-3">8.8</span> Estructura de control (while)</h3>
+<div class="outline-text-3" id="text-8-8">
+</div>
+<ol class="org-ol">
+<li><a id="org5163652"></a>Estructura de control (while)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-8-1">
+
+<div id="org0e8dfd4" class="figure">
+<p><img src="./images/codigo/for.png" alt="for.png" />
+</p>
+</div>
+</div>
+</li>
+
+<li><a id="org9644bb6"></a>Estructura de control (while)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-8-2">
+
+<div id="org8a82e74" class="figure">
+<p><img src="./images/codigo/code-while.png" alt="code-while.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+
+
+<div id="outline-container-orgcc651a0" class="outline-3">
+<h3 id="orgcc651a0"><span class="section-number-3">8.9</span> Estructura de control (for)</h3>
+<div class="outline-text-3" id="text-8-9">
+</div>
+<ol class="org-ol">
+<li><a id="orge1bb67a"></a>Estructura de control (for)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-9-1">
+
+<div id="org2a503cd" class="figure">
+<p><img src="./images/codigo/for.png" alt="for.png" />
+</p>
+</div>
+</div>
+</li>
+<li><a id="orgc4557b3"></a>Estructura de control (for)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-8-9-2">
+
+<div id="org6dfe97c" class="figure">
+<p><img src="./images/codigo/code-for.png" alt="code-for.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-org5473dc7" class="outline-2">
+<h2 id="org5473dc7"><span class="section-number-2">9</span> UNIDAD 6: Flujo de control II: Estructura Repetiviva</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-org49120fe" class="outline-3">
+<h3 id="org49120fe"><span class="section-number-3">9.1</span> org-mode + beamer =  love</h3>
+<div class="outline-text-3" id="text-9-1">
+</div>
+<ol class="org-ol">
+<li><a id="org8aafe8b"></a>Code&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-9-1-1">
+<p>
+&lt;example block&gt;
+</p>
+</div>
+</li>
+<li><a id="org9d551f4"></a>Simple block&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span>&#xa0;<span class="B_block">B_block</span></span><br />
+<div class="outline-text-4" id="text-9-1-2">
+<p>
+it's that easy!
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+
+<div id="outline-container-orge6c61db" class="outline-2">
+<h2 id="orge6c61db"><span class="section-number-2">10</span> UNIDAD 7: Funciones y librerar personalizadas</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-orgb45d2cc" class="outline-3">
+<h3 id="orgb45d2cc"><span class="section-number-3">10.1</span> Programa monolítico.</h3>
+<div class="outline-text-3" id="text-10-1">
+</div>
+<ol class="org-ol">
+<li><a id="org4afdffc"></a>monolitico&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-10-1-1">
+
+<div id="orgd6965f0" class="figure">
+<p><img src="./images/codigo/monolitico-1.png" alt="monolitico-1.png" />
+</p>
+</div>
+</div>
+</li>
+<li><a id="org7adb954"></a>monolitico2&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-10-1-2">
+
+<div id="org99c7141" class="figure">
+<p><img src="./images/codigo/monolitico-2.png" alt="monolitico-2.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org018cdbc" class="outline-3">
+<h3 id="org018cdbc"><span class="section-number-3">10.2</span> Programación monolítica con funciones&#xa0;&#xa0;&#xa0;<span class="tag"><span class="B_frame">B_frame</span></span></h3>
+<div class="outline-text-3" id="text-10-2">
+
+<div id="orgef36f93" class="figure">
+<p><img src="./images/codigo/funcion1.png" alt="funcion1.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0b2590d" class="outline-3">
+<h3 id="org0b2590d"><span class="section-number-3">10.3</span> Programación monolítica con prototipo de funciones&#xa0;&#xa0;&#xa0;<span class="tag"><span class="B_frame">B_frame</span></span></h3>
+<div class="outline-text-3" id="text-10-3">
+
+<div id="orgd4e13f1" class="figure">
+<p><img src="./images/codigo/funcion2.png" alt="funcion2.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4f83dfe" class="outline-3">
+<h3 id="org4f83dfe"><span class="section-number-3">10.4</span> Programa monolítico.</h3>
+<div class="outline-text-3" id="text-10-4">
+</div>
+<ol class="org-ol">
+<li><a id="org74182d2"></a>principal&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-10-4-1">
+
+<div id="org98502f6" class="figure">
+<p><img src="./images/codigo/principal.png" alt="principal.png" style="border:2px solid black;" />
+</p>
+</div>
+</div>
+</li>
+<li><a id="org339729d"></a>librería&#xa0;&#xa0;&#xa0;<span class="tag"><span class="BMCOL">BMCOL</span></span><br />
+<div class="outline-text-4" id="text-10-4-2">
+
+<div id="orgb5e486d" class="figure">
+<p><img src="./images/codigo/milibreria.png" alt="milibreria.png" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+
+<div id="outline-container-orga280dfd" class="outline-2">
+<h2 id="orga280dfd"><span class="section-number-2">11</span> UNIDAD 8: Programación Orientada a Objetos: clases</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Ing. Stalin Francis</p>
+<p class="date">Created: 2021-07-03 Sat 13:39</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

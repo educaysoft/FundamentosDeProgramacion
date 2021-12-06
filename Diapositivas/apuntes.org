@@ -1,0 +1,355 @@
+#+startup: beamer
+#+TITLE: Fundamentos de programación
+#+AUTHOR: Ing. Stalin Francis
+#+LaTeX_CLASS_OPTIONS: [presentation, aspectratio=54]
+#+LANGUAGE: en
+#+OPTIONS: H:2 num:t toc:t
+#+LATEX_CLASS: beamer
+#+BEAMER_THEME: Montpellier
+#+BEAMER_COLOR_THEME: wolverine
+
+#+BEAMER_FONT_THEME: serif [stillsansserifsmall,stillsansseriflarge,structure]
+
+
+
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col)
+#+latex_header: \AtBeginSection[]{\begin{frame}\frametitle{}\LARGE\insertsectionhead\vspace{0.1cm}\hrule\end{frame}}
+
+#+LATEX_HEADER:\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+
+#+BEAMER_HEADER:\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{\put(\LenToUnit{0.85\paperwidth},\LenToUnit{0.9\paperheight}){#1}}}\AddToShipoutPictureFG{\AtPagemyUpperLeft{{\includegraphics[width=1.cm,keepaspectratio]{logo-utlvte.png}}}}
+
+
+#+BEAMER_HEADER: \usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{bg-utlvte.png}}%
+#+LATEX_HEADER: \renewcommand{\Large}{\large}
+
+
+
+* Cración de grupos wattsapp
+** Grupos de Whatsapp
+- Fundamentos-2020-2S-PB
+  - Creador y administrador: Loor Perea Patrick 
+- Fundamentos-2020-2S-PA
+  - Crador y administrador: Jorge Ortiz
+** Grupos de trabajos
+- 5 personas
+  
+* UNIDAD 0: Presentación.
+** <2021-09-13 Mon 09:00-11:00> Session No 1
+*** Presentación del Docente
+  1) Nombre: Stalin Francis Quinde.
+  2) Titulos:
+     - Pregrado: Ingeniero en computación (ESPOL).
+     - Postgrado1: Magister en
+       Curriculo(UTLVTE)
+     - Postgrado2: Magister en Ciencias de la Computación(ESPOL).
+  3) Contacto:
+     - Correo: stalin.francis@utelvt.edu.ec
+     - Telefono: 0997919650.
+**** Presentación de cada uno de los estudiantes.
+- Apellidos y Nombres, ¿Cuantos años tienes?, Título de bachiller que obtuvo., ¿Qué le motivo a  seguir la carrera de Tecnología en Tecnología de la Información?,¿Qué aspira ser al terminar esta carrera?
+** <2021-09-14 Tue 11:00-13:00> Session No 2 
+*** <2021-09-14 Tue 11:00-10:00> Video motivacionales
+- Se dedicará una clase a ver los videos y luego cada estudiante realizará un comentario del mensaje que dejo el video.
+- https://www.youtube.com/watch?v=xKka6kzTQgw&t=822s
+
+*** <2021-09-14 Tue 11:00-13:00> Prueba de diagnostivo: 
+- Para esta prueba se dedicará un sesión de clase para que los estudiates respondan en las dos horas de clases.
+
+* UNIDAD 1: Introducción a las computadoras y los lenguajes de programación.
+** <2021-09-15 Wed 09:00-10:00> Introducción a la computadora
++ ¿Que es el computador?
+  - ¿De que esta compuesto el computador?
+  - ¿Para qué sirve el computador?
++ ¿Porqué se ha vuelto tan importante el computador?
++ ¿Quien creo el computador?
++ ¿Comó sera el computador en el futuro?
++ ¿Quién es el responsable de al arquitectura del computador?
++ ¿Cuál es la arquitectura del computador?
++ ¿Qué hace cada uno de las partes del computador?
+  
+** <2021-09-15 Wed 09:00-10:00> Historia del computador
+
+#+CAPTION: Historia del comptuador
+#+attr_latex: :width 180px
+  [[./images/historia1.png]]
+           
+
+** <2021-09-15 Wed 09:00-10:00> Historia del computador
+
+#+CAPTION: Historia del comptuador
+#+attr_latex: :width 180px
+  [[./images/historia2.png]]
+  
+  
+** <2021-09-15 Wed 09:00-10:00> Arquitectura del computador
+*** Diagrama de la arquitectura Von Neuman
+#+CAPTION: Arquitectura Von Neumann 
+#+attr_latex: :width 180px
+  [[./images/Arquitecturaneumann.jpg]]
+           
+
+** El software.
+- ¿Que es el software?
+- ¿Qué es numeración binaria?
+- ¿Que es sitemas de númeración?
+- ¿Como transformas de un sistemas de numeración a otro?
+- Ejercicio para el fin de semana.
+
+
+** Sistema de Numeración Binaria
+
+#+CAPTION: La memoria del computador 
+#+attr_latex: :width 120px
+[[./images/memoria.png]]
+
+** Sistemas de Numeración 
+- Sistema de númeración Binaria.
+- Sistema de númeración Octal.
+- Sistema de númeración Decimal.
+- Sistema de númeración Exadecimal.
+
+** Conversión Sistemas de Númeración.
+
+#+CAPTION: Conversión Sistemas de Númeración. 
+#+attr_latex: :width 250px
+[[./images/DecimalBinario.jpg]]
+
+
+
+** Lenguaje de programación
+
+#+CAPTION: Todos los lenguajes de programación 
+   [[./images/LenguajesDeProgramacion.jpg]]
+** Lenguaje a utilizar para esta curso.
+
+#+CAPTION: Lenguaje a utilizar en este 
+#+attr_latex: :width 150px
+  [[./images/cpp.jpg]]
+
+* UNIDAD 2: Nociones de linux, vim, clang
+** Introducción a Linux y termux
+** Paquetes de Linux: ejercicios prácticos
+** Introducción a Vim  y sus comandos.
+** Ejercicios prácticos con Vim.
+* UNIDAD 3: Metodología de la programación y Diagrama de flujo
+** Introducción a al programación
+** Ciclo de Vida del Software.
+** Diagrama de Flujo: Hola Mundo.
+* Semana de Evuación sumativa
+* UNIDAD 4: Programación en C++: Introducción.
+** Elementos básicos en un programa en c++.
+*** Básicos.
+- Palabras reservadas (main, return, if while, do ,.. etc.).
+- Identificadores (nombre de variables, nombre de funciones, nombres de programas, etc.).
+- Caracteres especiales (coma,punto,punto y coma, etc.).
+- Constantes.
+- Variables.
+- Expresiones.
+- Instrucciones.
+*** Derivados.
+- Bucles.
+- Contadores.
+- Acumuladores.
+- Interruptores.
+- Estructuras (secuenciales, selectivas, repetitivas).
+** Un programa básico en C++.
+- 
+* UNIDAD 5: Flujo de control :Selección y Repetición.
+** Estructuras de control son: 
+*** Estructura de selección
+- Estructura if-else
+- Estructura if
+- Estructura switch
+*** Estructura de repetición
+- Estructura do-while
+- Estructura while
+- Estructura for
+** Estructura de selección (if-else).
+***  Estructura de control (if excluyentes)                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/ifsino.png]]
+***  Estructura de control (if excluyentes)                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-ifsino.png]]
+
+** Estructura de control (if-else)
+***  Estructura de control (if excluyentes)                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/ifsino2.png]]
+
+***  Estructura de control (if excluyentes)                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-ifsino.png]]
+
+
+** Estructura de control (if)
+***  Estructura de control (if excluyentes)                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/if.png]]
+***  Estructura de control (if excluyentes)                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-if.png]]
+
+
+** Estructura de control (if excluyentes)
+***  Estructura de control (if excluyentes)                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/ifexcluyentes.png]]
+
+***  Estructura de control (if excluyentes)                         :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-ifexcluyentes.png]]
+
+
+
+** Estructura de control (switch)
+***  Estructura de control (switch)                         :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/ifexcluyentes.png]]
+
+***  Estructura de control (switch)                              :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-switch.png]]
+
+
+
+
+
+** Estructura de control (do-while)
+***  Estructura de control (do-while)                            :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+attr_latex: width\textwidth
+ [[./images/codigo/dowhile.png]]
+***  Estructura de control (for)                                    :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-dowhile.png]]
+
+
+** Estructura de control (while)
+***  Estructura de control (while)                                  :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+
+#+attr_latex: width\textwidth
+  [[./images/codigo/for.png]]
+
+*** Estructura de control (while)                                   :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-while.png]]
+
+    
+**  Estructura de control (for)
+***  Estructura de control (for)                                    :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/for.png]]
+***  Estructura de control (for)                                    :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:END:
+#+attr_latex: width\textwidth
+  [[./images/codigo/code-for.png]]
+
+
+* UNIDAD 6: Flujo de control II: Estructura Repetiviva
+** org-mode + beamer =  love
+*** Code :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.7
+    :END:
+<example block>
+*** Simple block  :BMCOL:B_block:
+    :PROPERTIES:
+    :BEAMER_col: 0.3
+    :BEAMER_env: block
+    :END:
+it's that easy!
+
+
+
+* UNIDAD 7: Funciones y librerias personales
+** monolítico                                                     :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+#+attr_latex: :width 0.5\linewidth :caption monolítico-1.cpp
+  [[./images/codigo/monolitico-1.png]]
+** monolítico2                                                    :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+#+attr_latex: :width 1.1\linewidth :caption monolítico-2.cpp
+  [[./images/codigo/monolitico-2.png]]
+** Programación monolítica con funciones                           :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+#+attr_latex: width\textwidth :caption  funcion-1.cpp
+[[./images/codigo/funcion1.png]]
+** Programación monolítica con prototipo de funciones              :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+#+attr_latex: :width 0.8\linewidth  :caption funcion-2.cpp
+[[./images/codigo/funcion2.png]]
+
+** Programa monolítico.
+*** principal                                             :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.45
+:END:
+#+attr_latex: :width 1.3\textwidth  :caption  principal.cpp
+ [[./images/codigo/principal.png]]
+*** librería                                                        :BMCOL:
+:PROPERTIES:
+:BEAMER_col: 0.45
+:END:
+#+attr_latex: :width 0.7\linewidth :caption milibreria.h
+  [[./images/codigo/milibreria.png]]
+
+
+
+* [#B] UNIDAD 8: Programación Orientada a Objetos: clases
