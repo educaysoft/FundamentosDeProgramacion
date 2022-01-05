@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  5 DEC 2021 22:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  21 DEC 2021 03:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -668,10 +668,10 @@ e
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-<../images//logoutlvte.png, id=4, 623.931pt x 625.537pt>
-File: ../images//logoutlvte.png Graphic file (type png)
-<use ../images//logoutlvte.png>
-Package pdftex.def Info: ../images//logoutlvte.png  used on input line 44.
+<images/logoutlvte.png, id=4, 623.931pt x 625.537pt>
+File: images/logoutlvte.png Graphic file (type png)
+<use images/logoutlvte.png>
+Package pdftex.def Info: images/logoutlvte.png  used on input line 44.
 (pdftex.def)             Requested size: 74.86848pt x 75.06119pt.
 
 Overfull \hbox (24.81703pt too wide) in paragraph at lines 44--45
@@ -692,24 +692,14 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<../images//logofit.jpeg, id=6, 225.84375pt x 225.84375pt>
-File: ../images//logofit.jpeg Graphic file (type jpg)
-<use ../images//logofit.jpeg>
-Package pdftex.def Info: ../images//logofit.jpeg  used on input line 54.
+<images/logofit.jpeg, id=6, 225.84375pt x 225.84375pt>
+File: images/logofit.jpeg Graphic file (type jpg)
+<use images/logofit.jpeg>
+Package pdftex.def Info: images/logofit.jpeg  used on input line 54.
 (pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
 
 Overfull \hbox (17.70218pt too wide) in paragraph at lines 54--55
 []  
- []
-
-<../images//1.png, id=7, 392.21532pt x 227.34938pt>
-File: ../images//1.png Graphic file (type png)
-<use ../images//1.png>
-Package pdftex.def Info: ../images//1.png  used on input line 74.
-(pdftex.def)             Requested size: 196.10718pt x 113.67441pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--83
-
  []
 
 [1
@@ -924,35 +914,48 @@ ded, will be treated as font file not present
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
 dmap/pdftex.map): fontmap entry for `pzcmi8y' already exists, duplicates ignore
 d
-} <../images//logoutlvte.png> <../images//logofit.jpeg> <../images//1.png>]
-Underfull \hbox (badness 4492) in paragraph at lines 108--109
-[]\OT1/cmr/m/n/12 Utilizando el di-a-grama de
- []
+} <./images/logoutlvte.png> <./images/logofit.jpeg>] [2] [3]
+./Reactivos-2P-PA.tex:131: Undefined control sequence.
+l.131 \question
+               [25] Crear un programa en c++ que permita ingresar 3 números...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+[4]
+./Reactivos-2P-PA.tex:136: Undefined control sequence.
+l.136 \question
+               [25] Crear un programa en c++  que permita ingresar una hora,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 4492) in paragraph at lines 135--136
-[]\OT1/cmr/m/n/12 Utilizando el di-a-grama de
- []
+[5]
+This exam contains 2 questions with 0 parts, 0 subparts, and 0 subsubparts.
+(./Reactivos-2P-PA.aux)
 
-[2]
-This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
-(./Reactivos-2P-PA.aux) ) 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17463 strings out of 478862
- 367166 string characters out of 5858944
- 694194 words of memory out of 6000000
- 34799 multiletter control sequences out of 15000+600000
+ 17448 strings out of 478862
+ 366938 string characters out of 5858944
+ 689109 words of memory out of 6000000
+ 34783 multiletter control sequences out of 15000+600000
  407429 words of font info for 41 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,10n,89p,445b,928s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
-.pfb>
-Output written on Reactivos-2P-PA.pdf (2 pages, 160302 bytes).
+ 84i,10n,89p,443b,836s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Reactivos-2P-PA.pdf (5 pages, 134724 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

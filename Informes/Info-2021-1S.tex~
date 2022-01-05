@@ -1,0 +1,176 @@
+
+\documentclass{article}
+
+\usepackage[a4paper,left=2cm,right=2cm,top=3cm,includeheadfoot]{geometry}
+\setlength{\headheight}{0.6in} 
+\setlength{\headsep}{25pt}
+\setlength{\topmargin}{0pt}
+\setlength{\footskip}{25pt}
+\setlength{\marginparsep}{11pt}
+\usepackage{graphicx}
+
+\usepackage{float}
+
+\renewcommand{\arraystretch}{2}
+
+\title{Informe de Fin de Ciclo}
+
+\begin{document}
+\maketitle
+
+\section{Antecedente}
+\label{sec:antecedente}
+
+
+
+
+\section{Temas y Actividades}
+\label{sec:actividadades}
+
+
+\begin{tabular}[H]{lp{5cm}p{2cm}p{7cm}l}
+  \hline
+   &Temas&cump & Actividades & \\ \hline \hline
+   & Bibliografía & & \\
+  0 & Presentación&100\% & & \\
+  1 & Introducción&100\% & Actividad B1: Creación de un video  explicativo  & \\
+  2 & Introducción a linux con termux&100\% &Actividad-C1-1-ParticipaciónClases: Uso de comandos en  linux utilizando termux & \\
+  3 & Creación de archivos con vim &100\%& Actividad-C1-2-ParticipaciónClases: Uso del paquete vim y clang utilizando termux & \\
+  4 & Github y la programación colaborativa&100\% &Actividad-A1.-Programación colaborativa con Github & \\
+  5 & Examen del primer parcial&100\% &Actividad-E1. Examen del Primer parcial  & \\
+  6 & Análisis y Diseño de Software&100\% &Actividad-B2-1: Introducción al Diseño con Diagrama de Flujo & \\
+  7 & Introducción  a la programación en C++&100\% &Actividad-B2-2: TALLER DE ANALISIS Y DISEÑO & \\
+  8 & Estructura de selección&100\% & & \\
+  9 & Estructura de repetició&100\%n &Actividad-C2.- Diagrama de Flujo y Códificación en C++ & \\
+  10 & Librerías y funciones&100\% &Actividad-A2.- Diagrama de Flujo y Código en C++ de proglemas tipo examen  & \\
+  11 & Introducción a POO&100\% & & \\
+  12 & Examen del segundo parcial&100\% &Actividad-E2. Examen 2do Parcial & \\
+  13 & Recuperación&100\%&Actividad-S2.- Examen de Recuperación   &  \\ \hline \hline
+  
+\end{tabular}
+
+
+
+\section{Cumplimiento de actividades}
+\label{sec:cuml-de-activv}
+
+\subsection{Actividad b1}
+\label{sec:acctiviidad-b1}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando. \\
+
+\begin{minipage}[h]{0.45\linewidth}
+hist(pa\$B1,breaks=50)
+
+\includegraphics[scale=0.3]{images/histoB1.png}
+\end{minipage}
+\begin{minipage}[h]{0.45\linewidth}
+hist(pa\$B1,breaks=50)
+
+\includegraphics[scale=0.3]{images/histo-PB-B1.png}
+\end{minipage}
+
+
+
+\subsection{Actividad c1}
+\label{sec:acctiviidad-c1}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando.
+
+\begin{minipage}[h]{0.45\linewidth}
+hist(pa\$C1,breaks=50)
+\includegraphics[scale=0.3]{images/histoC1.png}
+\end{minipage}
+\begin{minipage}[h]{0.45\linewidth}
+hist(pa\$C1,breaks=50)
+\includegraphics[scale=0.3]{images/histo-PB-C1.png}
+\end{minipage}
+
+
+
+
+
+
+\subsection{Actividad A1}
+\label{sec:acctiviidad-A1}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando.
+
+hist(pa\$A1,breaks=50)
+
+\includegraphics[scale=0.5]{images/histoA1.png}
+
+
+\subsection{Actividad E1}
+\label{sec:acctiviidad-e1}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando.
+
+hist(pa\$Ex1,breaks=50)
+
+\includegraphics[scale=0.5]{images/histoEx1.png}
+
+
+
+
+
+
+
+\subsection{Actividad b2}
+\label{sec:actividad-b2}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando. \\
+
+hist(pa\$B2,breaks=50)
+
+\includegraphics[scale=0.5]{images/histoB2.png}
+
+
+
+\subsection{Actividad c2}
+\label{sec:actividad-c2}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando.
+
+hist(pa\$C2,breaks=50)
+
+\includegraphics[scale=0.5]{images/histoC2.png}
+
+
+
+\subsection{Actividad A2}
+\label{sec:actividad-A2}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando.
+
+hist(pa\$A2,breaks=50)
+
+\includegraphics[scale=0.5]{images/histoA2.png}
+
+
+
+
+
+
+\subsection{Actividad E2}
+\label{sec:actividad-E2}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando.
+
+hist(pa\$Ex2,breaks=50)
+
+\includegraphics[scale=0.5]{images/histoEx2.png}
+
+
+
+
+\subsection{Promedio  Final}
+\label{sec:actividad-E2}
+Se muestra que la actividad fue realizable ya que la mayoria pudo obtener la maxima calificion de 10. esto se lo logro con el prograam R.  y el comando.
+
+hist(pa\$Final,breaks=50)
+
+\includegraphics[scale=0.5]{images/histoFinal.png}
+
+
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
