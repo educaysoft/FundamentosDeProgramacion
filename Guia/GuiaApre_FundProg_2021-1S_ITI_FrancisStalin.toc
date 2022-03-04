@@ -25,16 +25,15 @@
 \contentsline {subsubsection}{\numberline {4.2.7}Preguntas de autocontrol}{19}{}%
 \contentsline {subsubsection}{\numberline {4.2.8}Introducción a Linux y termux}{21}{}%
 \contentsline {subsubsection}{\numberline {4.2.9}Comando/Paquetes de linux: Instalación, configuración y prácticas de uso}{22}{}%
-\contentsline {subsubsection}{\numberline {4.2.10}Taller: Utilización de termux en la programación}{22}{}%
-\contentsline {paragraph}{Objetivo:}{22}{}%
-\contentsline {subsubsection}{\numberline {4.2.11}Preguntas de autocontrol}{26}{}%
-\contentsline {subsubsection}{\numberline {4.2.12}Introducción a Vim y sus comandos}{28}{}%
-\contentsline {section}{\numberline {5}Vim en modo normal}{30}{}%
-\contentsline {paragraph}{VIM en modo insertar }{31}{}%
-\contentsline {subsubsection}{\numberline {5.0.1}Ejercicos practicos con vim: Creación de directorios y archivo}{31}{}%
-\contentsline {subsubsection}{\numberline {5.0.2}TAller de vim}{35}{}%
-\contentsline {subsubsection}{\numberline {5.0.3}Preguntas para el autocontrol}{38}{}%
-\contentsline {subsubsection}{\numberline {5.0.4}Introducción a la programación}{41}{}%
+\contentsline {subsubsection}{\numberline {4.2.10}Taller: Utilización de termux en la programación}{23}{}%
+\contentsline {paragraph}{Objetivo:}{23}{}%
+\contentsline {subsubsection}{\numberline {4.2.11}Preguntas de autocontrol}{27}{}%
+\contentsline {subsubsection}{\numberline {4.2.12}Introducción a Vim y sus comandos}{29}{}%
+\contentsline {section}{\numberline {5}Vim en modo normal}{31}{}%
+\contentsline {paragraph}{VIM en modo insertar }{32}{}%
+\contentsline {subsubsection}{\numberline {5.0.1}Taller uso de vim: Creación y edición de archivos}{33}{}%
+\contentsline {subsubsection}{\numberline {5.0.2}Preguntas para el autocontrol}{38}{}%
+\contentsline {subsubsection}{\numberline {5.0.3}Introducción a la programación}{41}{}%
 \contentsline {section}{\numberline {6}Ciclo de vida del Software}{41}{}%
 \contentsline {section}{\numberline {7}Creación del Software: Principios básicos.}{41}{}%
 \contentsline {subsection}{\numberline {7.1}El análisis y diseñó}{41}{}%
@@ -82,7 +81,7 @@
 \contentsline {section}{\numberline {18}Datos, tipos de datos y operaciones primitivas}{73}{}%
 \contentsline {subsubsection}{\numberline {18.0.1}Estructura de selección (if-else) en C++}{83}{}%
 \contentsline {subsubsection}{\numberline {18.0.2}Estructura de repetición (do-while) }{87}{}%
-\contentsline {subsubsection}{\numberline {18.0.3}Taller para estructura de repetición}{87}{}%
+\contentsline {subsubsection}{\numberline {18.0.3}Taller para estructura de repetición}{88}{}%
 \contentsline {subsubsection}{\numberline {18.0.4}Proyecto Final Integrador }{91}{}%
 \contentsline {section}{\numberline {19}Funciones declaradas por el usuario}{98}{}%
 \contentsline {subsection}{\numberline {19.1}Clases: Estructura}{103}{}%

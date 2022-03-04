@@ -1,3 +1,4 @@
+
 \documentclass[a4paper,12pt,spanish]{article}
 \usepackage{colortbl}
 \usepackage[dvipsnames,table]{xcolor}
@@ -115,8 +116,8 @@ splittopskip=2\baselineskip
 \fancyhf{}
 \fancyfoot{}
 \renewcommand{\footrulewidth}{0.4pt}
-\fancyhead[LE,RO]{\leftmark}
-\fancyfoot[LE,RO]{\thepage}
+\fancyhead[R]{\leftmark}
+\fancyfoot[R]{\thepage}
 \fancyfoot[L]{Autor: Stalin Francis}
 
 \usepackage{etoolbox}
@@ -186,7 +187,7 @@ splittopskip=2\baselineskip
       \begin{itemize}[label={$\checkmark$}]
      \item  Docente dicta una charla magistral del tema.
       \item Test de diagnóstico de conocimiento previos.
-             \item \fbox{se envia la  {\Large\textbf{Actividad B1}}}
+             \item \fbox{se envía la  {\Large\textbf{Actividad B1}}}
    
   \end{itemize}
   \end{tabular}
@@ -1198,9 +1199,10 @@ splittopskip=2\baselineskip
     {\scshape\large Universidad Técnica Luis Vargas Torres de Esmeraldas \par}
   \vspace{4cm}
 
-   { \Large FORMATO INSTITUCIONAL DE GUIA DE APRENDIZAJE \par}
+   { \Large FORMATO INSTITUCIONAL DE GUION:}
 
-   \vspace{6.5cm}
+
+ \vspace{6.5cm}
   \end{center}
  
   
@@ -1289,6 +1291,10 @@ características indispensables en el perfil del ingeniero de sistemas.
 De esta manera se logrará incluirlos en la sociedad como profesionales proactivos. Sentará de
 manera adecuada las bases para la resolución de problemas de diversas áreas del
 conocimiento, a través del desarrollo de la lógica de programación.
+
+
+
+   
 
 \subsection{OBJETO DE ESTUDIO}
 Problemas de matemática y de lógica resolubles utilizando el lenguaje  C++.
@@ -1754,6 +1760,27 @@ El sistema operativo linux tiene la ventana de comando al cual se le da comandos
   clang & Compilador de c++\\   \hline
 \end{tabular}
 
+\newpage
+.
+\vspace{1cm}\\
+\begin{tcolorbox}[skin=widget,
+boxrule=1mm,
+coltitle=black,
+colframe=blue!45!white,
+colback=blue!15!white,
+width=(1\linewidth),before=\hfill,after=\hfill,
+adjusted title={{\Large Actividad C1-1}:\textbf{Taller sobre el uso de termux}}]
+Tiempo estimado para realizar esta actividad: 5 horas
+\tcblower
+Grabar un video tutorial sobre el  \textbf{Taller sobre termux}, en el cual se explique los pasos que están detallados en esta guía.\\ 
+
+El entregable es un video subido al canal de youtube y luego compartido en la plataforma ClassRoom \\
+
+Para ser evaluada esta actividad se utilizara la rubrica del anexo \#1.
+
+
+\end{tcolorbox}
+
 
 
 \subsubsection{Taller: Utilización de termux en la programación}
@@ -2014,7 +2041,7 @@ importantes.\\
 Su ejecución es simple solo hay que llamar a la ventana de comandos y
 escribir su nombre.
 \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,fonttitle=\bfseries]
->vim
+\$ vim
 \end{tcolorbox}
 
 La principal característica de vim es que utiliza combinaciones de
@@ -2106,65 +2133,86 @@ texto.
 
 
 
+\newpage
+\begin{tcolorbox}[skin=widget,
+boxrule=1mm,
+coltitle=black,
+colframe=blue!45!white,
+colback=blue!15!white,
+width=(1\linewidth),before=\hfill,after=\hfill,
+adjusted title={{\Large Actividad C1-2}:\textbf{Taller sobre el uso de vim}}]
+Tiempo estimado para realizar esta actividad: 5 horas
+\tcblower
+Grabar un video tutorial sobre el  \textbf{Taller sobre vim}, en el cual se explique los pasos que están detallados en esta guía.\\ 
 
-\subsubsection{Ejercicos practicos con vim: Creación de directorios y archivo}
+El entregable es un video subido al canal de youtube y luego compartido en la plataforma ClassRoom \\
+
+Para ser evaluada esta actividad se utilizara la rubrica del anexo \#1.
+
+
+\end{tcolorbox}
+
+
+
+\subsubsection{Taller uso de vim: Creación y edición de archivos}
 \label{sec:ejerc-pract-con}
 
 
 \begin{enumerate}
-  \item Ingresar al directorio \textbf{$\sim$/Tareas}.
-  \item  Crear un directorio llamado \textbf{Practica1}.
+  \item Ingrese al directorio \textbf{Tareas}, utilizando el siguiente comando.
+    \begin{tcolorbox}[colback=gray!5]
+    \$ cd \textbf{$\sim$/Tareas}
+  \end{tcolorbox}
+
+  \item  Cree un directorio llamado \textbf{Practica1}.
     \begin{tcolorbox}[colback=gray!5]
     \$ mkdir Practica1
   \end{tcolorbox}
 
-  \item Ingredar al directorio \textbf{Practica1}.
+  \item Ingrese al directorio \textbf{Practica1}.
     \begin{tcolorbox}[colback=gray!5]
     \$ cd Practica1
   \end{tcolorbox}
 
-  \item Crear un nuevo archivo con el editor vim llamado \textbf{misdatos.txt}
-  y seguir los pasos que se indican a continuación.
+  \item Crear un nuevo archivo llamado \textbf{suma.cpp} con el editor \textbf{vim}, utilice  la siguiente qqinstrucción.
     \begin{tcolorbox}[colback=gray!5]
     \$ vim suma.cpp
   \end{tcolorbox}
   
-  \item Pulsa la tecla \fbox{\Large i} (entramos en el modo edición para poder
-  escribir)
-  \item Escribir el siguiente texto:
+  \item Pulsa la tecla \fbox{\Large i} (para entrar en el modo edición que permite  escribir)
+  \item Escribir el siguiente texto sin dejar lineas en blanco:
 \begin{verbatim}
 #include<iostrema>
 using namespace std;
 int main()
 {
- float a,b,c;
- cin>>a>>b;
- c=a+b;
-cout<<c;
+ float A,B,C;
+ cin>>A>>B;
+ C=A+B;
+cout<<C;
 return 0;
 }
 \end{verbatim}
 
-  \item Hemos acabado de escribir, salimos del modo edición apretando
+  \item Hemos acabado de escribir, salimos del modo edición presionando
   la tecla \fbox{\Large ESC}.
-  \item Entra al modo comando presionando los dos punto
+  \item Ingresamos al modo comando presionando la tecla que contiene los dos punto
   \fbox{\Large :}
 \item Grabar escribiendo \fbox{\Large w} minúscula.
 
   
   \item Vuelve al modo comando con dos puntos \fbox{\Large :} y salga
   de vim escribiendo \fbox{\Large q} minúscula.
-  \item Lista los archivos que hay en el directorio actual (use ls
-  -l).
+  \item Lista los archivos que hay en el directorio actual (use ls  -l), y veraz el archivo \textbf{suma.cpp}.
 
-  \item Genere el archivo ejecutable.
+  \item Genere el archivo ejecutable con el siguiente comando.
 
   
     \begin{tcolorbox}[colback=gray!5]
     \$ g++   suma.cpp   -o   suma
   \end{tcolorbox}
 
-  \item Si no le presento ninguna erro lista los archivos que hay en el directorio actual (use ls
+  \item Si no le presento ninguna error; lista los archivos que hay en el directorio actual (use ls
     -l).
 
   \item Ejecute el programa de la siguinte manera.
@@ -2198,17 +2246,19 @@ return 0;
     \begin{tcolorbox}[colback=gray!5]
     : set number
   \end{tcolorbox}
-\item asegure que esta al inicio del archivo con \fbox{\Large  ESC} y
+\item Asegure que esta al inicio del archivo con \fbox{\Large  ESC} y
 luego escribe \fbox{\Large gg} en minúscula.
-\item Valla a la segunda linea escribiendo \fbox{\Large :}
-\fbox{\Large 8}.
+\item Valla a la novena línea escribiendo \fbox{\Large :}
+\fbox{\Large 9}.
 \item Cree una nueva linea en la parte superior con la tecla \fbox{\Large
   O} mayúscula.
-\item Escriba la sigiente linea y vuelva al modo de comando con ESC.
+\item Escriba la siguiente linea y vuelva al modo de comando con ESC.
 \begin{Verbatim}[commandchars=\\\{\}]
 \textcolor{red}{cout<<"El resultado es :";}
 \end{Verbatim}
-\item Valla a la segunda linea escribiendo \fbox{\Large :}
+\item Asegurese de estar en el modo comando presionando la tecla \fbox{\Large  ESC}.
+  
+\item Valla a la quinta línea escribiendo \fbox{\Large :}
 \fbox{\Large 5}.
 \item Abra una nueva linea en la parte inferior con la tecla
 \fbox{\textbf{o}} minúscula.
@@ -2216,7 +2266,7 @@ luego escribe \fbox{\Large gg} en minúscula.
 \fbox{\Large ESC}.
 
 \begin{Verbatim}[commandchars=\\\{\}]
-\textcolor{red}{cout<<"Ingrese 2 numero separados de espacia A B :";}
+\textcolor{red}{cout<<"Ingrese 2 numero separados de espacio A B :";}
 \end{Verbatim}
 
 \item Modifique la antepenultima linea.
@@ -2283,8 +2333,7 @@ return 0;
   \item Si no le presento ninguna erro lista los archivos que hay en el directorio actual (use ls
     -l).
 
-  \item Ejecute el programa de la siguinte manera.
-    
+  \item Ejecute el programa para ver como se ve con los cambios realizados.
     \begin{tcolorbox}[colback=gray!5]
     \$ ./suma
   \end{tcolorbox}
@@ -2292,62 +2341,8 @@ return 0;
 \end{enumerate}
 
 
-\subsubsection{TAller de vim}
-\label{sec:taller-de-vim}
 
 
-
-\begin{enumerate}
-  \item Ir al directorio $\sim$/Tareas.
-  \item Crear un directorio llamado Practica2
-  \item Copiar el archivo misdatos.txt del creado en el directorio \textbf{Practica1} al
-  directorio \textbf{Practica2}.
-  \item Ingresar a \textbf{Practica2}.
-  \item Verifique que el archivo misdatos.txt esta copiado en este
-  directorio (utilice ls -l).
-  \item Cree con vim otro archivo llamado migrupo.txt e ingrese los
-  datos de los integrantes de su grupo.
-  \item Busque un apellido o nombre que se repita varias
-  veces (presionando \fbox{\Large ESC} escriba \fbox{/Nombres} ) ¿Comente brevemente lo que
-  ocurrió?.
-  \item Vuelva al modo comando con \fbox{ESC}.
-  \item Guardar y salir con  \fbox{\Large :}\fbox{\Large
-    w}\fbox{\Large q} (lo mismo que en la practica1 hicimos en
-  dos pasos, ahora lo hemos hecho en uno )
-  \item copiar el archivos migrapo.txt con el nombre  elgrupo.txt.
-    \begin{tcolorbox}[colback=gray!5]
-   cp migrupo.txt  elgrupo.txt
-  \end{tcolorbox}
-  \item Abrir con vim el archivo elgrupo.txt
-  \item Presiona la tecla ESC y :
-  \item Escribe el comando set number para presentar la numeración.
-  \item Escribe el comando set nonumber para eliminar la numeración.
-  \item Otra vez escribe set number para presentar la numeración.
-  \item Ir al fina del archivo  con G (mayúsculo en modo de comando)
-  \item Ir a la linea 5 con :5
-  \item Buscar uno de los nombre (modo de comando /<nombre>  presionar
-  enter
-  \item Cambiar el nombre buscando por otro nombre (modo de comando
-  presione /<nombre> y escriba el nuevo nombre)
-  \item Busque una palabra y elimínela.
-\end{enumerate}
-
-
-\begin{tcolorbox}[skin=widget,
-boxrule=1mm,
-coltitle=black,
-colframe=blue!45!white,
-colback=blue!15!white,
-width=(1\linewidth),before=\hfill,after=\hfill,
-adjusted title={{\Large Actividad C1}:\textbf{Taller sobre el uso de termux y vim}}]
-Tiempo estimado para realizar esta actividad: 5 horas
-\tcblower
-Despues de revisar esta primer capítulo, se necesita que el estudiante lea de forma crítica esta parte del libro, y luego utilizando la filmadora de su smartphone, utilize la narración explicando lo que comprendio del texto.\\
-
-Para ser evaluada esta actividad se utilizara la rubrica del anexo \#1.
-
-
-\end{tcolorbox}
 
 \newpage
 \subsubsection{Preguntas para el autocontrol}
@@ -2592,22 +2587,6 @@ para la evolución y transportabilidad de un programa.
   \label{fig:documentacion}
 \end{figure}
 
-
-\begin{tcolorbox}[skin=widget,
-boxrule=1mm,
-coltitle=black,
-colframe=blue!45!white,
-colback=blue!15!white,
-width=(1\linewidth),before=\hfill,after=\hfill,
-adjusted title={{\Large Actividad B1}:\textbf{Lea criticamente y luego narre en un video lo que comprendio}}]
-Tiempo estimado para realizar esta actividad: 5 horas
-\tcblower
-Despues de revisar esta primer capítulo, se necesita que el estudiante lea de forma crítica esta parte del libro, y luego utilizando la filmadora de su smartphone, utilize la narración explicando lo que comprendio del texto.\\
-
-Para ser evaluada esta actividad se utilizara la rubrica del anexo \#1.
-
-
-\end{tcolorbox}
 
 
 
@@ -3215,6 +3194,25 @@ Se puede evaluar más de una operación lógica utilizando conectores.
 \end{table}
 
 
+\begin{tcolorbox}[skin=widget,
+boxrule=1mm,
+coltitle=black,
+colframe=blue!45!white,
+colback=blue!15!white,
+width=(1\linewidth),before=\hfill,after=\hfill,
+adjusted title={{\Large Actividad A1}:\textbf{Entrega de la propuesta del proyecto final}}]
+Tiempo estimado para realizar esta actividad: 5 horas
+\tcblower
+
+Realizar diagrama de flujo de los ejercicios que se van a realizar.\\
+
+Para ser evaluada esta actividad se utilizara la rubrica del anexo \#1.
+
+
+\end{tcolorbox}
+
+
+
 
 \newpage
 \subsection{Preguntas de autocontrol}
@@ -3324,7 +3322,7 @@ mayor.
 
 
 \subsection{Diagrama de Flujo (Estructura de repetición)}
-\label{sec:diagrama-de-flujo}
+\label{sec:diagrama-de-flujo2}
 
 \paragraph{El clásico programa de sumar varios números}
 
@@ -3887,7 +3885,7 @@ Donde <identificador> es un nombre colocado a criterio del programador, un ejemp
 \section{Datos, tipos de datos y operaciones primitivas}
 \label{sec:datos-tipo-opera}
 
-La función principal del computador es transformar datos en información, y aunque el computador internamente maneja un solo tipo de dato que es el bit(1,0), para representar los datos utilizados por el ser humano en la vida real, de ha definido una unidad de información más grande llamada byte que consiste en 8 bit, con los cuales en su inicio sirvio para representar cualquier letra, numero o simbolo (AaBbCc..1234...(]-/..); varios byte son utilizados para almacenanar unidades más grandes de inforación llamados tipos de datos~\ref{fig:tiposdatosc} que se utilizan al momento de cear un programa en C++:\\
+La función principal del computador es transformar datos en información, y aunque el computador internamente maneja un solo tipo de dato que es el bit(1,0), para representar los datos utilizados por el ser humano en la vida real, de ha definido una unidad de información más grande llamada byte que consiste en 8 bit, con los cuales en su inicio sirvio para representar cualquier letra, numero o simbolo (AaBbCc..1234...(]-/..); varios byte son utilizados para almacenanar unidades más grandes de información llamados tipos de datos~\ref{fig:tiposdatosc} que se utilizan al momento de cear un programa en C++:\\
 
 Los tipos de datos frencuentemente utilizados en la programación en C++ se muestran en la siguiente tabla~\ref{fig:tiposdatosc}: 
 
@@ -3897,6 +3895,15 @@ Los tipos de datos frencuentemente utilizados en la programación en C++ se mues
   \caption{Tipos de datos básicos utilizandos por el lenguaje c}
   \label{fig:tiposdatosc}
 \end{figure}
+
+De estos tipos de datos, los fundamentales son:
+\begin{itemize}
+\item Entero (int)
+\item número de coma flotante (float).
+\item caracteres (char).
+\end{itemize}
+
+char, int, float y double son palabras reservadas. Los tipos char, int y double tienen variaciones o modificadores de tipo de datos, tales como short, long, signed y unsigned, para permitir uso mas eficiente de los tipos de datos. \\
 
 Un ejemplo de código en C++ que nos ayuda a comprender el uso del tipo de datos \textbf{float} es el que permite calcular las cuatro operaciones básicos (suma, resta, multiplicación y división).
 
@@ -4303,6 +4310,7 @@ En esta porción de se utiliza hay que aplicar el  bucle o lazo de repeticion ( 
        \}while(<operacion lógica>);
     \end{tcolorbox}
 
+    \newpage
 \subsubsection{Taller para estructura de repetición}
 
      Otro ejemplo de que las funciones evolucionan y se hacen más grandes y complejas es la función de la división que se lo puede interpretar como el resultado de una fracción y se puede extender la función para que devuelva el resultado de la suma de varias fracciones.
@@ -4413,7 +4421,7 @@ Estan agrupadas por fases.
     \end{tcolorbox}
 Como vimos en el programa \textbf{OperBasi5.cpp} se necesito utilizar varias estructuras \textbf{if} para seleccionar que operacion el usuario desea ejecutar, esa implementación puede resultar poco efeciente puesto que si el usuario desea ejecuta una solo opción, el progama evaluará todas las opeciones utilizando el CPU innecesariamente,  es por eso que una mejor opción para implementar un menú es mediante la estructura \textbf{swith-case} presentada en el recuadro anterior.
 
-
+\newpage
     Implementando el programa \textbf{OperBasi5.cpp} con la estructura \textbf{case} el nuevo programa queradaria de la siguiente manera:
 
     \renewcommand\mylstcaption{\textbf{OperBAsi6.cpp}}
@@ -4665,6 +4673,7 @@ return(x-y);
 }
 \end{lstlisting}
 
+\newpage
 El archivo para la función producto.\\
 
     \begin{lstlisting}[frame=trBL,firstnumber=0,caption={\textbf{producto.cpp}: función producto}]{Programa C++}

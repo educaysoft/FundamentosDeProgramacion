@@ -5,19 +5,19 @@
                      '(("article" "a4paper" "12pt" "spanish")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("xcolor" "dvipsnames" "table") ("tcolorbox" "many" "skins") ("geometry" "headsep=0.2cm" "headheight=1.5cm" "left=2cm" "right=2cm" "bottom=2cm") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "spanish") ("enumitem" "shortlabels") ("mdframed" "framemethod=tikz")))
-   (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
-   (add-to-list 'LaTeX-verbatim-environments-local "Verbatim")
-   (add-to-list 'LaTeX-verbatim-environments-local "Verbatim*")
-   (add-to-list 'LaTeX-verbatim-environments-local "BVerbatim")
-   (add-to-list 'LaTeX-verbatim-environments-local "BVerbatim*")
-   (add-to-list 'LaTeX-verbatim-environments-local "LVerbatim")
-   (add-to-list 'LaTeX-verbatim-environments-local "LVerbatim*")
-   (add-to-list 'LaTeX-verbatim-environments-local "SaveVerbatim")
    (add-to-list 'LaTeX-verbatim-environments-local "VerbatimOut")
+   (add-to-list 'LaTeX-verbatim-environments-local "SaveVerbatim")
+   (add-to-list 'LaTeX-verbatim-environments-local "LVerbatim*")
+   (add-to-list 'LaTeX-verbatim-environments-local "LVerbatim")
+   (add-to-list 'LaTeX-verbatim-environments-local "BVerbatim*")
+   (add-to-list 'LaTeX-verbatim-environments-local "BVerbatim")
+   (add-to-list 'LaTeX-verbatim-environments-local "Verbatim*")
+   (add-to-list 'LaTeX-verbatim-environments-local "Verbatim")
+   (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "Verb")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "Verb*")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "Verb")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
    (TeX-run-style-hooks
     "latex2e"
     "article"
@@ -182,7 +182,6 @@
     "sec:vim-en-modo"
     "tab:comandovim"
     "sec:ejerc-pract-con"
-    "sec:taller-de-vim"
     "sec:preguntas-para-el"
     "sec:intr-la-progr"
     "sec:ciclovida"
@@ -215,6 +214,7 @@
     "tab:tverdad"
     "sec:preg-de-autoc-3"
     "sec:diagrama-de-flujo"
+    "sec:diagrama-de-flujo2"
     "sec:el-clasico-programa-3"
     "sec:preguntas-para-el-2"
     "sec:estructura-basica-de"

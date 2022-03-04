@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  13 DEC 2021 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  3 MAR 2022 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,8 +660,8 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
@@ -1199,16 +1199,9 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 118.
-
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 119.
-
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
-90.
+91.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -1233,26 +1226,23 @@ LaTeX Warning: Label `fig:documentacion' multiply defined.
 
 LaTeX Warning: Label `fig:documentacion' multiply defined.
 
-
-LaTeX Warning: Label `sec:diagrama-de-flujo' multiply defined.
-
 )
 \openout1 = `GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1190.
-LaTeX Font Info:    ... okay on input line 1190.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1190.
-LaTeX Font Info:    ... okay on input line 1190.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1190.
-LaTeX Font Info:    ... okay on input line 1190.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1190.
-LaTeX Font Info:    ... okay on input line 1190.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1190.
-LaTeX Font Info:    ... okay on input line 1190.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1190.
-LaTeX Font Info:    ... okay on input line 1190.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1190.
-LaTeX Font Info:    ... okay on input line 1190.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1191.
+LaTeX Font Info:    ... okay on input line 1191.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1191.
+LaTeX Font Info:    ... okay on input line 1191.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1191.
+LaTeX Font Info:    ... okay on input line 1191.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1191.
+LaTeX Font Info:    ... okay on input line 1191.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1191.
+LaTeX Font Info:    ... okay on input line 1191.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1191.
+LaTeX Font Info:    ... okay on input line 1191.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1191.
+LaTeX Font Info:    ... okay on input line 1191.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count367
@@ -1313,8 +1303,8 @@ e
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Info: Redefining \. on input line 1190.
-LaTeX Info: Redefining \% on input line 1190.
+LaTeX Info: Redefining \. on input line 1191.
+LaTeX Info: Redefining \% on input line 1191.
 \c@maskedRefs=\count373
 
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/spanish.apc
@@ -1326,26 +1316,26 @@ LaTeX Info: Redefining \BHBI on input line 139.
 <images//logo_utelvte.png, id=29, 623.931pt x 625.537pt>
 File: images//logo_utelvte.png Graphic file (type png)
 <use images//logo_utelvte.png>
-Package pdftex.def Info: images//logo_utelvte.png  used on input line 1208.
+Package pdftex.def Info: images//logo_utelvte.png  used on input line 1210.
 (pdftex.def)             Requested size: 124.78398pt x 125.10518pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
-8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 121
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
-8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 121
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (49.65627pt too wide) in paragraph at lines 1208--1231
+Overfull \hbox (49.65627pt too wide) in paragraph at lines 1210--1233
 [][]  [][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1208--1231
+Underfull \hbox (badness 10000) in paragraph at lines 1210--1233
 
  []
 
@@ -1354,38 +1344,206 @@ Underfull \hbox (badness 10000) in paragraph at lines 1208--1231
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncb8y' already exists, duplicates ignored
+dmap/pdftex.map): fontmap entry for `phvb8y' already exists, duplicates ignored
 
 
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncbi8y' already exists, duplicates ignore
+dmap/pdftex.map): fontmap entry for `phvb8yn' already exists, duplicates ignore
 d
 
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): invalid entry for `pncbo8y': SlantFont/ExtendFont can be used
- only with embedded Type1 fonts
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncr8y' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncri8y' already exists, duplicates ignore
+dmap/pdftex.map): fontmap entry for `phvbo8y' already exists, duplicates ignore
 d
 
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): invalid entry for `pncro8y': SlantFont/ExtendFont can be used
- only with embedded Type1 fonts
+dmap/pdftex.map): fontmap entry for `phvbo8yn' already exists, duplicates ignor
+ed
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvr8y' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvr8yn' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvro8y' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvro8yn' already exists, duplicates ignor
+ed
 
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
 dmap/pdftex.map): ambiguous entry for `UniClass[letter]': font file present but
  not included, will be treated as font file not present
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pagd8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pagdo8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pagk8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pagko8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pbkd8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pbkdi8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pbkl8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pbkli8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pcrb8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pcrbo8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pcrr8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pcrro8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvb8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvbo8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvr8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `phvro8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pncb8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pncbi8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pncr8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pncri8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pplb8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pplbi8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pplr8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pplri8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `psyr' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `psyrgo' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `ptmb8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `ptmbi8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `ptmr8g' already exists, duplicates ignored
+
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `ptmri8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pzcmi8g' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map): fontmap entry for `pzdr' already exists, duplicates ignored
 
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
@@ -1556,11 +1714,6 @@ uded, will be treated as font file not present
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
 dmap/pdftex.map): ambiguous entry for `txttsl': font file present but not inclu
 ded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pzcmi8y' already exists, duplicates ignore
-d
 } <./images//logo_utelvte.png>]
 (./GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -1570,25 +1723,25 @@ LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
  [1]
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
  [2]
-Overfull \hbox (1.41573pt too wide) detected at line 88
+Overfull \hbox (1.41573pt too wide) detected at line 87
  []\T1/phv/m/n/12 103
  []
 
 
-Overfull \hbox (1.41573pt too wide) detected at line 89
+Overfull \hbox (1.41573pt too wide) detected at line 88
  []\T1/phv/m/n/12 106
  []
 
 
-Overfull \hbox (1.41573pt too wide) detected at line 90
+Overfull \hbox (1.41573pt too wide) detected at line 89
  []\T1/phv/m/n/12 110
  []
 
 
-Overfull \hbox (1.41573pt too wide) detected at line 91
+Overfull \hbox (1.41573pt too wide) detected at line 90
  []\T1/phv/m/n/12 111
  []
 
@@ -1597,41 +1750,41 @@ Overfull \hbox (1.41573pt too wide) detected at line 91
 \openout7 = `GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.toc'.
 
 
-Overfull \hbox (7.00389pt too wide) in paragraph at lines 1242--1265
+Overfull \hbox (7.00389pt too wide) in paragraph at lines 1244--1267
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 1266.
-LaTeX Info: Redefining \% on input line 1266.
+LaTeX Info: Redefining \. on input line 1268.
+LaTeX Info: Redefining \% on input line 1268.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 1268--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1270--1271
 
  []
 
-LaTeX Info: Redefining \. on input line 1269.
-LaTeX Info: Redefining \% on input line 1269.
+LaTeX Info: Redefining \. on input line 1271.
+LaTeX Info: Redefining \% on input line 1271.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 1271--1272
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
 
  []
 
-LaTeX Info: Redefining \. on input line 1296.
-LaTeX Info: Redefining \% on input line 1296.
+LaTeX Info: Redefining \. on input line 1302.
+LaTeX Info: Redefining \% on input line 1302.
 [5]
-Underfull \hbox (badness 4779) in paragraph at lines 1341--1341
+Underfull \hbox (badness 4779) in paragraph at lines 1347--1347
 []|\T1/phv/m/n/12 Flujo de con-trol I: Es-truc-tu-ra se-lec-ti-
  []
 
 
-Overfull \hbox (34.72311pt too wide) in paragraph at lines 1320--1356
+Overfull \hbox (34.72311pt too wide) in paragraph at lines 1326--1362
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 1358.
-LaTeX Info: Redefining \% on input line 1358.
+LaTeX Info: Redefining \. on input line 1364.
+LaTeX Info: Redefining \% on input line 1364.
 [6]
-LaTeX Info: Redefining \. on input line 1367.
-LaTeX Info: Redefining \% on input line 1367.
+LaTeX Info: Redefining \. on input line 1373.
+LaTeX Info: Redefining \% on input line 1373.
  [7]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1698,48 +1851,39 @@ LaTeX Info: Redefining \% on input line 1367.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (284.54276pt too wide) in alignment at lines 1389--1390
+Overfull \hbox (284.54276pt too wide) in alignment at lines 1395--1396
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (284.54276pt too wide) in alignment at lines 1390--1390
+Overfull \hbox (284.54276pt too wide) in alignment at lines 1396--1396
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (284.54276pt too wide) in alignment at lines 1390--1390
+Overfull \hbox (284.54276pt too wide) in alignment at lines 1396--1396
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (284.54276pt too wide) in alignment at lines 1390--1390
+Overfull \hbox (284.54276pt too wide) in alignment at lines 1396--1396
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (49.95798pt too high) detected at line 1391
+Overfull \vbox (49.95798pt too high) detected at line 1397
  []
 
 
-Overfull \vbox (18.79704pt too high) detected at line 1391
+Overfull \vbox (18.79704pt too high) detected at line 1397
  []
 
 
-Overfull \vbox (48.64989pt too high) detected at line 1391
+Overfull \vbox (48.64989pt too high) detected at line 1397
  []
 
 
-LaTeX Warning: Citation `aguilar2008' undefined on input line 1393.
-
-
-LaTeX Warning: Citation `Francis2020' undefined on input line 1393.
-
-
-LaTeX Warning: Citation `HistoriaOrdenador' undefined on input line 1393.
-
-
-Overfull \hbox (284.54276pt too wide) in alignment at lines 1390--1395
+Overfull \hbox (284.54276pt too wide) in alignment at lines 1396--1401
  [] [] [] [] [] [] [] [] 
  []
 
@@ -1748,73 +1892,73 @@ Overfull \hbox (284.54276pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 1398.
-LaTeX Info: Redefining \% on input line 1398.
+LaTeX Info: Redefining \. on input line 1404.
+LaTeX Info: Redefining \% on input line 1404.
 [8
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1449--1450
+Underfull \hbox (badness 10000) in paragraph at lines 1455--1456
 
  []
 
-LaTeX Info: Redefining \. on input line 1450.
-LaTeX Info: Redefining \% on input line 1450.
+LaTeX Info: Redefining \. on input line 1456.
+LaTeX Info: Redefining \% on input line 1456.
 [9
 
 ]
-Underfull \hbox (badness 2285) in paragraph at lines 1458--1458
+Underfull \hbox (badness 2285) in paragraph at lines 1464--1464
 []|\T1/phv/m/n/12 Se cons-tru-ye la compu-tado-ra Co-los-sus(Colossus
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 1460--1460
+Underfull \hbox (badness 2653) in paragraph at lines 1466--1466
 []|\T1/phv/m/n/12 Comienza a ope-rar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1460--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1466--1466
 \T1/phv/m/n/12 ED-VAC, con-ce-bi-
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 1460--1460
+Underfull \hbox (badness 5592) in paragraph at lines 1466--1466
 \T1/phv/m/n/12 da por \T1/phv/b/n/12 John Von
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 1461--1461
+Underfull \hbox (badness 5475) in paragraph at lines 1467--1467
 \T1/phv/m/n/12 John Wi-lliam Mau-
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 1462--1462
+Underfull \hbox (badness 1533) in paragraph at lines 1468--1468
 \T1/phv/m/n/12 ter Brat-tain, Wi-lliam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1466--1466
+Underfull \hbox (badness 10000) in paragraph at lines 1472--1472
 []|\T1/phv/m/n/12 Bill Ga-tes y Paul
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1467--1467
+Underfull \hbox (badness 10000) in paragraph at lines 1473--1473
 []|\T1/phv/m/n/12 Steve Jobs, Ste-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1467--1467
+Underfull \hbox (badness 10000) in paragraph at lines 1473--1473
 \T1/phv/m/n/12 ve Woz-niak, Mi-ke
  []
 
-LaTeX Info: Redefining \. on input line 1471.
-LaTeX Info: Redefining \% on input line 1471.
+LaTeX Info: Redefining \. on input line 1477.
+LaTeX Info: Redefining \% on input line 1477.
 [10]
-LaTeX Info: Redefining \. on input line 1490.
-LaTeX Info: Redefining \% on input line 1490.
+LaTeX Info: Redefining \. on input line 1496.
+LaTeX Info: Redefining \% on input line 1496.
  [11]
-LaTeX Info: Redefining \. on input line 1513.
-LaTeX Info: Redefining \% on input line 1513.
+LaTeX Info: Redefining \. on input line 1519.
+LaTeX Info: Redefining \% on input line 1519.
  [12]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1849,174 +1993,174 @@ LaTeX Info: Redefining \% on input line 1513.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 1524--1530
+Overfull \hbox (222.23332pt too wide) in alignment at lines 1530--1536
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 1530--1537
+Overfull \hbox (222.23332pt too wide) in alignment at lines 1536--1543
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 1537--1540
+Overfull \hbox (222.23332pt too wide) in alignment at lines 1543--1546
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 1540--1542
+Overfull \hbox (222.23332pt too wide) in alignment at lines 1546--1548
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 Leer crí-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 ca-men-te el
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 1545--1545
+Underfull \hbox (badness 4316) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 ca-pí-tu-lo 1 del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 li-bro guía y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 ela-bo-rar un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 vi-deo don-de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 uti-li-zan-do \T1/phv/b/n/12 la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/b/n/12 me-to-do-lo-gía
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 1545--1545
+Underfull \hbox (badness 3343) in paragraph at lines 1551--1551
 \T1/phv/b/n/12 de la ex-po-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/b/n/12 ción\T1/phv/m/n/12 , ex-pli-que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 lo que com-
  []
 
 
-Overfull \vbox (210.22586pt too high) detected at line 1545
+Overfull \vbox (210.22586pt too high) detected at line 1551
  []
 
 
-Overfull \hbox (10.00763pt too wide) in paragraph at lines 1545--1545
+Overfull \hbox (10.00763pt too wide) in paragraph at lines 1551--1551
 []|[]| 
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 1545--1545
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 1551--1551
 []|[]| 
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 1545--1545
+Underfull \hbox (badness 2173) in paragraph at lines 1551--1551
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 : De-mues-tra
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 1545--1545
+Underfull \hbox (badness 1152) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 fal-ta de co-no-ci-mien-tos
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 1545--1545
+Underfull \hbox (badness 1484) in paragraph at lines 1551--1551
 \T1/phv/m/n/12 del te-ma. La in-for-ma-
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 1545--1545
+Underfull \hbox (badness 3930) in paragraph at lines 1551--1551
 []|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : De-mues-tra con-fian-za
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1545--1545
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 []|\T1/phv/b/n/12 Excelente\T1/phv/m/n/12 :\T1/phv/m/n/10 Demuestra sol-ven-cia
 ,
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 1545--1545
+Underfull \hbox (badness 4660) in paragraph at lines 1551--1551
 \T1/phv/m/n/10 pre-sen-tan-do in-for-ma-ción pre-ci-sa y
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 1546--1546
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 1552--1552
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1546--1546
+Underfull \hbox (badness 10000) in paragraph at lines 1552--1552
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 : Ex-pre-sa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1546--1546
+Underfull \hbox (badness 10000) in paragraph at lines 1552--1552
 \T1/phv/m/n/12 ideas in-cohe-ren-tes
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 1546--1546
+Underfull \hbox (badness 2334) in paragraph at lines 1552--1552
 []|\T1/phv/b/n/12 Excelente\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Ar-gu-men-ta idea
 s a
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 1547--1547
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 1553--1553
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Ofrece una
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 \T1/phv/m/n/10.95 ex-po-si-ción ca-ren-te de
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1547--1547
+Underfull \hbox (badness 1803) in paragraph at lines 1553--1553
 \T1/phv/m/n/10.95 or-den o cui-da-do por la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 []|\T1/phv/b/n/12 Excelente\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Ofre-ce ex-po-si-
 ción
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 1542--1551
+Overfull \hbox (222.23332pt too wide) in alignment at lines 1548--1557
  [] [] [] 
  []
 
@@ -2025,18 +2169,14 @@ Overfull \hbox (222.23332pt too wide) has occurred while \output is active
  [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 1553.
-LaTeX Info: Redefining \% on input line 1553.
+LaTeX Info: Redefining \. on input line 1559.
+LaTeX Info: Redefining \% on input line 1559.
 [13
 
 
-] (./GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
-LaTeX Info: Redefining \. on input line 1563.
-LaTeX Info: Redefining \% on input line 1563.
+] (./GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.bbl)
+LaTeX Info: Redefining \. on input line 1569.
+LaTeX Info: Redefining \% on input line 1569.
  [14
 
 ]
@@ -2073,63 +2213,39 @@ LaTeX Info: Redefining \% on input line 1563.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (268.09pt too wide) in alignment at lines 1577--1578
+Overfull \hbox (268.09pt too wide) in alignment at lines 1583--1584
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (268.09pt too wide) in alignment at lines 1578--1578
+Overfull \hbox (268.09pt too wide) in alignment at lines 1584--1584
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (268.09pt too wide) in alignment at lines 1578--1578
+Overfull \hbox (268.09pt too wide) in alignment at lines 1584--1584
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (268.09pt too wide) in alignment at lines 1578--1578
+Overfull \hbox (268.09pt too wide) in alignment at lines 1584--1584
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (54.14609pt too high) detected at line 1582
+Overfull \vbox (54.14609pt too high) detected at line 1588
  []
 
 
-Overfull \vbox (42.12483pt too high) detected at line 1582
+Overfull \vbox (42.12483pt too high) detected at line 1588
  []
 
 
-Overfull \vbox (48.64989pt too high) detected at line 1582
+Overfull \vbox (48.64989pt too high) detected at line 1588
  []
 
 
-LaTeX Warning: Citation `aguilar2008' undefined on input line 1582.
-
-
-LaTeX Warning: Citation `Francis2020' undefined on input line 1582.
-
-
-LaTeX Warning: Citation `Arquiecturapc1' undefined on input line 1582.
-
-
-LaTeX Warning: Citation `Arquiecturapc2' undefined on input line 1582.
-
-
-LaTeX Warning: Citation `aguilar2008' undefined on input line 1583.
-
-
-LaTeX Warning: Citation `Francis2020' undefined on input line 1583.
-
-
-LaTeX Warning: Citation `aguilar2008' undefined on input line 1584.
-
-
-LaTeX Warning: Citation `Francis2020' undefined on input line 1584.
-
-
-Overfull \hbox (268.09pt too wide) in alignment at lines 1578--1588
+Overfull \hbox (268.09pt too wide) in alignment at lines 1584--1594
  [] [] [] [] [] [] [] [] 
  []
 
@@ -2138,13 +2254,13 @@ Overfull \hbox (268.09pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 1590.
-LaTeX Info: Redefining \% on input line 1590.
+LaTeX Info: Redefining \. on input line 1596.
+LaTeX Info: Redefining \% on input line 1596.
 [15
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
+Underfull \hbox (badness 10000) in paragraph at lines 1603--1604
 
  []
 
@@ -2152,49 +2268,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
 File: images//Arquitecturaneumann.jpg Graphic file (type jpg)
 <use images//Arquitecturaneumann.jpg>
 Package pdftex.def Info: images//Arquitecturaneumann.jpg  used on input line 16
-05.
+11.
 (pdftex.def)             Requested size: 231.86465pt x 205.16508pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1610--1611
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
 
  []
 
-LaTeX Info: Redefining \. on input line 1619.
-LaTeX Info: Redefining \% on input line 1619.
+LaTeX Info: Redefining \. on input line 1625.
+LaTeX Info: Redefining \% on input line 1625.
 [16
 
  <./images//Arquitecturaneumann.jpg>]
-
-LaTeX Warning: Citation `Francis2020' undefined on input line 1631.
-
 <images//memoria.png, id=91, 188.95593pt x 263.48438pt>
 File: images//memoria.png Graphic file (type png)
 <use images//memoria.png>
-Package pdftex.def Info: images//memoria.png  used on input line 1637.
+Package pdftex.def Info: images//memoria.png  used on input line 1643.
 (pdftex.def)             Requested size: 132.26823pt x 184.43779pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1646--1647
+Underfull \hbox (badness 10000) in paragraph at lines 1652--1653
 
  []
 
-LaTeX Info: Redefining \. on input line 1649.
-LaTeX Info: Redefining \% on input line 1649.
+LaTeX Info: Redefining \. on input line 1655.
+LaTeX Info: Redefining \% on input line 1655.
 [17 <./images//memoria.png>]
 <images//lenguaje.jpg, id=95, 903.375pt x 602.25pt>
 File: images//lenguaje.jpg Graphic file (type jpg)
 <use images//lenguaje.jpg>
-Package pdftex.def Info: images//lenguaje.jpg  used on input line 1652.
+Package pdftex.def Info: images//lenguaje.jpg  used on input line 1658.
 (pdftex.def)             Requested size: 451.6864pt x 301.12425pt.
-LaTeX Info: Redefining \. on input line 1659.
-LaTeX Info: Redefining \% on input line 1659.
+LaTeX Info: Redefining \. on input line 1665.
+LaTeX Info: Redefining \% on input line 1665.
  [18 <./images//lenguaje.jpg>]
-Overfull \hbox (4.80652pt too wide) in paragraph at lines 1685--1687
+Overfull \hbox (4.80652pt too wide) in paragraph at lines 1691--1693
 []\T1/phv/b/n/12 Pregunta # 4: \T1/phv/m/n/12 ¾A que nú-me-ro de-ci-mal equi-va
 -le el si-guien-te nu-me-ro bi-na-rio 10100101?. 
  []
 
-LaTeX Info: Redefining \. on input line 1695.
-LaTeX Info: Redefining \% on input line 1695.
+LaTeX Info: Redefining \. on input line 1701.
+LaTeX Info: Redefining \% on input line 1701.
 [19]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -2229,44 +2342,44 @@ LaTeX Info: Redefining \% on input line 1695.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1706--1708
+Overfull \hbox (270.31638pt too wide) in alignment at lines 1712--1714
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1708--1708
+Overfull \hbox (270.31638pt too wide) in alignment at lines 1714--1714
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1708--1708
+Overfull \hbox (270.31638pt too wide) in alignment at lines 1714--1714
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1708--1708
+Overfull \hbox (270.31638pt too wide) in alignment at lines 1714--1714
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (52.62209pt too high) detected at line 1709
+Overfull \vbox (52.62209pt too high) detected at line 1715
  []
 
 
-Overfull \vbox (42.12483pt too high) detected at line 1709
+Overfull \vbox (42.12483pt too high) detected at line 1715
  []
 
 
-Overfull \vbox (48.64989pt too high) detected at line 1709
+Overfull \vbox (48.64989pt too high) detected at line 1715
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1710--1710
+Underfull \hbox (badness 10000) in paragraph at lines 1716--1716
 []|\T1/phv/m/n/12 Paquetes de Lu-nux: eje-ci-cios prác-ti-
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1708--1713
+Overfull \hbox (270.31638pt too wide) in alignment at lines 1714--1719
  [] [] [] [] [] [] [] [] 
  []
 
@@ -2275,85 +2388,95 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 1715.
-LaTeX Info: Redefining \% on input line 1715.
+LaTeX Info: Redefining \. on input line 1721.
+LaTeX Info: Redefining \% on input line 1721.
 [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1721--1722
+Underfull \hbox (badness 10000) in paragraph at lines 1727--1728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1742--1743
+Underfull \hbox (badness 10000) in paragraph at lines 1748--1749
 
  []
 
 
-Overfull \hbox (5.55542pt too wide) in paragraph at lines 1752--1752
+Overfull \hbox (5.55542pt too wide) in paragraph at lines 1758--1758
 |[][]
  []
 
-LaTeX Info: Redefining \. on input line 1759.
-LaTeX Info: Redefining \% on input line 1759.
+LaTeX Info: Redefining \. on input line 1763.
+LaTeX Info: Redefining \% on input line 1763.
 [21
 
 ]
-
-LaTeX Font Warning: Font shape `T1/phv/m/sw' undefined
-(Font)              using `T1/phv/m/n' instead on input line 1778.
-
-LaTeX Info: Redefining \. on input line 1779.
-LaTeX Info: Redefining \% on input line 1779.
-[22]
-LaTeX Info: Redefining \. on input line 1823.
-LaTeX Info: Redefining \% on input line 1823.
- [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1831
+LaTeX Info: Redefining \. on input line 1763.
+LaTeX Info: Redefining \% on input line 1763.
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 1775--1776
 
  []
 
 
-Overfull \hbox (2.54399pt too wide) in paragraph at lines 1832--1842
+Underfull \hbox (badness 10000) in paragraph at lines 1777--1778
+
+ []
+
+
+LaTeX Font Warning: Font shape `T1/phv/m/sw' undefined
+(Font)              using `T1/phv/m/n' instead on input line 1805.
+
+LaTeX Info: Redefining \. on input line 1819.
+LaTeX Info: Redefining \% on input line 1819.
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1856--1858
+
+ []
+
+LaTeX Info: Redefining \. on input line 1858.
+LaTeX Info: Redefining \% on input line 1858.
+[24]
+Overfull \hbox (2.54399pt too wide) in paragraph at lines 1859--1869
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1850--1853
+Underfull \hbox (badness 10000) in paragraph at lines 1877--1880
 
  []
 
-LaTeX Info: Redefining \. on input line 1881.
-LaTeX Info: Redefining \% on input line 1881.
-[24]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1887.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1900--1904
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1906--1909
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1910--1913
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1914--1917
-
- []
-
-LaTeX Info: Redefining \. on input line 1930.
-LaTeX Info: Redefining \% on input line 1930.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1914.
+LaTeX Info: Redefining \. on input line 1920.
+LaTeX Info: Redefining \% on input line 1920.
 [25]
-LaTeX Info: Redefining \. on input line 1968.
-LaTeX Info: Redefining \% on input line 1968.
- [26]
+Underfull \hbox (badness 10000) in paragraph at lines 1927--1931
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1933--1936
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1940
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1941--1944
+
+ []
+
+LaTeX Info: Redefining \. on input line 1957.
+LaTeX Info: Redefining \% on input line 1957.
+[26]
+LaTeX Info: Redefining \. on input line 1995.
+LaTeX Info: Redefining \% on input line 1995.
+ [27]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2387,39 +2510,39 @@ LaTeX Info: Redefining \% on input line 1968.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1977--1978
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2004--2005
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1978--1978
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2005--2005
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1978--1978
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2005--2005
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1978--1978
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2005--2005
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (42.33842pt too high) detected at line 1979
+Overfull \vbox (42.33842pt too high) detected at line 2006
  []
 
 
-Overfull \vbox (42.12483pt too high) detected at line 1979
+Overfull \vbox (42.12483pt too high) detected at line 2006
  []
 
 
-Overfull \vbox (48.64989pt too high) detected at line 1979
+Overfull \vbox (48.64989pt too high) detected at line 2006
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 1978--1983
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2005--2010
  [] [] [] [] [] [] [] [] 
  []
 
@@ -2428,110 +2551,106 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 1985.
-LaTeX Info: Redefining \% on input line 1985.
-[27
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1991--1994
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1995--2005
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2006--2013
-
- []
-
-LaTeX Info: Redefining \. on input line 2026.
-LaTeX Info: Redefining \% on input line 2026.
+LaTeX Info: Redefining \. on input line 2012.
+LaTeX Info: Redefining \% on input line 2012.
 [28
 
 ]
-<images//vim.png, id=134, 464.73625pt x 225.84375pt>
-File: images//vim.png Graphic file (type png)
-<use images//vim.png>
-Package pdftex.def Info: images//vim.png  used on input line 2033.
-(pdftex.def)             Requested size: 278.84389pt x 135.50728pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
+Underfull \hbox (badness 10000) in paragraph at lines 2018--2021
 
  []
 
-LaTeX Info: Redefining \. on input line 2043.
-LaTeX Info: Redefining \% on input line 2043.
-[29 <./images//vim.png>]
-Overfull \hbox (12.98677pt too wide) in paragraph at lines 2047--2057
+
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2032
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2033--2040
+
+ []
+
+LaTeX Info: Redefining \. on input line 2053.
+LaTeX Info: Redefining \% on input line 2053.
+[29
+
+]
+<images//vim.png, id=139, 464.73625pt x 225.84375pt>
+File: images//vim.png Graphic file (type png)
+<use images//vim.png>
+Package pdftex.def Info: images//vim.png  used on input line 2060.
+(pdftex.def)             Requested size: 278.84389pt x 135.50728pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2067
+
+ []
+
+LaTeX Info: Redefining \. on input line 2070.
+LaTeX Info: Redefining \% on input line 2070.
+[30 <./images//vim.png>]
+Overfull \hbox (12.98677pt too wide) in paragraph at lines 2074--2084
 \T1/phv/m/n/12 post, pe-ro po-deis echán-do-le un vis-ta-zo. Apren-de al-gu-nos
  ver-bos: v(visual), c(change/cambiar),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2047--2057
+Underfull \hbox (badness 10000) in paragraph at lines 2074--2084
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2058--2063
+Underfull \hbox (badness 10000) in paragraph at lines 2085--2090
 
  []
 
-LaTeX Info: Redefining \. on input line 2095.
-LaTeX Info: Redefining \% on input line 2095.
-[30]
-LaTeX Info: Redefining \. on input line 2124.
-LaTeX Info: Redefining \% on input line 2124.
- [31]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 21
-35.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Info: Redefining \. on input line 2169.
-LaTeX Info: Redefining \% on input line 2169.
+LaTeX Info: Redefining \. on input line 2122.
+LaTeX Info: Redefining \% on input line 2122.
+[31]
+LaTeX Info: Redefining \. on input line 2136.
+LaTeX Info: Redefining \% on input line 2136.
  [32]
-LaTeX Info: Redefining \. on input line 2210.
-LaTeX Info: Redefining \% on input line 2210.
-
-[33]
-LaTeX Info: Redefining \. on input line 2264.
-LaTeX Info: Redefining \% on input line 2264.
- [34]
-LaTeX Info: Redefining \. on input line 2310.
-LaTeX Info: Redefining \% on input line 2310.
- [35]
-Overfull \hbox (0.2574pt too wide) in paragraph at lines 2330--2332
-[]\T1/phv/m/n/12 Cambiar el nom-bre bus-can-do por otro nom-bre (mo-do de co-ma
-n-do pre-sio-ne /<nombre>
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2345--2346
+Underfull \hbox (badness 10000) in paragraph at lines 2146--2147
 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2350--2351
+Underfull \hbox (badness 10000) in paragraph at lines 2148--2149
+
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 2153--2154
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2350--2351
+Underfull \hbox (badness 10000) in paragraph at lines 2153--2154
 
  []
 
-LaTeX Info: Redefining \. on input line 2351.
-LaTeX Info: Redefining \% on input line 2351.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 21
+84.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Info: Redefining \. on input line 2185.
+LaTeX Info: Redefining \% on input line 2185.
+ [33]
+LaTeX Info: Redefining \. on input line 2232.
+LaTeX Info: Redefining \% on input line 2232.
+ [34]
+LaTeX Info: Redefining \. on input line 2274.
+LaTeX Info: Redefining \% on input line 2274.
+ [35]
+LaTeX Info: Redefining \. on input line 2320.
+LaTeX Info: Redefining \% on input line 2320.
+
 [36]
-LaTeX Info: Redefining \. on input line 2352.
-LaTeX Info: Redefining \% on input line 2352.
+LaTeX Info: Redefining \. on input line 2347.
+LaTeX Info: Redefining \% on input line 2347.
  [37]
-LaTeX Info: Redefining \. on input line 2397.
-LaTeX Info: Redefining \% on input line 2397.
+LaTeX Info: Redefining \. on input line 2392.
+LaTeX Info: Redefining \% on input line 2392.
  [38]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -2566,131 +2685,131 @@ LaTeX Info: Redefining \% on input line 2397.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2405--2411
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2400--2406
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2411--2419
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2406--2414
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2419--2422
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2414--2417
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2422--2424
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2417--2419
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 \T1/phv/m/n/12 Ana-li-sis y
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 2429--2429
+Underfull \hbox (badness 1024) in paragraph at lines 2424--2424
 \T1/phv/m/n/12 di-se-ño de pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 \T1/phv/m/n/12 ti-ca, uti-li-zan-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 \T1/phv/m/n/12 el dia-gra-ma
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 2429--2429
+Underfull \hbox (badness 3302) in paragraph at lines 2424--2424
 \T1/phv/m/n/12 de flu-jo trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 \T1/phv/m/n/12 cri-bien-do-lo a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 \T1/phv/m/n/12 len-gua-je de
  []
 
 
-Overfull \vbox (188.89598pt too high) detected at line 2429
+Overfull \vbox (188.89598pt too high) detected at line 2424
  []
 
 
-Overfull \hbox (10.00763pt too wide) in paragraph at lines 2429--2429
+Overfull \hbox (10.00763pt too wide) in paragraph at lines 2424--2424
 []|[]| 
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 2429--2429
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 2424--2424
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El pro-ble-ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 \T1/phv/m/n/10.95 no es-ta bien de-fi-ni-do,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 \T1/phv/m/n/10.95 no se do-cu-men-ta las
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 2429--2429
+Underfull \hbox (badness 3954) in paragraph at lines 2424--2424
 \T1/phv/m/n/10.95 es-ta es-te-ti-ca-men-te bien
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 2430--2430
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 2425--2425
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2430--2430
+Underfull \hbox (badness 10000) in paragraph at lines 2425--2425
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2430--2430
+Underfull \hbox (badness 10000) in paragraph at lines 2425--2425
 \T1/phv/m/n/10.95 uti-li-za-das no cum-plen
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 2431--2431
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 2426--2426
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2431--2431
+Underfull \hbox (badness 10000) in paragraph at lines 2426--2426
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 2431--2431
+Underfull \hbox (badness 4582) in paragraph at lines 2426--2426
 \T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2424--2432
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2419--2427
  [] [] [] 
  []
 
@@ -2699,44 +2818,44 @@ Overfull \hbox (222.23332pt too wide) has occurred while \output is active
  [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 2435.
-LaTeX Info: Redefining \% on input line 2435.
+LaTeX Info: Redefining \. on input line 2430.
+LaTeX Info: Redefining \% on input line 2430.
 [39
 
 ]
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2436--2437
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2431--2432
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2437--2437
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2432--2432
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2437--2437
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2432--2432
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2437--2437
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2432--2432
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (39.06215pt too high) detected at line 2438
+Overfull \vbox (39.06215pt too high) detected at line 2433
  []
 
 
-Overfull \vbox (42.12483pt too high) detected at line 2438
+Overfull \vbox (42.12483pt too high) detected at line 2433
  []
 
 
-Overfull \vbox (29.31805pt too high) detected at line 2438
+Overfull \vbox (29.31805pt too high) detected at line 2433
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2437--2441
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2432--2436
  [] [] [] [] [] [] [] [] 
  []
 
@@ -2745,82 +2864,67 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 2443.
-LaTeX Info: Redefining \% on input line 2443.
+LaTeX Info: Redefining \. on input line 2438.
+LaTeX Info: Redefining \% on input line 2438.
 [40]
 <images//ciclo.jpg, id=177, 524.71031pt x 326.72063pt>
 File: images//ciclo.jpg Graphic file (type jpg)
 <use images//ciclo.jpg>
-Package pdftex.def Info: images//ciclo.jpg  used on input line 2456.
+Package pdftex.def Info: images//ciclo.jpg  used on input line 2451.
 (pdftex.def)             Requested size: 262.3545pt x 163.35991pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2465--2467
+Underfull \hbox (badness 10000) in paragraph at lines 2460--2462
 
  []
 
 <images//analisis.jpg, id=178, 973.6375pt x 649.42625pt>
 File: images//analisis.jpg Graphic file (type jpg)
 <use images//analisis.jpg>
-Package pdftex.def Info: images//analisis.jpg  used on input line 2504.
+Package pdftex.def Info: images//analisis.jpg  used on input line 2499.
 (pdftex.def)             Requested size: 97.36945pt x 64.94643pt.
-LaTeX Info: Redefining \. on input line 2507.
-LaTeX Info: Redefining \% on input line 2507.
+LaTeX Info: Redefining \. on input line 2502.
+LaTeX Info: Redefining \% on input line 2502.
 [41
 
  <./images//ciclo.jpg>]
 <images//programador.png, id=182, 321.2pt x 357.335pt>
 File: images//programador.png Graphic file (type png)
 <use images//programador.png>
-Package pdftex.def Info: images//programador.png  used on input line 2524.
+Package pdftex.def Info: images//programador.png  used on input line 2519.
 (pdftex.def)             Requested size: 64.23886pt x 71.46573pt.
 <images//running.png, id=183, 361.35pt x 361.35pt>
 File: images//running.png Graphic file (type png)
 <use images//running.png>
-Package pdftex.def Info: images//running.png  used on input line 2542.
+Package pdftex.def Info: images//running.png  used on input line 2537.
 (pdftex.def)             Requested size: 72.2687pt x 72.2687pt.
-LaTeX Info: Redefining \. on input line 2546.
-LaTeX Info: Redefining \% on input line 2546.
+LaTeX Info: Redefining \. on input line 2541.
+LaTeX Info: Redefining \% on input line 2541.
  [42 <./images//analisis.jpg> <./images//programador.png>]
 <images//debugging.png, id=189, 330.37714pt x 330.37714pt>
 File: images//debugging.png Graphic file (type png)
 <use images//debugging.png>
-Package pdftex.def Info: images//debugging.png  used on input line 2561.
+Package pdftex.def Info: images//debugging.png  used on input line 2556.
 (pdftex.def)             Requested size: 66.07425pt x 66.07425pt.
 <images//MantenimientoSoftware.png, id=190, 271.0125pt x 250.9375pt>
 File: images//MantenimientoSoftware.png Graphic file (type png)
 <use images//MantenimientoSoftware.png>
 Package pdftex.def Info: images//MantenimientoSoftware.png  used on input line 
-2576.
+2571.
 (pdftex.def)             Requested size: 81.30437pt x 75.28181pt.
-LaTeX Info: Redefining \. on input line 2587.
-LaTeX Info: Redefining \% on input line 2587.
+LaTeX Info: Redefining \. on input line 2582.
+LaTeX Info: Redefining \% on input line 2582.
  [43 <./images//running.png> <./images//debugging.png> <./images//Mantenimiento
 Software.png>]
 <images//documentacion.png, id=197, 441.65pt x 289.08pt>
 File: images//documentacion.png Graphic file (type png)
 <use images//documentacion.png>
-Package pdftex.def Info: images//documentacion.png  used on input line 2590.
+Package pdftex.def Info: images//documentacion.png  used on input line 2585.
 (pdftex.def)             Requested size: 132.49602pt x 86.72466pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2605--2606
-
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 2610--2611
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2610--2611
-
- []
-
-LaTeX Info: Redefining \. on input line 2664.
-LaTeX Info: Redefining \% on input line 2664.
-[44 <./images//documentacion.png>]
-LaTeX Info: Redefining \. on input line 2664.
-LaTeX Info: Redefining \% on input line 2664.
+LaTeX Info: Redefining \. on input line 2643.
+LaTeX Info: Redefining \% on input line 2643.
+ [44 <./images//documentacion.png>]
+LaTeX Info: Redefining \. on input line 2643.
+LaTeX Info: Redefining \% on input line 2643.
  [45]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -2855,101 +2959,101 @@ LaTeX Info: Redefining \% on input line 2664.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2672--2678
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2651--2657
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2678--2686
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2657--2665
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2686--2689
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2665--2668
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2689--2691
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2668--2670
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2695--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2695--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
 \T1/phv/m/n/12 Avan-ces de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2695--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
 \T1/phv/m/n/12 pro-yec-to: Dia-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2695--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
 \T1/phv/m/n/12 ci-sio-nes so-bre
  []
 
 
-Overfull \vbox (186.08788pt too high) detected at line 2695
+Overfull \vbox (186.08788pt too high) detected at line 2674
  []
 
 
-Overfull \hbox (10.00763pt too wide) in paragraph at lines 2695--2695
+Overfull \hbox (10.00763pt too wide) in paragraph at lines 2674--2674
 []|[]| 
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 2695--2695
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 2674--2674
 []|[]| 
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 2695--2695
+Underfull \hbox (badness 2582) in paragraph at lines 2674--2674
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 2695--2695
+Underfull \hbox (badness 2591) in paragraph at lines 2674--2674
 \T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 2696--2696
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 2675--2675
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2696--2696
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2696--2696
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
 \T1/phv/m/n/10.95 uti-li-za-das no cum-plen
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 2697--2697
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 2676--2676
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2697--2697
+Underfull \hbox (badness 10000) in paragraph at lines 2676--2676
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 2697--2697
+Underfull \hbox (badness 4582) in paragraph at lines 2676--2676
 \T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 2691--2698
+Overfull \hbox (222.23332pt too wide) in alignment at lines 2670--2677
  [] [] [] 
  []
 
@@ -2958,44 +3062,44 @@ Overfull \hbox (222.23332pt too wide) has occurred while \output is active
  [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 2700.
-LaTeX Info: Redefining \% on input line 2700.
+LaTeX Info: Redefining \. on input line 2679.
+LaTeX Info: Redefining \% on input line 2679.
 [46
 
 ]
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2701--2702
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2680--2681
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2702--2702
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2681--2681
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2702--2702
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2681--2681
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2702--2702
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2681--2681
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (33.19418pt too high) detected at line 2703
+Overfull \vbox (33.19418pt too high) detected at line 2682
  []
 
 
-Overfull \vbox (22.793pt too high) detected at line 2703
+Overfull \vbox (22.793pt too high) detected at line 2682
  []
 
 
-Overfull \vbox (29.31805pt too high) detected at line 2703
+Overfull \vbox (29.31805pt too high) detected at line 2682
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 2702--2707
+Overfull \hbox (270.31638pt too wide) in alignment at lines 2681--2686
  [] [] [] [] [] [] [] [] 
  []
 
@@ -3004,113 +3108,127 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 2709.
-LaTeX Info: Redefining \% on input line 2709.
+LaTeX Info: Redefining \. on input line 2688.
+LaTeX Info: Redefining \% on input line 2688.
 [47]
-Underfull \hbox (badness 3364) in paragraph at lines 2781--2782
+Underfull \hbox (badness 3364) in paragraph at lines 2760--2761
 \T1/phv/m/n/12 po-si-ti-vo de sa-li-da) pa-ra
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 2781--2782
+Underfull \hbox (badness 3977) in paragraph at lines 2760--2761
 \T1/phv/m/n/12 pre-sen-tar in-for-ma-ción al
  []
 
 
-Overfull \hbox (4.00763pt too wide) in paragraph at lines 2789--2789
+Overfull \hbox (4.00763pt too wide) in paragraph at lines 2768--2768
  [][]\T1/phv/m/n/12 Decisión 
  []
 
 
-Overfull \hbox (2.18115pt too wide) in paragraph at lines 2800--2801
+Overfull \hbox (2.18115pt too wide) in paragraph at lines 2779--2780
  [] 
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 2804--2805
+Underfull \hbox (badness 2529) in paragraph at lines 2783--2784
 []|\T1/phv/m/n/12 Permite eje-cu-tar de for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2818--2820
+Underfull \hbox (badness 10000) in paragraph at lines 2797--2799
 []|\T1/phv/m/n/12 Indica es-pe-ci-fi-ca-men-te
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 2818--2820
+Underfull \hbox (badness 1424) in paragraph at lines 2797--2799
 \T1/phv/m/n/12 una ope-ra-ción ma-te-má-ti-
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 2831--2831
+Underfull \hbox (badness 1755) in paragraph at lines 2810--2810
 []|\T1/phv/m/n/12 Indica la fi-na-li-za-ción del
  []
 
-LaTeX Info: Redefining \. on input line 2851.
-LaTeX Info: Redefining \% on input line 2851.
+LaTeX Info: Redefining \. on input line 2830.
+LaTeX Info: Redefining \% on input line 2830.
 [48
 
 ]
-Overfull \hbox (2.0156pt too wide) in paragraph at lines 2913--2913
+Overfull \hbox (2.0156pt too wide) in paragraph at lines 2892--2892
  [][]\T1/phv/m/n/12 decision 
  []
 
 
-Overfull \hbox (2.0156pt too wide) in paragraph at lines 2935--2935
+Overfull \hbox (2.0156pt too wide) in paragraph at lines 2914--2914
  [][]\T1/phv/m/n/12 decision 
  []
 
-LaTeX Info: Redefining \. on input line 2950.
-LaTeX Info: Redefining \% on input line 2950.
+LaTeX Info: Redefining \. on input line 2929.
+LaTeX Info: Redefining \% on input line 2929.
 [49]
-LaTeX Info: Redefining \. on input line 2992.
-LaTeX Info: Redefining \% on input line 2992.
+LaTeX Info: Redefining \. on input line 2971.
+LaTeX Info: Redefining \% on input line 2971.
  [50]
-LaTeX Info: Redefining \. on input line 3037.
-LaTeX Info: Redefining \% on input line 3037.
+LaTeX Info: Redefining \. on input line 3016.
+LaTeX Info: Redefining \% on input line 3016.
  [51]
-Underfull \hbox (badness 10000) in paragraph at lines 3042--3049
+Underfull \hbox (badness 10000) in paragraph at lines 3021--3028
 
  []
 
-LaTeX Info: Redefining \. on input line 3102.
-LaTeX Info: Redefining \% on input line 3102.
+LaTeX Info: Redefining \. on input line 3081.
+LaTeX Info: Redefining \% on input line 3081.
 [52]
-LaTeX Info: Redefining \. on input line 3103.
-LaTeX Info: Redefining \% on input line 3103.
+LaTeX Info: Redefining \. on input line 3082.
+LaTeX Info: Redefining \% on input line 3082.
  [53]
-Overfull \hbox (3.25424pt too wide) in paragraph at lines 3134--3135
+Overfull \hbox (3.25424pt too wide) in paragraph at lines 3113--3114
  [] 
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 3143--3143
+Underfull \hbox (badness 3792) in paragraph at lines 3122--3122
 []|\T1/phv/m/n/12 valor to-tal des-pués
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 3147--3147
+Underfull \hbox (badness 1460) in paragraph at lines 3126--3126
 []|\T1/phv/m/n/12 Valor to-tal del des-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3156--3157
+Underfull \hbox (badness 10000) in paragraph at lines 3135--3136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3191--3192
+Underfull \hbox (badness 10000) in paragraph at lines 3170--3171
 
  []
 
-LaTeX Info: Redefining \. on input line 3192.
-LaTeX Info: Redefining \% on input line 3192.
+LaTeX Info: Redefining \. on input line 3171.
+LaTeX Info: Redefining \% on input line 3171.
 [54]
-LaTeX Info: Redefining \. on input line 3219.
-LaTeX Info: Redefining \% on input line 3219.
- [55]
-LaTeX Info: Redefining \. on input line 3254.
-LaTeX Info: Redefining \% on input line 3254.
+Underfull \hbox (badness 10000) in paragraph at lines 3207--3208
+
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 3212--3213
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3212--3213
+
+ []
+
+LaTeX Info: Redefining \. on input line 3217.
+LaTeX Info: Redefining \% on input line 3217.
+[55]
+LaTeX Info: Redefining \. on input line 3252.
+LaTeX Info: Redefining \% on input line 3252.
  [56]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3145,39 +3263,39 @@ LaTeX Info: Redefining \% on input line 3254.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3263--3264
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3261--3262
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3264--3264
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3262--3262
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3264--3264
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3262--3262
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3264--3264
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3262--3262
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (47.96596pt too high) detected at line 3265
+Overfull \vbox (47.96596pt too high) detected at line 3263
  []
 
 
-Overfull \vbox (22.793pt too high) detected at line 3265
+Overfull \vbox (22.793pt too high) detected at line 3263
  []
 
 
-Overfull \vbox (29.31805pt too high) detected at line 3265
+Overfull \vbox (29.31805pt too high) detected at line 3263
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3264--3269
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3262--3267
  [] [] [] [] [] [] [] [] 
  []
 
@@ -3186,46 +3304,46 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 3271.
-LaTeX Info: Redefining \% on input line 3271.
+LaTeX Info: Redefining \. on input line 3269.
+LaTeX Info: Redefining \% on input line 3269.
 [57
 
 ]
-LaTeX Info: Redefining \. on input line 3392.
-LaTeX Info: Redefining \% on input line 3392.
+LaTeX Info: Redefining \. on input line 3390.
+LaTeX Info: Redefining \% on input line 3390.
  [58
 
 ]
-Underfull \hbox (badness 3471) in paragraph at lines 3446--3446
+Underfull \hbox (badness 3471) in paragraph at lines 3444--3444
 \T1/phv/m/n/12 nú-me-ros in-gre-sa-dos por
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 3450--3450
+Underfull \hbox (badness 2503) in paragraph at lines 3448--3448
 []|\T1/phv/m/n/12 Acumulador de nú-me-ros
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 3451--3451
+Underfull \hbox (badness 2503) in paragraph at lines 3449--3449
 []|\T1/phv/m/n/12 Acumulador de nú-me-ros
  []
 
 
-Overfull \hbox (23.10341pt too wide) in paragraph at lines 3440--3454
+Overfull \hbox (23.10341pt too wide) in paragraph at lines 3438--3452
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 3457.
-LaTeX Info: Redefining \% on input line 3457.
+LaTeX Info: Redefining \. on input line 3455.
+LaTeX Info: Redefining \% on input line 3455.
 [59]
-LaTeX Info: Redefining \. on input line 3474.
-LaTeX Info: Redefining \% on input line 3474.
+LaTeX Info: Redefining \. on input line 3472.
+LaTeX Info: Redefining \% on input line 3472.
  [60]
-LaTeX Info: Redefining \. on input line 3490.
-LaTeX Info: Redefining \% on input line 3490.
+LaTeX Info: Redefining \. on input line 3488.
+LaTeX Info: Redefining \% on input line 3488.
  [61]
-LaTeX Info: Redefining \. on input line 3527.
-LaTeX Info: Redefining \% on input line 3527.
+LaTeX Info: Redefining \. on input line 3525.
+LaTeX Info: Redefining \% on input line 3525.
  [62]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3260,39 +3378,39 @@ LaTeX Info: Redefining \% on input line 3527.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3536--3537
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3534--3535
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3537--3537
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3535--3535
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3537--3537
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3535--3535
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3537--3537
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3535--3535
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (41.39023pt too high) detected at line 3538
+Overfull \vbox (41.39023pt too high) detected at line 3536
  []
 
 
-Overfull \vbox (22.793pt too high) detected at line 3538
+Overfull \vbox (22.793pt too high) detected at line 3536
  []
 
 
-Overfull \vbox (29.31805pt too high) detected at line 3538
+Overfull \vbox (29.31805pt too high) detected at line 3536
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3537--3542
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3535--3540
  [] [] [] [] [] [] [] [] 
  []
 
@@ -3301,8 +3419,8 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 3544.
-LaTeX Info: Redefining \% on input line 3544.
+LaTeX Info: Redefining \. on input line 3542.
+LaTeX Info: Redefining \% on input line 3542.
 [63
 
 ]
@@ -3339,39 +3457,39 @@ LaTeX Info: Redefining \% on input line 3544.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3558--3559
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3556--3557
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3559--3559
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3557--3557
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3559--3559
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3557--3557
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3559--3559
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3557--3557
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (45.36201pt too high) detected at line 3560
+Overfull \vbox (45.36201pt too high) detected at line 3558
  []
 
 
-Overfull \vbox (22.793pt too high) detected at line 3560
+Overfull \vbox (22.793pt too high) detected at line 3558
  []
 
 
-Overfull \vbox (29.31805pt too high) detected at line 3560
+Overfull \vbox (29.31805pt too high) detected at line 3558
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 3559--3564
+Overfull \hbox (270.31638pt too wide) in alignment at lines 3557--3562
  [] [] [] [] [] [] [] [] 
  []
 
@@ -3380,157 +3498,156 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 3566.
-LaTeX Info: Redefining \% on input line 3566.
+LaTeX Info: Redefining \. on input line 3564.
+LaTeX Info: Redefining \% on input line 3564.
 [64
 
 
 ]
-
-LaTeX Warning: Citation `bronson07:_c' undefined on input line 3575.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3573--3580
+Underfull \hbox (badness 10000) in paragraph at lines 3571--3578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3581--3583
+Underfull \hbox (badness 10000) in paragraph at lines 3579--3581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3595--3600
+Underfull \hbox (badness 10000) in paragraph at lines 3593--3598
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3601--3603
+Underfull \hbox (badness 10000) in paragraph at lines 3599--3601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3604--3606
+Underfull \hbox (badness 10000) in paragraph at lines 3602--3604
 
  []
 
-LaTeX Info: Redefining \. on input line 3606.
-LaTeX Info: Redefining \% on input line 3606.
+LaTeX Info: Redefining \. on input line 3604.
+LaTeX Info: Redefining \% on input line 3604.
 [65
 
 ]
-
-LaTeX Warning: Citation `aguilar2008' undefined on input line 3641.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3639--3642
+Underfull \hbox (badness 10000) in paragraph at lines 3637--3640
 
  []
 
-LaTeX Info: Redefining \. on input line 3645.
-LaTeX Info: Redefining \% on input line 3645.
+LaTeX Info: Redefining \. on input line 3643.
+LaTeX Info: Redefining \% on input line 3643.
 [66]
-Underfull \hbox (badness 10000) in paragraph at lines 3663--3667
+Underfull \hbox (badness 10000) in paragraph at lines 3661--3665
 
  []
 
-LaTeX Info: Redefining \. on input line 3707.
-LaTeX Info: Redefining \% on input line 3707.
+LaTeX Info: Redefining \. on input line 3705.
+LaTeX Info: Redefining \% on input line 3705.
 [67]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 3748--3749
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 3746--3747
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3748--3749
+Underfull \hbox (badness 10000) in paragraph at lines 3746--3747
 
  []
 
-LaTeX Info: Redefining \. on input line 3749.
-LaTeX Info: Redefining \% on input line 3749.
+LaTeX Info: Redefining \. on input line 3747.
+LaTeX Info: Redefining \% on input line 3747.
 [68]
-Underfull \hbox (badness 10000) in paragraph at lines 3754--3765
+Underfull \hbox (badness 10000) in paragraph at lines 3752--3763
 
  []
 
-LaTeX Info: Redefining \. on input line 3765.
-LaTeX Info: Redefining \% on input line 3765.
+LaTeX Info: Redefining \. on input line 3763.
+LaTeX Info: Redefining \% on input line 3763.
 [69]
-LaTeX Info: Redefining \. on input line 3802.
-LaTeX Info: Redefining \% on input line 3802.
+LaTeX Info: Redefining \. on input line 3800.
+LaTeX Info: Redefining \% on input line 3800.
  [70]
-Underfull \hbox (badness 10000) in paragraph at lines 3819--3825
+Underfull \hbox (badness 10000) in paragraph at lines 3817--3823
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3832--3835
+Underfull \hbox (badness 10000) in paragraph at lines 3830--3833
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3851--3853
+Underfull \hbox (badness 10000) in paragraph at lines 3849--3851
 
  []
 
-LaTeX Info: Redefining \. on input line 3853.
-LaTeX Info: Redefining \% on input line 3853.
+LaTeX Info: Redefining \. on input line 3851.
+LaTeX Info: Redefining \% on input line 3851.
 [71]
-Underfull \hbox (badness 10000) in paragraph at lines 3864--3865
+Underfull \hbox (badness 10000) in paragraph at lines 3862--3863
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3890--3891
+Underfull \hbox (badness 10000) in paragraph at lines 3888--3889
 
  []
 
-LaTeX Info: Redefining \. on input line 3891.
-LaTeX Info: Redefining \% on input line 3891.
+LaTeX Info: Redefining \. on input line 3889.
+LaTeX Info: Redefining \% on input line 3889.
 [72]
 <images//TiposDatosC.png, id=293, 311.66437pt x 126.4725pt>
 File: images//TiposDatosC.png Graphic file (type png)
 <use images//TiposDatosC.png>
-Package pdftex.def Info: images//TiposDatosC.png  used on input line 3896.
+Package pdftex.def Info: images//TiposDatosC.png  used on input line 3894.
 (pdftex.def)             Requested size: 280.49533pt x 113.82419pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3904.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-916.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-LaTeX Info: Redefining \. on input line 3928.
-LaTeX Info: Redefining \% on input line 3928.
- [73 <./images//TiposDatosC.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 3936--3937
+
+Underfull \hbox (badness 10000) in paragraph at lines 3906--3907
 
  []
 
-LaTeX Info: Redefining \. on input line 3946.
-LaTeX Info: Redefining \% on input line 3946.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3911.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
+923.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Info: Redefining \. on input line 3935.
+LaTeX Info: Redefining \% on input line 3935.
+ [73 <./images//TiposDatosC.png>]
+Package mdframed Info: Not enough space on this page on input line 3935.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3943--3944
+
+ []
+
+LaTeX Info: Redefining \. on input line 3950.
+LaTeX Info: Redefining \% on input line 3950.
 [74]
-LaTeX Info: Redefining \. on input line 3946.
-LaTeX Info: Redefining \% on input line 3946.
+LaTeX Info: Redefining \. on input line 3953.
+LaTeX Info: Redefining \% on input line 3953.
  [75]
-Package mdframed Info: Not enough space on this page on input line 3993.
+Package mdframed Info: Not enough space on this page on input line 4000.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 3993.
-LaTeX Info: Redefining \. on input line 3993.
-LaTeX Info: Redefining \% on input line 3993.
+(mdframed)              on input line 4000.
+LaTeX Info: Redefining \. on input line 4000.
+LaTeX Info: Redefining \% on input line 4000.
  [76]
-LaTeX Info: Redefining \. on input line 4052.
-LaTeX Info: Redefining \% on input line 4052.
+LaTeX Info: Redefining \. on input line 4059.
+LaTeX Info: Redefining \% on input line 4059.
  [77]
-LaTeX Info: Redefining \. on input line 4057.
-LaTeX Info: Redefining \% on input line 4057.
+LaTeX Info: Redefining \. on input line 4064.
+LaTeX Info: Redefining \% on input line 4064.
  [78]
-LaTeX Info: Redefining \. on input line 4117.
-LaTeX Info: Redefining \% on input line 4117.
- [79]
 LaTeX Info: Redefining \. on input line 4124.
 LaTeX Info: Redefining \% on input line 4124.
+ [79]
+LaTeX Info: Redefining \. on input line 4131.
+LaTeX Info: Redefining \% on input line 4131.
  [80]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3565,101 +3682,101 @@ LaTeX Info: Redefining \% on input line 4124.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4131--4137
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4138--4144
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4137--4145
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4144--4152
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4145--4148
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4152--4155
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4148--4150
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4155--4157
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4156--4156
+Underfull \hbox (badness 10000) in paragraph at lines 4163--4163
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4156--4156
+Underfull \hbox (badness 10000) in paragraph at lines 4163--4163
 \T1/phv/m/n/12 Ela-bo-rar un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4156--4156
+Underfull \hbox (badness 10000) in paragraph at lines 4163--4163
 \T1/phv/m/n/12 la ex-po-si-ción
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 4156--4156
+Underfull \hbox (badness 4316) in paragraph at lines 4163--4163
 \T1/phv/m/n/12 ca-pí-tu-lo 1 del
  []
 
 
-Overfull \vbox (77.4459pt too high) detected at line 4156
+Overfull \vbox (77.4459pt too high) detected at line 4163
  []
 
 
-Overfull \hbox (10.00763pt too wide) in paragraph at lines 4156--4156
+Overfull \hbox (10.00763pt too wide) in paragraph at lines 4163--4163
 []|[]| 
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4156--4156
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4163--4163
 []|[]| 
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 4156--4156
+Underfull \hbox (badness 2582) in paragraph at lines 4163--4163
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 4156--4156
+Underfull \hbox (badness 2591) in paragraph at lines 4163--4163
 \T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4157--4157
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4164--4164
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4157--4157
+Underfull \hbox (badness 10000) in paragraph at lines 4164--4164
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4157--4157
+Underfull \hbox (badness 10000) in paragraph at lines 4164--4164
 \T1/phv/m/n/10.95 uti-li-za-das no cum-plen
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4158--4158
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4165--4165
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4158--4158
+Underfull \hbox (badness 10000) in paragraph at lines 4165--4165
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 4158--4158
+Underfull \hbox (badness 4582) in paragraph at lines 4165--4165
 \T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4150--4159
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4157--4166
  [] [] [] 
  []
 
@@ -3668,44 +3785,44 @@ Overfull \hbox (222.23332pt too wide) has occurred while \output is active
  [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4161.
-LaTeX Info: Redefining \% on input line 4161.
+LaTeX Info: Redefining \. on input line 4168.
+LaTeX Info: Redefining \% on input line 4168.
 [81
 
 ]
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4162--4163
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4169--4170
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4163--4163
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4170--4170
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4163--4163
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4170--4170
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4163--4163
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4170--4170
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (41.95407pt too high) detected at line 4165
+Overfull \vbox (41.95407pt too high) detected at line 4172
  []
 
 
-Overfull \vbox (38.60907pt too high) detected at line 4165
+Overfull \vbox (38.60907pt too high) detected at line 4172
  []
 
 
-Overfull \vbox (45.13412pt too high) detected at line 4165
+Overfull \vbox (45.13412pt too high) detected at line 4172
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4163--4170
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4170--4177
  [] [] [] [] [] [] [] [] 
  []
 
@@ -3714,30 +3831,30 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4172.
-LaTeX Info: Redefining \% on input line 4172.
+LaTeX Info: Redefining \. on input line 4179.
+LaTeX Info: Redefining \% on input line 4179.
 [82]
-Underfull \hbox (badness 10000) in paragraph at lines 4181--4195
+Underfull \hbox (badness 10000) in paragraph at lines 4188--4202
 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 4234--4235
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 4241--4242
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4234--4235
+Underfull \hbox (badness 10000) in paragraph at lines 4241--4242
 
  []
 
-LaTeX Info: Redefining \. on input line 4235.
-LaTeX Info: Redefining \% on input line 4235.
+LaTeX Info: Redefining \. on input line 4242.
+LaTeX Info: Redefining \% on input line 4242.
 [83
 
 ]
-LaTeX Info: Redefining \. on input line 4237.
-LaTeX Info: Redefining \% on input line 4237.
+LaTeX Info: Redefining \. on input line 4244.
+LaTeX Info: Redefining \% on input line 4244.
  [84]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3772,116 +3889,116 @@ LaTeX Info: Redefining \% on input line 4237.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4245--4251
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4252--4258
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4251--4259
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4258--4266
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4259--4262
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4266--4269
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4262--4264
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4269--4271
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4269--4269
+Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
 [][]
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 4269--4269
+Underfull \hbox (badness 2293) in paragraph at lines 4276--4276
 \T1/phv/m/n/12 ño de sim-ples
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4269--4269
+Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
 \T1/phv/m/n/12 pro-ble-mas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4269--4269
+Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
 \T1/phv/m/n/12 ma-te-má-ti-ca y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4269--4269
+Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
 \T1/phv/m/n/12 ló-gi-ca, con-sis-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 4269--4269
+Underfull \hbox (badness 2285) in paragraph at lines 4276--4276
 \T1/phv/m/n/12 ten-te en crear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4269--4269
+Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
 \T1/phv/m/n/12 dia-gra-mas de
  []
 
 
-Overfull \vbox (164.72195pt too high) detected at line 4269
+Overfull \vbox (164.72195pt too high) detected at line 4276
  []
 
 
-Overfull \hbox (10.00763pt too wide) in paragraph at lines 4269--4269
+Overfull \hbox (10.00763pt too wide) in paragraph at lines 4276--4276
 []|[]| 
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4269--4269
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4276--4276
 []|[]| 
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 4269--4269
+Underfull \hbox (badness 2582) in paragraph at lines 4276--4276
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 4269--4269
+Underfull \hbox (badness 2591) in paragraph at lines 4276--4276
 \T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4270--4270
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4277--4277
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4270--4270
+Underfull \hbox (badness 10000) in paragraph at lines 4277--4277
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4270--4270
+Underfull \hbox (badness 10000) in paragraph at lines 4277--4277
 \T1/phv/m/n/10.95 uti-li-za-das no cum-plen
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4271--4271
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4278--4278
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4271--4271
+Underfull \hbox (badness 10000) in paragraph at lines 4278--4278
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 4271--4271
+Underfull \hbox (badness 4582) in paragraph at lines 4278--4278
 \T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4264--4274
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4271--4281
  [] [] [] 
  []
 
@@ -3890,44 +4007,44 @@ Overfull \hbox (222.23332pt too wide) has occurred while \output is active
  [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4276.
-LaTeX Info: Redefining \% on input line 4276.
+LaTeX Info: Redefining \. on input line 4283.
+LaTeX Info: Redefining \% on input line 4283.
 [85
 
 ]
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4277--4279
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4284--4286
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4279--4279
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4286--4286
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4279--4279
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4286--4286
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4279--4279
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4286--4286
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (45.00209pt too high) detected at line 4282
+Overfull \vbox (45.00209pt too high) detected at line 4289
  []
 
 
-Overfull \vbox (39.46088pt too high) detected at line 4282
+Overfull \vbox (39.46088pt too high) detected at line 4289
  []
 
 
-Overfull \vbox (45.13412pt too high) detected at line 4282
+Overfull \vbox (45.13412pt too high) detected at line 4289
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4279--4286
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4286--4293
  [] [] [] [] [] [] [] [] 
  []
 
@@ -3936,28 +4053,28 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4288.
-LaTeX Info: Redefining \% on input line 4288.
+LaTeX Info: Redefining \. on input line 4295.
+LaTeX Info: Redefining \% on input line 4295.
 [86]
-LaTeX Info: Redefining \. on input line 4329.
-LaTeX Info: Redefining \% on input line 4329.
+LaTeX Info: Redefining \. on input line 4313.
+LaTeX Info: Redefining \% on input line 4313.
  [87
 
 ]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 4369--4370
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 4377--4378
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4369--4370
+Underfull \hbox (badness 10000) in paragraph at lines 4377--4378
 
  []
 
-LaTeX Info: Redefining \. on input line 4371.
-LaTeX Info: Redefining \% on input line 4371.
+LaTeX Info: Redefining \. on input line 4378.
+LaTeX Info: Redefining \% on input line 4378.
 [88]
-LaTeX Info: Redefining \. on input line 4371.
-LaTeX Info: Redefining \% on input line 4371.
+LaTeX Info: Redefining \. on input line 4379.
+LaTeX Info: Redefining \% on input line 4379.
  [89]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -3992,39 +4109,39 @@ LaTeX Info: Redefining \% on input line 4371.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4380--4381
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4388--4389
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4381--4381
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4389--4389
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4381--4381
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4389--4389
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4381--4381
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4389--4389
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (52.16605pt too high) detected at line 4383
+Overfull \vbox (52.16605pt too high) detected at line 4391
  []
 
 
-Overfull \vbox (38.60907pt too high) detected at line 4383
+Overfull \vbox (38.60907pt too high) detected at line 4391
  []
 
 
-Overfull \vbox (45.13412pt too high) detected at line 4383
+Overfull \vbox (45.13412pt too high) detected at line 4391
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4381--4388
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4389--4396
  [] [] [] [] [] [] [] [] 
  []
 
@@ -4033,30 +4150,30 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4390.
-LaTeX Info: Redefining \% on input line 4390.
+LaTeX Info: Redefining \. on input line 4398.
+LaTeX Info: Redefining \% on input line 4398.
 [90
 
 ]
-LaTeX Info: Redefining \. on input line 4453.
-LaTeX Info: Redefining \% on input line 4453.
+LaTeX Info: Redefining \. on input line 4424.
+LaTeX Info: Redefining \% on input line 4424.
  [91
 
 ]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 4492--4493
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 4500--4501
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4492--4493
+Underfull \hbox (badness 10000) in paragraph at lines 4500--4501
 
  []
 
-LaTeX Info: Redefining \. on input line 4493.
-LaTeX Info: Redefining \% on input line 4493.
+LaTeX Info: Redefining \. on input line 4501.
+LaTeX Info: Redefining \% on input line 4501.
 [92]
-LaTeX Info: Redefining \. on input line 4495.
-LaTeX Info: Redefining \% on input line 4495.
+LaTeX Info: Redefining \. on input line 4503.
+LaTeX Info: Redefining \% on input line 4503.
  [93]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -4091,106 +4208,106 @@ LaTeX Info: Redefining \% on input line 4495.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4503--4509
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4511--4517
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4509--4517
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4517--4525
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4517--4520
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4525--4528
  [] [] [] 
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4520--4522
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4528--4530
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4526--4526
+Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4526--4526
+Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
 \T1/phv/m/n/12 Pro-yec-to fi-nal:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4526--4526
+Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
 \T1/phv/m/n/12 fun-cio-na-li-da-des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4526--4526
+Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
 \T1/phv/m/n/12 in-te-gra-das a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4526--4526
+Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
 \T1/phv/m/n/12 tra-vés de un
  []
 
 
-Overfull \vbox (99.08788pt too high) detected at line 4526
+Overfull \vbox (99.08788pt too high) detected at line 4534
  []
 
 
-Overfull \hbox (10.00763pt too wide) in paragraph at lines 4526--4526
+Overfull \hbox (10.00763pt too wide) in paragraph at lines 4534--4534
 []|[]| 
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4526--4526
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4534--4534
 []|[]| 
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 4526--4526
+Underfull \hbox (badness 2582) in paragraph at lines 4534--4534
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 4526--4526
+Underfull \hbox (badness 2591) in paragraph at lines 4534--4534
 \T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4527--4527
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4535--4535
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4527--4527
+Underfull \hbox (badness 10000) in paragraph at lines 4535--4535
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4527--4527
+Underfull \hbox (badness 10000) in paragraph at lines 4535--4535
 \T1/phv/m/n/10.95 uti-li-za-das no cum-plen
  []
 
 
-Overfull \hbox (60.3696pt too wide) in paragraph at lines 4528--4528
+Overfull \hbox (60.3696pt too wide) in paragraph at lines 4536--4536
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4528--4528
+Underfull \hbox (badness 10000) in paragraph at lines 4536--4536
 []|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 4528--4528
+Underfull \hbox (badness 4582) in paragraph at lines 4536--4536
 \T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
  []
 
 
-Overfull \hbox (222.23332pt too wide) in alignment at lines 4522--4536
+Overfull \hbox (222.23332pt too wide) in alignment at lines 4530--4544
  [] [] [] 
  []
 
@@ -4199,49 +4316,49 @@ Overfull \hbox (222.23332pt too wide) has occurred while \output is active
  [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4540.
-LaTeX Info: Redefining \% on input line 4540.
+LaTeX Info: Redefining \. on input line 4548.
+LaTeX Info: Redefining \% on input line 4548.
 [94
 
 ]
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4541--4542
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4549--4550
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4542--4542
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4550--4550
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4542--4542
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4550--4550
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4542--4542
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4550--4550
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (58.16606pt too high) detected at line 4543
+Overfull \vbox (58.16606pt too high) detected at line 4551
  []
 
 
-Overfull \vbox (38.60907pt too high) detected at line 4543
+Overfull \vbox (38.60907pt too high) detected at line 4551
  []
 
 
-Overfull \vbox (45.13412pt too high) detected at line 4543
+Overfull \vbox (45.13412pt too high) detected at line 4551
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 4544--4544
+Underfull \hbox (badness 2165) in paragraph at lines 4552--4552
 []\T1/phv/m/n/12 En do-cen-te vi-deo-con-fe-ren-cia re-vi-sa-rá los
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4542--4547
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4550--4555
  [] [] [] [] [] [] [] [] 
  []
 
@@ -4250,20 +4367,20 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4549.
-LaTeX Info: Redefining \% on input line 4549.
+LaTeX Info: Redefining \. on input line 4557.
+LaTeX Info: Redefining \% on input line 4557.
 [95]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 4590--4591
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 4598--4599
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4590--4591
+Underfull \hbox (badness 10000) in paragraph at lines 4598--4599
 
  []
 
-LaTeX Info: Redefining \. on input line 4593.
-LaTeX Info: Redefining \% on input line 4593.
+LaTeX Info: Redefining \. on input line 4601.
+LaTeX Info: Redefining \% on input line 4601.
 [96
 
 ]
@@ -4300,39 +4417,39 @@ LaTeX Info: Redefining \% on input line 4593.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4602--4603
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4610--4611
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4603--4603
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4611--4611
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4603--4603
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4611--4611
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4603--4603
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4611--4611
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (74.24606pt too high) detected at line 4605
+Overfull \vbox (74.24606pt too high) detected at line 4613
  []
 
 
-Overfull \vbox (38.60907pt too high) detected at line 4605
+Overfull \vbox (38.60907pt too high) detected at line 4613
  []
 
 
-Overfull \vbox (41.30605pt too high) detected at line 4605
+Overfull \vbox (41.30605pt too high) detected at line 4613
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4603--4609
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4611--4617
  [] [] [] [] [] [] [] [] 
  []
 
@@ -4341,92 +4458,89 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4611.
-LaTeX Info: Redefining \% on input line 4611.
+LaTeX Info: Redefining \. on input line 4619.
+LaTeX Info: Redefining \% on input line 4619.
 [97
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4618--4619
+Underfull \hbox (badness 10000) in paragraph at lines 4626--4627
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4634--4635
+Underfull \hbox (badness 10000) in paragraph at lines 4642--4643
 
  []
 
-LaTeX Info: Redefining \. on input line 4636.
-LaTeX Info: Redefining \% on input line 4636.
+LaTeX Info: Redefining \. on input line 4644.
+LaTeX Info: Redefining \% on input line 4644.
 [98
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 4668--4669
+LaTeX Info: Redefining \. on input line 4676.
+LaTeX Info: Redefining \% on input line 4676.
+ [99]
+Underfull \hbox (badness 10000) in paragraph at lines 4677--4678
 
  []
 
-LaTeX Info: Redefining \. on input line 4680.
-LaTeX Info: Redefining \% on input line 4680.
-[99]
-LaTeX Info: Redefining \. on input line 4681.
-LaTeX Info: Redefining \% on input line 4681.
- [100]
-Underfull \hbox (badness 10000) in paragraph at lines 4682--4683
+LaTeX Info: Redefining \. on input line 4690.
+LaTeX Info: Redefining \% on input line 4690.
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 4691--4692
 
  []
 
-LaTeX Info: Redefining \. on input line 4742.
-LaTeX Info: Redefining \% on input line 4742.
+LaTeX Info: Redefining \. on input line 4751.
+LaTeX Info: Redefining \% on input line 4751.
 [101]
-Underfull \hbox (badness 10000) in paragraph at lines 4744--4745
+Underfull \hbox (badness 10000) in paragraph at lines 4753--4754
 
  []
 
-LaTeX Info: Redefining \. on input line 4768.
-LaTeX Info: Redefining \% on input line 4768.
+LaTeX Info: Redefining \. on input line 4777.
+LaTeX Info: Redefining \% on input line 4777.
 [102]
-Underfull \hbox (badness 10000) in paragraph at lines 4774--4775
+Underfull \hbox (badness 10000) in paragraph at lines 4783--4784
 
  []
 
 
-LaTeX Warning: Citation `sierra98' undefined on input line 4776.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4776--4777
+Underfull \hbox (badness 10000) in paragraph at lines 4785--4786
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4783--4789
+Underfull \hbox (badness 10000) in paragraph at lines 4792--4798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4790--4792
+Underfull \hbox (badness 10000) in paragraph at lines 4799--4801
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4793--4795
+Underfull \hbox (badness 10000) in paragraph at lines 4802--4804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4797--4803
+Underfull \hbox (badness 10000) in paragraph at lines 4806--4812
 
  []
 
-LaTeX Info: Redefining \. on input line 4804.
-LaTeX Info: Redefining \% on input line 4804.
+LaTeX Info: Redefining \. on input line 4813.
+LaTeX Info: Redefining \% on input line 4813.
 [103]
-LaTeX Info: Redefining \. on input line 4804.
-LaTeX Info: Redefining \% on input line 4804.
+LaTeX Info: Redefining \. on input line 4813.
+LaTeX Info: Redefining \% on input line 4813.
  [104]
-LaTeX Info: Redefining \. on input line 4832.
-LaTeX Info: Redefining \% on input line 4832.
+LaTeX Info: Redefining \. on input line 4841.
+LaTeX Info: Redefining \% on input line 4841.
  [105]
-LaTeX Info: Redefining \. on input line 4867.
-LaTeX Info: Redefining \% on input line 4867.
+LaTeX Info: Redefining \. on input line 4876.
+LaTeX Info: Redefining \% on input line 4876.
  [106]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -4461,39 +4575,39 @@ LaTeX Info: Redefining \% on input line 4867.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4876--4877
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4885--4886
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4877--4877
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4886--4886
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4877--4877
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4886--4886
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4877--4877
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4886--4886
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (64.0459pt too high) detected at line 4879
+Overfull \vbox (64.0459pt too high) detected at line 4888
  []
 
 
-Overfull \vbox (34.78099pt too high) detected at line 4879
+Overfull \vbox (34.78099pt too high) detected at line 4888
  []
 
 
-Overfull \vbox (41.30605pt too high) detected at line 4879
+Overfull \vbox (41.30605pt too high) detected at line 4888
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4877--4884
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4886--4893
  [] [] [] [] [] [] [] [] 
  []
 
@@ -4502,8 +4616,8 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4886.
-LaTeX Info: Redefining \% on input line 4886.
+LaTeX Info: Redefining \. on input line 4895.
+LaTeX Info: Redefining \% on input line 4895.
 [107
 
 ]
@@ -4540,39 +4654,39 @@ LaTeX Info: Redefining \% on input line 4886.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4900--4901
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4909--4910
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4901--4901
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4910--4910
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4901--4901
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4910--4910
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4901--4901
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4910--4910
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (76.84952pt too high) detected at line 4902
+Overfull \vbox (76.84952pt too high) detected at line 4911
  []
 
 
-Overfull \vbox (34.78099pt too high) detected at line 4902
+Overfull \vbox (34.78099pt too high) detected at line 4911
  []
 
 
-Overfull \vbox (41.30605pt too high) detected at line 4902
+Overfull \vbox (41.30605pt too high) detected at line 4911
  []
 
 
-Overfull \hbox (270.31638pt too wide) in alignment at lines 4901--4906
+Overfull \hbox (270.31638pt too wide) in alignment at lines 4910--4915
  [] [] [] [] [] [] [] [] 
  []
 
@@ -4581,35 +4695,35 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \. on input line 4910.
-LaTeX Info: Redefining \% on input line 4910.
+LaTeX Info: Redefining \. on input line 4919.
+LaTeX Info: Redefining \% on input line 4919.
 [108
 
 
 ]
-Overfull \hbox (133.61942pt too wide) in paragraph at lines 4913--4939
+Overfull \hbox (133.61942pt too wide) in paragraph at lines 4922--4948
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 4945.
-LaTeX Info: Redefining \% on input line 4945.
+LaTeX Info: Redefining \. on input line 4954.
+LaTeX Info: Redefining \% on input line 4954.
 [109]
-Overfull \hbox (14.84929pt too wide) in paragraph at lines 4950--4967
+Overfull \hbox (14.84929pt too wide) in paragraph at lines 4959--4976
 [][] 
  []
 
 
-Overfull \hbox (16.66277pt too wide) in paragraph at lines 4970--4978
+Overfull \hbox (16.66277pt too wide) in paragraph at lines 4979--4987
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 5025.
-LaTeX Info: Redefining \% on input line 5025.
+LaTeX Info: Redefining \. on input line 5034.
+LaTeX Info: Redefining \% on input line 5034.
 [110
 
 ]
-LaTeX Info: Redefining \. on input line 5030.
-LaTeX Info: Redefining \% on input line 5030.
+LaTeX Info: Redefining \. on input line 5039.
+LaTeX Info: Redefining \% on input line 5039.
  [111] (./GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -4620,35 +4734,33 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30315 strings out of 478862
- 615975 string characters out of 5858944
+ 30317 strings out of 478862
+ 615976 string characters out of 5858944
  1683812 words of memory out of 6000000
- 47322 multiletter control sequences out of 15000+600000
+ 47324 multiletter control sequences out of 15000+600000
  460835 words of font info for 90 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  99i,25n,104p,875b,1532s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
-er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.pdf (112 pages, 8
-84567 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/lm/lm-rep-cmrm.enc}</usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/lm/lmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/helvetic/uhvro8a.pfb>
+Output written on GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.pdf (112 pages, 9
+06451 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
+ 458 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
