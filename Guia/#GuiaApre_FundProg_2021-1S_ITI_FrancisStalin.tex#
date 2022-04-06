@@ -2003,7 +2003,7 @@ Utilizar con agilidad los comandos mkdir, rm, mv, cd;  para crear, borrar, mover
 \newpage
 \begin{longtable}[H]{|b{0.5cm}|b{0.5cm}|b{0.5cm}|b{0.5cm}|b{0.5cm}|b{0.5cm}|b{10cm}|b{10cm}|}
 \cabecera
-\multirow{3}{*}[-10ex]{\rotatebox{90}{CUARTA SEMANA}}  & \multirow{3}{*}[-10ex]{\rotatebox[origin=c]{90}{28-febrero-2022}}& \multirow{3}{*}[-10ex]{\rotatebox{90}{04-marzo-2022}} & 2& &C&  \multicolumn{2}{c|}{\semanaDA} \\ \cline{4-8} 
+\multirow{3}{*}[-10ex]{\rotatebox{90}{CUARTA SEMANA}}  & \multirow{3}{*}[-10ex]{\rotatebox[origin=c]{90}{28-febrero-2022\}}& \multirow{3}{*}[-10ex]{\rotatebox{90}{04-marzo-2022}} & 2& &C&  \multicolumn{2}{c|}{\semanaDA} \\ \cline{4-8} 
   &  &   &2& &C&   \multicolumn{2}{c|}{\semanaDB} \\ \cline{4-8}
   &  &   &2& &C&  \multicolumn{2}{c|}{\semanaDC} \\ \hline
 

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  6 APR 2022 07:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  25 MAR 2022 07:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Reactivos-1P-PA.tex
-(./Reactivos-1P-PA.tex
+**Reactivos-1P-PB.tex
+(./Reactivos-1P-PB.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
@@ -591,8 +591,8 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count322
 \l__pdf_internal_box=\box84
 )
-(./Reactivos-1P-PA.aux)
-\openout1 = `Reactivos-1P-PA.aux'.
+(./Reactivos-1P-PB.aux)
+\openout1 = `Reactivos-1P-PB.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -703,17 +703,14 @@ Overfull \hbox (17.70218pt too wide) in paragraph at lines 53--54
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
+Overfull \hbox (9.93172pt too wide) in paragraph at lines 71--74
+\OT1/cmr/m/n/12 crear un di-rec-to-rio lla-mado \OT1/cmr/bx/n/12 EX-A-MEN\OT1/c
+mr/m/n/12 , den-tro de este cree un di-rec-to-rio lla-mado \OT1/cmr/bx/n/12 SUP
+RIMER-
  []
 
 
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 75--76
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 
  []
 
@@ -743,13 +740,13 @@ Overfull \hbox (7.33409pt too wide) in paragraph at lines 81--82
  []
 
 
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 85--86
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 83--84
+[] 
  []
 
 
@@ -778,17 +775,17 @@ Overfull \hbox (7.33409pt too wide) in paragraph at lines 91--92
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 101--102
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 93--94
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
 
  []
 
@@ -818,22 +815,22 @@ Overfull \hbox (7.33409pt too wide) in paragraph at lines 107--108
  []
 
 
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 109--110
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 114--115
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 112--113
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
@@ -843,27 +840,27 @@ Overfull \hbox (7.33409pt too wide) in paragraph at lines 116--117
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 126--127
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 118--119
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
 
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 130--131
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 128--129
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -873,27 +870,37 @@ Overfull \hbox (7.33409pt too wide) in paragraph at lines 132--133
  []
 
 
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 134--135
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 138--139
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 137--138
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
 Overfull \hbox (7.33409pt too wide) in paragraph at lines 140--141
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Overfull \hbox (7.33409pt too wide) in paragraph at lines 142--143
 [] 
  []
 
@@ -1274,19 +1281,19 @@ dmap/pdftex.map): ambiguous entry for `txttsl': font file present but not inclu
 ded, will be treated as font file not present
 } <./images//logoutlvte.png> <./images//logofit.jpeg>] [2]
 This exam contains 5 questions with 9 parts, 0 subparts, and 0 subsubparts.
-(./Reactivos-1P-PA.aux) ) 
+(./Reactivos-1P-PB.aux) ) 
 Here is how much of TeX's memory you used:
- 17334 strings out of 478862
- 364255 string characters out of 5858944
+ 17335 strings out of 478862
+ 364263 string characters out of 5858944
  688801 words of memory out of 6000000
- 34672 multiletter control sequences out of 15000+600000
+ 34673 multiletter control sequences out of 15000+600000
  407130 words of font info for 40 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,10n,89p,506b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,10n,89p,426b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-r
 ep-cmrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on Reactivos-1P-PA.pdf (2 pages, 155752 bytes).
+Output written on Reactivos-1P-PB.pdf (2 pages, 156525 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream

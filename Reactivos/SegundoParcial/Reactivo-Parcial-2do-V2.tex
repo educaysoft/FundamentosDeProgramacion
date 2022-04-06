@@ -1,0 +1,459 @@
+\documentclass[12pt,answers]{exam}
+\usepackage[top=1.5cm,left=2cm,right=2cm]{geometry}
+\usepackage{graphicx}
+\graphicspath{{../images/}}
+\usepackage{float}
+\usepackage[utf8x]{inputenc}
+\usepackage{wasysym}
+\usepackage{makecell}
+\usepackage{tikz}
+\usepackage{listings}
+        
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{mindmap}
+\pagestyle{headandfoot}
+%\firstpagefooter{{\bf nota:} Tanto los diagramas de flujo como los programas en c++, deben ser totalmente funcionables y deben ser subidos tanto al classromm(50\%) como al repo de github del equipo de trabajo(50\%).}{}{}
+
+
+
+ 
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=3.5em, text badly centered, node distance=1.5cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text centered, rounded corners, minimum
+    height=1em, minimum width=0.5cm]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!10, node distance=2cm,
+minimum height=2em]
+\tikzstyle{conector}=[circle, scale=0.75, color=white, fill=blue!10]
+
+\tikzstyle{output1} = [signal, signal from=nowhere, signal to=east, minimum width=2cm, minimum height=0.5cm, text centered, draw=black, fill=blue!10]
+
+\tikzstyle{input1} = [signal, signal from=east, signal to=nowhere, minimum width=2cm, minimum height=0.5cm, text centered, draw=black, fill=red!30]
+
+
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+
+
+
+
+
+\begin{document}
+
+\thispagestyle{headandfoot}
+
+
+\begin{minipage}[H]{0.10\linewidth}
+  \flushleft
+  \includegraphics[scale=0.12]{images/logoutlvte} 
+\end{minipage}
+\begin{minipage}[H]{0.70\linewidth}
+  \begin{center}
+    UNIVERSIDAD TÉCNICA LUIS VARGAS TORRES\\  FACULTAD DE INGENIERÍAS\\
+    CARRERA DE TECNOLOGÍAS DE LA INFORMACIÓN \\ Examen del Segundo hemisemestre
+  \end{center}
+\end{minipage}
+\begin{minipage}[H]{0.10\linewidth}
+    \flushleft
+    \includegraphics[scale=0.3]{images/logofit}
+\end{minipage}
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}[H]{llll}
+    Asignatura: & Fundamentos de Programación & Periodo & 2021-1S\\
+              &                     &            & \\     
+    Apellidos y nombres: &\rule{7cm}{0.4pt}    &  & \\
+              &                     &            & \\
+    Fecha: &\rule{5cm}{0.4pt}   & Paralelo: & {\Large A} \\
+  \end{tabular}
+\end{table}
+
+
+
+
+\begin{questions}
+
+\question[25] ¿Cuál sera la salida del siguiente programa.?
+
+
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa1.cpp} 
+
+Posibles respuestas:\\
+
+\begin{checkboxes}
+\choice   Twelve.
+\choice   Twelve Zero.
+\choice   Default.
+\CorrectChoice   Compilation fails.
+\end{checkboxes}
+    
+  
+  
+\newpage
+\question[25] Indica cuántas iteraciones del bloque se realizan al ejecutar el siguiente bucle.
+
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa2.cpp} 
+
+
+Posibles respuestas:\\
+
+\begin{checkboxes}
+\choice   36.
+\choice   0.
+\choice   4.
+\CorrectChoice   9.
+\choice   Ninguna de las anteriores.
+\end{checkboxes}
+
+
+    
+\newpage
+\question[25] Indica que valores se escribe cuando se compila y ejecuta el siguiente programa. 
+
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa3.cpp} 
+
+
+
+Posibles respuestas:\\
+
+\begin{checkboxes}
+\choice   3,6,9.
+\CorrectChoice   3,6,11.
+\choice   4,7,11.
+\choice 3,6,3.
+\choice   Ninguna de las anteriores.
+\end{checkboxes}
+
+
+\newpage
+\question[25] Indica que valores se escribe cuando se compila y ejecuta el siguiente programa. 
+
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa4.cpp} 
+
+
+
+Posibles respuestas:\\
+
+\begin{checkboxes}
+\choice   3,7,4,4.
+\choice   3,7,-4,-4.
+\choice   3,7,4,-4.
+\choice 3,7,-10,4.
+\CorrectChoice   Ninguna de las anteriores.
+\end{checkboxes}
+
+
+
+\newpage
+\question[25] Indica que valores se escribe cuando se compila y ejecuta el siguiente programa. 
+
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa5.cpp} 
+
+
+
+
+Posibles respuestas:\\
+
+\begin{checkboxes}
+\choice   3,7,11.
+\choice   4,7,9.
+\choice   5,8,13.
+\choice   5,8,9.
+\CorrectChoice   Ninguna de las anteriores.
+\end{checkboxes}
+
+
+    
+\newpage
+\question[25] Crear una función suma(float,float) que calcule la suma de dos números y utilizar esta función desde un programa principal main() para calcular 10 números, el resultado de la suma deberá ser presentado por pantalla. 
+    
+
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa6.cpp} 
+
+
+    \begin{solution}
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa6.cpp} 
+
+
+      
+      \end{solution}
+
+
+
+    \newpage
+    
+\question[25] Implemente un programa que permita ingresar una fecha, lo almacene en la estructura fecha, y los presente por pantalla.
+  
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa7.cpp} 
+
+
+
+\question[25] Cree un programa que permita ingresar cinco números, realice la suma de los mismos y los presente por pantalla, para los cual solo se utilizará una variable de tipo puntero.
+
+
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa8.cpp} 
+
+
+
+
+\question[25] Un punto en el plano, esta dado por las coordenadas x,y, cuando un punto se mueve el valor de estas coordenadas cambian. Cree una función mover() que reciba tres argumentos y retorne la posición, el retorno debe ser de tipo puntero, luego desd la función principal main() presentar por pantalla las coordenadas con las que inicio y con las que termina.
+
+  \lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa9.cpp} 
+
+
+
+\question[25] Cree una clase llamada estudiante, con el atributo Nombres, que contenga una función llamada setNombres(String n) que permita darle un nombre a la persona y otras función llamada presentar(), que muestre el nombre por pantalla, a través del mensaje ``Mi nombre es NN', donde NN sera el contenido del atributo Nombres.
+  Crear un objeto de tipo persona, póngale su nombre de pila, e invocando a la función SetNombres() pongale sus nombres completos y luego presentarlo por pantalla.
+ 
+\lstinputlisting[
+    caption=Example C++,
+    label={lst:listing-cpp},
+    language=C++,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    ]{programa10.cpp} 
+
+
+  
+\end{questions}
+
+\newpage
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

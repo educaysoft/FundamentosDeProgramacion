@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  6 APR 2022 07:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  18 MAR 2022 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Reactivos-1P-PA.tex
-(./Reactivos-1P-PA.tex
+**Reactivo-Parcial-2do-V1.tex
+(./Reactivo-Parcial-2do-V1.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
@@ -486,6 +486,31 @@ File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count321
+\lst@gtempboxa=\box63
+\lst@token=\toks43
+\lst@length=\count322
+\lst@currlwidth=\dimen261
+\lst@column=\count323
+\lst@pos=\count324
+\lst@lostspace=\dimen262
+\lst@width=\dimen263
+\lst@newlines=\count325
+\lst@lineno=\count326
+\lst@maxwidth=\dimen264
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count327
+\lst@skipnumbers=\count328
+\lst@framebox=\box64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -533,26 +558,26 @@ File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodepartlowerbox=\box63
-\pgfnodeparttwobox=\box64
-\pgfnodepartthreebox=\box65
-\pgfnodepartfourbox=\box66
-\pgfnodeparttwentybox=\box67
-\pgfnodepartnineteenbox=\box68
-\pgfnodeparteighteenbox=\box69
-\pgfnodepartseventeenbox=\box70
-\pgfnodepartsixteenbox=\box71
-\pgfnodepartfifteenbox=\box72
-\pgfnodepartfourteenbox=\box73
-\pgfnodepartthirteenbox=\box74
-\pgfnodeparttwelvebox=\box75
-\pgfnodepartelevenbox=\box76
-\pgfnodeparttenbox=\box77
-\pgfnodepartninebox=\box78
-\pgfnodeparteightbox=\box79
-\pgfnodepartsevenbox=\box80
-\pgfnodepartsixbox=\box81
-\pgfnodepartfivebox=\box82
+\pgfnodepartlowerbox=\box65
+\pgfnodeparttwobox=\box66
+\pgfnodepartthreebox=\box67
+\pgfnodepartfourbox=\box68
+\pgfnodeparttwentybox=\box69
+\pgfnodepartnineteenbox=\box70
+\pgfnodeparteighteenbox=\box71
+\pgfnodepartseventeenbox=\box72
+\pgfnodepartsixteenbox=\box73
+\pgfnodepartfifteenbox=\box74
+\pgfnodepartfourteenbox=\box75
+\pgfnodepartthirteenbox=\box76
+\pgfnodeparttwelvebox=\box77
+\pgfnodepartelevenbox=\box78
+\pgfnodeparttenbox=\box79
+\pgfnodepartninebox=\box80
+\pgfnodeparteightbox=\box81
+\pgfnodepartsevenbox=\box82
+\pgfnodepartsixbox=\box83
+\pgfnodepartfivebox=\box84
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryarrows.code.tex
@@ -561,7 +586,7 @@ File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\arrowsize=\dimen261
+\arrowsize=\dimen265
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymindmap.code.tex
@@ -575,39 +600,70 @@ File: tikzlibrarytrees.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen262
-\pgfdecoratedremainingdistance=\dimen263
-\pgfdecoratedinputsegmentcompleteddistance=\dimen264
-\pgfdecoratedinputsegmentremainingdistance=\dimen265
-\pgf@decorate@distancetomove=\dimen266
-\pgf@decorate@repeatstate=\count321
-\pgfdecorationsegmentamplitude=\dimen267
-\pgfdecorationsegmentlength=\dimen268
+\pgfdecoratedcompleteddistance=\dimen266
+\pgfdecoratedremainingdistance=\dimen267
+\pgfdecoratedinputsegmentcompleteddistance=\dimen268
+\pgfdecoratedinputsegmentremainingdistance=\dimen269
+\pgf@decorate@distancetomove=\dimen270
+\pgf@decorate@repeatstate=\count329
+\pgfdecorationsegmentamplitude=\dimen271
+\pgfdecorationsegmentlength=\dimen272
 )
-\tikz@lib@dec@box=\box83
+\tikz@lib@dec@box=\box85
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count322
-\l__pdf_internal_box=\box84
+\l__color_backend_stack_int=\count330
+\l__pdf_internal_box=\box86
 )
-(./Reactivos-1P-PA.aux)
-\openout1 = `Reactivos-1P-PA.aux'.
+(./Reactivo-Parcial-2do-V1.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+
+LaTeX Warning: Label `lst:listing-cpp' multiply defined.
+
+)
+\openout1 = `Reactivo-Parcial-2do-V1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -645,17 +701,17 @@ LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
-\scratchdimen=\dimen269
-\scratchbox=\box85
-\nofMPsegments=\count324
-\nofMParguments=\count325
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count326
-\MPscratchDim=\dimen270
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count331
+\scratchdimen=\dimen273
+\scratchbox=\box87
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen274
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -668,23 +724,24 @@ e
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-<images//logoutlvte.png, id=4, 623.931pt x 625.537pt>
-File: images//logoutlvte.png Graphic file (type png)
-<use images//logoutlvte.png>
-Package pdftex.def Info: images//logoutlvte.png  used on input line 43.
+\c@lstlisting=\count337
+<images/logoutlvte.png, id=4, 623.931pt x 625.537pt>
+File: images/logoutlvte.png Graphic file (type png)
+<use images/logoutlvte.png>
+Package pdftex.def Info: images/logoutlvte.png  used on input line 53.
 (pdftex.def)             Requested size: 74.86848pt x 75.06119pt.
 
-Overfull \hbox (24.81703pt too wide) in paragraph at lines 43--44
+Overfull \hbox (24.81703pt too wide) in paragraph at lines 53--54
 []  
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 44.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 44
+(Font)              <6> on input line 54.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 54
 .
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -692,209 +749,27 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<images//logofit.jpeg, id=6, 225.84375pt x 225.84375pt>
-File: images//logofit.jpeg Graphic file (type jpg)
-<use images//logofit.jpeg>
-Package pdftex.def Info: images//logofit.jpeg  used on input line 53.
+<images/logofit.jpeg, id=6, 225.84375pt x 225.84375pt>
+File: images/logofit.jpeg Graphic file (type jpg)
+<use images/logofit.jpeg>
+Package pdftex.def Info: images/logofit.jpeg  used on input line 63.
 (pdftex.def)             Requested size: 67.75363pt x 67.75363pt.
 
-Overfull \hbox (17.70218pt too wide) in paragraph at lines 53--54
+Overfull \hbox (17.70218pt too wide) in paragraph at lines 63--64
 []  
  []
 
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+) (./programa1.cpp)
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 75--76
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 77--78
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 79--80
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 81--82
-[] 
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 85--86
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 87--88
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 89--90
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 91--92
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 101--102
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 103--104
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 105--106
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 107--108
-[] 
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 110--111
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 114--115
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 116--117
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 126--127
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 130--131
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 132--133
-[] 
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 135--136
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 138--139
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-
-Overfull \hbox (7.33409pt too wide) in paragraph at lines 140--141
-[] 
  []
 
 [1
@@ -1272,24 +1147,53 @@ uded, will be treated as font file not present
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
 dmap/pdftex.map): ambiguous entry for `txttsl': font file present but not inclu
 ded, will be treated as font file not present
-} <./images//logoutlvte.png> <./images//logofit.jpeg>] [2]
-This exam contains 5 questions with 9 parts, 0 subparts, and 0 subsubparts.
-(./Reactivos-1P-PA.aux) ) 
+} <./images/logoutlvte.png> <./images/logofit.jpeg>] (./programa2.cpp)
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+[2] (./programa3.cpp)
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+[3] (./programa4.cpp)
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+[4] (./programa5.cpp)
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+[5] (./programa6.cpp) (./programa6.cpp) [6] (./programa7.cpp) (./programa8.cpp)
+(./programa9.cpp) [7] (./programa10.cpp) [8]
+This exam contains 10 questions with 0 parts, 0 subparts, and 0 subsubparts.
+(./Reactivo-Parcial-2do-V1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17334 strings out of 478862
- 364255 string characters out of 5858944
- 688801 words of memory out of 6000000
- 34672 multiletter control sequences out of 15000+600000
- 407130 words of font info for 40 fonts, out of 8000000 for 9000
+ 19268 strings out of 478862
+ 389945 string characters out of 5858944
+ 990070 words of memory out of 6000000
+ 36548 multiletter control sequences out of 15000+600000
+ 407766 words of font info for 43 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 84i,10n,89p,506b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-r
-ep-cmrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on Reactivos-1P-PA.pdf (2 pages, 155752 bytes).
+ 84i,10n,89p,436b,1473s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-rep-cmrm.enc}{/usr/share
+/texlive/texmf-dist/fonts/enc/dvips/lm/lm-rep-cmtt.enc}</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr17.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Reactivo-Parcial-2do-V1.pdf (8 pages, 238428 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
