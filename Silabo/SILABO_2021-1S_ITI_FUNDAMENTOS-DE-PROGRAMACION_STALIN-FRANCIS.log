@@ -1,43 +1,44 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.2)  11 OCT 2021 22:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.4.26)  28 JUL 2022 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex
 (./SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex
-LaTeX2e <2020-02-02> patch level 5
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen103
-\ar@mcellbox=\box27
-\extrarowheight=\dimen104
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen139
+\ar@mcellbox=\box47
+\extrarowheight=\dimen140
 \NC@list=\toks15
-\extratabsurround=\skip43
-\backup@length=\skip44
-\ar@cellbox=\box28
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -45,10 +46,10 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \everycr=\toks16
-\minrowclearance=\skip45
+\minrowclearance=\skip51
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -58,7 +59,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count88
+\rownum=\count187
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -74,32 +75,32 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen105
-\lightrulewidth=\dimen106
-\cmidrulewidth=\dimen107
-\belowrulesep=\dimen108
-\belowbottomsep=\dimen109
-\aboverulesep=\dimen110
-\abovetopsep=\dimen111
-\cmidrulesep=\dimen112
-\cmidrulekern=\dimen113
-\defaultaddspace=\dimen114
-\@cmidla=\count89
-\@cmidlb=\count90
-\@aboverulesep=\dimen115
-\@belowrulesep=\dimen116
-\@thisruleclass=\count91
-\@lastruleclass=\count92
-\@thisrulewidth=\dimen117
+\heavyrulewidth=\dimen141
+\lightrulewidth=\dimen142
+\cmidrulewidth=\dimen143
+\belowrulesep=\dimen144
+\belowbottomsep=\dimen145
+\aboverulesep=\dimen146
+\abovetopsep=\dimen147
+\cmidrulesep=\dimen148
+\cmidrulekern=\dimen149
+\defaultaddspace=\dimen150
+\@cmidla=\count188
+\@cmidlb=\count189
+\@aboverulesep=\dimen151
+\@belowrulesep=\dimen152
+\@thisruleclass=\count190
+\@lastruleclass=\count191
+\@thisrulewidth=\dimen153
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen118
-\TX@old@table=\dimen119
-\TX@old@col=\dimen120
-\TX@target=\dimen121
-\TX@delta=\dimen122
-\TX@cols=\count93
+\TX@col@width=\dimen154
+\TX@old@table=\dimen155
+\TX@old@col=\dimen156
+\TX@target=\dimen157
+\TX@delta=\dimen158
+\TX@cols=\count192
 \TX@ftn=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -115,55 +116,48 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count94
-\Gm@cntv=\count95
-\c@Gm@tempcnt=\count96
-\Gm@bindingoffset=\dimen123
-\Gm@wd@mp=\dimen124
-\Gm@odd@mp=\dimen125
-\Gm@even@mp=\dimen126
-\Gm@layoutwidth=\dimen127
-\Gm@layoutheight=\dimen128
-\Gm@layouthoffset=\dimen129
-\Gm@layoutvoffset=\dimen130
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen159
+\Gm@wd@mp=\dimen160
+\Gm@odd@mp=\dimen161
+\Gm@even@mp=\dimen162
+\Gm@layoutwidth=\dimen163
+\Gm@layoutheight=\dimen164
+\Gm@layouthoffset=\dimen165
+\Gm@layoutvoffset=\dimen166
 \Gm@dimlist=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count97
-\calc@Bcount=\count98
-\calc@Adimen=\dimen131
-\calc@Bdimen=\dimen132
-\calc@Askip=\skip46
-\calc@Bskip=\skip47
+\calc@Acount=\count196
+\calc@Bcount=\count197
+\calc@Adimen=\dimen167
+\calc@Bdimen=\dimen168
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count99
-\calc@Cskip=\skip48
+\calc@Ccount=\count198
+\calc@Cskip=\skip54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen169
+\ESO@tempdimb=\dimen170
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -173,29 +167,31 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen133
-\Gin@req@width=\dimen134
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
 )
-\AM@pagewidth=\dimen135
-\AM@pageheight=\dimen136
+\AM@pagewidth=\dimen173
+\AM@pageheight=\dimen174
+\AM@fboxrule=\dimen175
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box29
+\pdfpages@includegraphics@status=\count199
+\AM@pagebox=\box49
 \AM@global@opts=\toks20
-\AM@pagecnt=\count100
+\AM@pagecnt=\count266
 \AM@toc@title=\toks21
-\c@AM@survey=\count101
-\AM@templatesizebox=\box30
+\c@AM@survey=\count267
+\AM@templatesizebox=\box50
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
@@ -204,39 +200,39 @@ Package: times 2020/03/25 PSNFSS-v9.3 (SPQR)
 Package: tgbonum 2009/09/27 v1.2 TeX Gyre Bonum as default roman family
 
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count102
+\c@float@type=\count268
 \float@exts=\toks24
-\float@box=\box31
+\float@box=\box51
 \@float@everytoks=\toks25
-\@floatcapt=\box32
+\@floatcapt=\box52
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/03/22 3.42 The Babel package
+Package: babel 2021/04/26 3.58 The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2020/03/22 3.42 Babel switching mechanism
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/04/26 3.58 Babel common definitions
+\babel@savecnt=\count269
+\U@D=\dimen176
+\l@unhyphenated=\language3
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
 )
+\bbl@dirlevel=\count270
+
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/03/22 3.42 Babel common definitions
-
-(/usr/share/texlive/texmf-dist/tex/generic/config/language.def)
-\babel@savecnt=\count103
-\U@D=\dimen137
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read1
-\bbl@dirlevel=\count104
-)
 
 Package babel Warning: No hyphenation patterns were preloaded for
 (babel)                the language `Spanish' into the format.
@@ -244,8 +240,10 @@ Package babel Warning: No hyphenation patterns were preloaded for
 (babel)                rebuild the format. Now I will use the patterns
 (babel)                preloaded for \language=0 instead on input line 51.
 
+Package babel Info: Hyphen rules for 'spanish' set to \l@english
+(babel)             (\language0). Reported on input line 52.
 \es@quottoks=\toks26
-\es@quotdepth=\count105
+\es@quotdepth=\count271
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
@@ -254,33 +252,33 @@ Package babel Info: Making > an active character on input line 707.
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen138
-\c@nlinenum=\count106
+\rotheadsize=\dimen177
+\c@nlinenum=\count272
 \TeXr@lab=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip49
-\multirow@cntb=\count107
-\multirow@dima=\skip50
-\bigstrutjot=\dimen139
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count273
+\multirow@dima=\skip56
+\bigstrutjot=\dimen178
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
 
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks28
 \XKV@tempa@toks=\toks29
 )
-\XKV@depth=\count108
+\XKV@depth=\count274
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -288,106 +286,106 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box33
+\collectedbox=\box53
 )
-\tc@llx=\dimen140
-\tc@lly=\dimen141
-\tc@urx=\dimen142
-\tc@ury=\dimen143
+\tc@llx=\dimen179
+\tc@lly=\dimen180
+\tc@urx=\dimen181
+\tc@ury=\dimen182
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen144
-\adjbox@Height=\dimen145
-\adjbox@Depth=\dimen146
-\adjbox@Totalheight=\dimen147
-\adjbox@pwidth=\dimen148
-\adjbox@pheight=\dimen149
-\adjbox@pdepth=\dimen150
-\adjbox@ptotalheight=\dimen151
+\adjbox@Width=\dimen183
+\adjbox@Height=\dimen184
+\adjbox@Depth=\dimen185
+\adjbox@Totalheight=\dimen186
+\adjbox@pwidth=\dimen187
+\adjbox@pheight=\dimen188
+\adjbox@pdepth=\dimen189
+\adjbox@ptotalheight=\dimen190
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count109
+\c@checkoddpage=\count275
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box34
-\sift@deathcycles=\count110
-\@vwid@loff=\dimen152
-\@vwid@roff=\dimen153
+\@vwid@box=\box54
+\sift@deathcycles=\count276
+\@vwid@loff=\dimen191
+\@vwid@roff=\dimen192
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip51
-\LTright=\skip52
-\LTpre=\skip53
-\LTpost=\skip54
-\LTchunksize=\count111
-\LTcapwidth=\dimen154
-\LT@head=\box35
-\LT@firsthead=\box36
-\LT@foot=\box37
-\LT@lastfoot=\box38
-\LT@cols=\count112
-\LT@rows=\count113
-\c@LT@tables=\count114
-\c@LT@chunks=\count115
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count277
+\LTcapwidth=\dimen193
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@cols=\count278
+\LT@rows=\count279
+\c@LT@tables=\count280
+\c@LT@chunks=\count281
 \LT@p@ftn=\toks30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip55
-\f@nch@O@elh=\skip56
-\f@nch@O@erh=\skip57
-\f@nch@O@olh=\skip58
-\f@nch@O@orh=\skip59
-\f@nch@O@elf=\skip60
-\f@nch@O@erf=\skip61
-\f@nch@O@olf=\skip62
-\f@nch@O@orf=\skip63
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip61
+\f@nch@O@elh=\skip62
+\f@nch@O@erh=\skip63
+\f@nch@O@olh=\skip64
+\f@nch@O@orh=\skip65
+\f@nch@O@elf=\skip66
+\f@nch@O@erf=\skip67
+\f@nch@O@olf=\skip68
+\f@nch@O@orf=\skip69
 )
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count116
-\bibleftmargin=\skip64
-\bibindent=\skip65
-\bibparsep=\skip66
-\bibitemsep=\skip67
-\biblabelsep=\skip68
+\c@BibCnt=\count282
+\bibleftmargin=\skip70
+\bibindent=\skip71
+\bibparsep=\skip72
+\bibitemsep=\skip73
+\biblabelsep=\skip74
 )
 (/usr/share/texlive/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen155
-\dashlinegap=\dimen156
-\adl@box=\box39
-\adl@height=\dimen157
-\adl@heightsave=\dimen158
-\adl@depth=\dimen159
-\adl@depthsave=\dimen160
-\adl@finaldepth=\dimen161
-\adl@columns=\count117
-\adl@ncol=\count118
-\adl@currentcolumn=\count119
-\adl@currentcolumnsave=\count120
-\adl@totalheight=\count121
-\adl@totalheightsave=\count122
-\adl@dash=\count123
-\adl@gap=\count124
-\adl@cla=\count125
-\adl@clb=\count126
+\dashlinedash=\dimen194
+\dashlinegap=\dimen195
+\adl@box=\box59
+\adl@height=\dimen196
+\adl@heightsave=\dimen197
+\adl@depth=\dimen198
+\adl@depthsave=\dimen199
+\adl@finaldepth=\dimen256
+\adl@columns=\count283
+\adl@ncol=\count284
+\adl@currentcolumn=\count285
+\adl@currentcolumnsave=\count286
+\adl@totalheight=\count287
+\adl@totalheightsave=\count288
+\adl@dash=\count289
+\adl@gap=\count290
+\adl@cla=\count291
+\adl@clb=\count292
 \adl@everyvbox=\toks31
-\adl@LTpagetotal=\dimen162
+\adl@LTpagetotal=\dimen257
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
@@ -395,12 +393,12 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip69
-\enit@outerparindent=\dimen163
+\labelindent=\skip75
+\enit@outerparindent=\dimen258
 \enit@toks=\toks33
-\enit@inbox=\box40
-\enit@count@id=\count127
-\enitdp@description=\count128
+\enit@inbox=\box60
+\enit@count@id=\count293
+\enitdp@description=\count294
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -414,7 +412,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-\enitdp@todolist=\count129
+\enitdp@todolist=\count295
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
@@ -444,26 +442,37 @@ LaTeX Warning: Command \underline  has changed.
 
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 67.
 
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count130
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box61
 )
 
 LaTeX Warning: Unused global option(s):
     [a4pa<per].
 
 (./SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 )
 \openout1 = `SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux'
 .
@@ -482,24 +491,19 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1116.
 LaTeX Font Info:    ... okay on input line 1116.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1116.
 LaTeX Font Info:    ... okay on input line 1116.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
-16.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen164
-\scratchbox=\box41
-\nofMPsegments=\count132
-\nofMParguments=\count133
+\scratchcounter=\count298
+\scratchdimen=\dimen259
+\scratchbox=\box62
+\nofMPsegments=\count299
+\nofMParguments=\count300
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen165
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen260
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
 \everyMPtoPDFconversion=\toks36
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -544,24 +548,23 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box42
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Info: Redefining \. on input line 1116.
 LaTeX Info: Redefining \% on input line 1116.
-\c@maskedRefs=\count137
+\c@maskedRefs=\count304
 
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/spanish.apc
 File: spanish.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 138.
 LaTeX Info: Redefining \BHBI on input line 139.
 )
-<images/logo_utelvte.png, id=1, 623.931pt x 625.537pt>
-File: images/logo_utelvte.png Graphic file (type png)
-<use images/logo_utelvte.png>
-Package pdftex.def Info: images/logo_utelvte.png  used on input line 1134.
+<images//logo_utelvte.png, id=1, 623.931pt x 625.537pt>
+File: images//logo_utelvte.png Graphic file (type png)
+<use images//logo_utelvte.png>
+Package pdftex.def Info: images//logo_utelvte.png  used on input line 1134.
 (pdftex.def)             Requested size: 124.78398pt x 125.10518pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 113
 4.
@@ -586,7 +589,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1134--1157
 
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./images/lo
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images//lo
 go_utelvte.png>]
 Underfull \hbox (badness 1603) in paragraph at lines 1186--1186
 []|\T1/phv/m/n/12 Magister en Cien-cias de la Com-
@@ -604,43 +607,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
 
  []
 
-LaTeX Info: Redefining \. on input line 1222.
-LaTeX Info: Redefining \% on input line 1222.
+LaTeX Info: Redefining \. on input line 1216.
+LaTeX Info: Redefining \% on input line 1216.
 [2]
-Overfull \hbox (1.10951pt too wide) in paragraph at lines 1247--1247
+Overfull \hbox (1.10951pt too wide) in paragraph at lines 1241--1241
 []|[]| 
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 1253--1253
+Underfull \hbox (badness 1845) in paragraph at lines 1247--1247
 []|\T1/phv/m/n/12 Introducción a las com-puta-do-ras y los
  []
 
 
-Overfull \hbox (0.64082pt too wide) in paragraph at lines 1255--1255
+Overfull \hbox (0.64082pt too wide) in paragraph at lines 1249--1249
 []|[]| 
  []
 
 
-Overfull \hbox (0.64082pt too wide) in paragraph at lines 1266--1266
+Overfull \hbox (0.64082pt too wide) in paragraph at lines 1260--1260
 []|[]| 
  []
 
 
-Overfull \hbox (0.64082pt too wide) in paragraph at lines 1271--1271
+Overfull \hbox (0.64082pt too wide) in paragraph at lines 1265--1265
 []|[]| 
  []
 
 
-Overfull \hbox (16.82648pt too wide) in paragraph at lines 1245--1282
+Overfull \hbox (16.82648pt too wide) in paragraph at lines 1239--1276
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 1284.
-LaTeX Info: Redefining \% on input line 1284.
+LaTeX Info: Redefining \. on input line 1278.
+LaTeX Info: Redefining \% on input line 1278.
 [3]
-LaTeX Info: Redefining \. on input line 1287.
-LaTeX Info: Redefining \% on input line 1287.
+LaTeX Info: Redefining \. on input line 1281.
+LaTeX Info: Redefining \% on input line 1281.
  [4]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -675,322 +678,322 @@ LaTeX Info: Redefining \% on input line 1287.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
 []\T1/phv/m/n/12 Se toma una prue-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 1332--1333
+Underfull \hbox (badness 4673) in paragraph at lines 1326--1327
 \T1/phv/m/n/12 ba de di-ag-nós-ti-co de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
 \T1/phv/m/n/12 conocimien-tos pre-vios
  []
 
-LaTeX Info: Redefining \. on input line 1343.
-LaTeX Info: Redefining \% on input line 1343.
+LaTeX Info: Redefining \. on input line 1337.
+LaTeX Info: Redefining \% on input line 1337.
 [5
 
 ]
-Underfull \hbox (badness 1082) in paragraph at lines 1376--1377
+Underfull \hbox (badness 1082) in paragraph at lines 1370--1371
 \T1/phv/m/n/12 de dis-pos-i-ti-vas co-mo her-ramien-ta de
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1387--1388
+Underfull \hbox (badness 3646) in paragraph at lines 1381--1382
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1387--1388
+Underfull \hbox (badness 10000) in paragraph at lines 1381--1382
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1387--1388
+Underfull \hbox (badness 4120) in paragraph at lines 1381--1382
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Overfull \hbox (8.27621pt too wide) in paragraph at lines 1391--1392
+Overfull \hbox (8.27621pt too wide) in paragraph at lines 1385--1386
 [][][][][][][] 
  []
 
 
 Overfull \vbox (4.89442pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1400.
-LaTeX Info: Redefining \% on input line 1400.
+LaTeX Info: Redefining \. on input line 1394.
+LaTeX Info: Redefining \% on input line 1394.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 1443--1444
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
 
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 1445--1446
+Underfull \hbox (badness 2495) in paragraph at lines 1439--1440
 \T1/phv/m/n/12 en Ter-mux, creación de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1445--1446
+Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1447--1448
+Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
 \T1/phv/b/n/12 Teller3\T1/phv/m/n/12 : Ma-nip-u-lación
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1447--1448
+Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
 \T1/phv/m/n/12 de archivos con vim
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1447--1448
+Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
 
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 1449--1450
+Underfull \hbox (badness 1824) in paragraph at lines 1443--1444
 []\T1/phv/b/n/12 Taller4\T1/phv/m/n/12 : Ma-nip-u-lación de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1449--1450
+Underfull \hbox (badness 10000) in paragraph at lines 1443--1444
 
  []
 
-LaTeX Info: Redefining \. on input line 1457.
-LaTeX Info: Redefining \% on input line 1457.
+LaTeX Info: Redefining \. on input line 1451.
+LaTeX Info: Redefining \% on input line 1451.
 [7]
-Underfull \hbox (badness 2253) in paragraph at lines 1486--1487
+Underfull \hbox (badness 2253) in paragraph at lines 1480--1481
 []\T1/phv/m/n/12 Mediante \T1/phv/m/sc/12 La clase in-ver-ti-da\T1/phv/m/n/12 ,
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1487--1488
+Underfull \hbox (badness 10000) in paragraph at lines 1481--1482
 []\T1/phv/m/n/12 Aplicando \T1/phv/m/sc/12 pre-gun-tas y re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1487--1488
+Underfull \hbox (badness 10000) in paragraph at lines 1481--1482
 \T1/phv/m/n/12 que los es-tu-di-antes lo es-ten
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1499--1501
+Underfull \hbox (badness 3646) in paragraph at lines 1493--1495
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1499--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1493--1495
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1499--1501
+Underfull \hbox (badness 4120) in paragraph at lines 1493--1495
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1502.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1496.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1502
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1496
 []\T1/phv/b/n/12 Actividad C1\T1/phv/m/n/12 :\T1/phv/m/sl/12 Análisis y
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1502--1502
+Underfull \hbox (badness 1629) in paragraph at lines 1496--1496
 \T1/phv/m/sl/12 Dis-eño de sim-ples prob-
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 1502--1502
+Underfull \hbox (badness 4441) in paragraph at lines 1496--1496
 \T1/phv/m/sl/12 le-mas de mátemáti-ca y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1502
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1496
 \T1/phv/m/sl/12 lóg-i-cas\T1/phv/m/n/12 ; con-si-tente en
  []
 
 
-Overfull \hbox (8.27621pt too wide) in paragraph at lines 1502--1503
+Overfull \hbox (8.27621pt too wide) in paragraph at lines 1496--1497
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
 
  []
 
 
 Overfull \vbox (26.98804pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1510.
-LaTeX Info: Redefining \% on input line 1510.
+LaTeX Info: Redefining \. on input line 1504.
+LaTeX Info: Redefining \% on input line 1504.
 
 [8]
-Underfull \hbox (badness 4726) in paragraph at lines 1559--1559
+Underfull \hbox (badness 4726) in paragraph at lines 1553--1553
 []\T1/phv/b/n/12 Actividad A1: \T1/phv/m/sc/12 Avances
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 1559--1559
+Underfull \hbox (badness 1708) in paragraph at lines 1553--1553
 \T1/phv/m/sc/12 de proyec-to: \T1/phv/m/n/12 Di-a-gra-ma
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 1557--1560
+Underfull \hbox (badness 2393) in paragraph at lines 1551--1554
 \T1/phv/m/n/12 o-ra un pro-gra-ma donde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1560
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1554
 
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1557--1560
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1551--1554
 [][][][][][]\T1/phv/m/n/12 . 
  []
 
-LaTeX Info: Redefining \. on input line 1571.
-LaTeX Info: Redefining \% on input line 1571.
+LaTeX Info: Redefining \. on input line 1565.
+LaTeX Info: Redefining \% on input line 1565.
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 1598--1599
+Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
 []\T1/phv/m/n/12 Aprendizaje basa-do en
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1607--1609
+Underfull \hbox (badness 3646) in paragraph at lines 1601--1603
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1607--1609
+Underfull \hbox (badness 10000) in paragraph at lines 1601--1603
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1607--1609
+Underfull \hbox (badness 4120) in paragraph at lines 1601--1603
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 1610--1610
+Underfull \hbox (badness 1960) in paragraph at lines 1604--1604
 \T1/phv/m/n/12 ac-tivos utilzian-do la her-
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 1610--1610
+Underfull \hbox (badness 4940) in paragraph at lines 1604--1604
 \T1/phv/m/n/12 ramien-to For-mu-la-rios de
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1610--1611
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1604--1605
 [][][][][][][]\T1/phv/m/n/12 . 
  []
 
-LaTeX Info: Redefining \. on input line 1622.
-LaTeX Info: Redefining \% on input line 1622.
+LaTeX Info: Redefining \. on input line 1616.
+LaTeX Info: Redefining \% on input line 1616.
 [10]
-Underfull \hbox (badness 3646) in paragraph at lines 1659--1661
+Underfull \hbox (badness 3646) in paragraph at lines 1653--1655
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1659--1661
+Underfull \hbox (badness 10000) in paragraph at lines 1653--1655
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1659--1661
+Underfull \hbox (badness 4120) in paragraph at lines 1653--1655
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 1662--1662
+Underfull \hbox (badness 2269) in paragraph at lines 1656--1656
 \T1/phv/m/sc/12 menu in-te-grador\T1/phv/m/n/12 ; este
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 1662--1662
+Underfull \hbox (badness 2150) in paragraph at lines 1656--1656
 \T1/phv/m/n/12 mostrará y eje-cu-tará los
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 1662--1662
+Underfull \hbox (badness 7667) in paragraph at lines 1656--1656
 \T1/phv/m/n/12 pro-gra-mas de los in-te-
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1662--1665
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1656--1659
 [][][][][][][]\T1/phv/m/n/12 .
  []
 
-LaTeX Info: Redefining \. on input line 1675.
-LaTeX Info: Redefining \% on input line 1675.
+LaTeX Info: Redefining \. on input line 1669.
+LaTeX Info: Redefining \% on input line 1669.
 [11]
-Underfull \hbox (badness 3646) in paragraph at lines 1714--1716
+Underfull \hbox (badness 3646) in paragraph at lines 1708--1710
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1714--1716
+Underfull \hbox (badness 10000) in paragraph at lines 1708--1710
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1714--1716
+Underfull \hbox (badness 4120) in paragraph at lines 1708--1710
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 1718--1718
+Underfull \hbox (badness 3942) in paragraph at lines 1712--1712
 \T1/phv/m/sc/12 fi-nal In-te-grador \T1/phv/m/n/12 ; El
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 1718--1718
+Underfull \hbox (badness 1122) in paragraph at lines 1712--1712
 \T1/phv/m/n/12 pro-gra-ma de la ac-tivi-dad
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1718--1721
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1712--1715
 [][][][][][][]\T1/phv/m/n/12 .
  []
 
-LaTeX Info: Redefining \. on input line 1729.
-LaTeX Info: Redefining \% on input line 1729.
+LaTeX Info: Redefining \. on input line 1723.
+LaTeX Info: Redefining \% on input line 1723.
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1738--1738
+Underfull \hbox (badness 10000) in paragraph at lines 1732--1732
 []|\T1/phv/m/n/12 RESULTADO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1738--1738
+Underfull \hbox (badness 10000) in paragraph at lines 1732--1732
 \T1/phv/m/n/12 DEL APREN-
  []
 
 
 Overfull \vbox (5.35037pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1772.
-LaTeX Info: Redefining \% on input line 1772.
+LaTeX Info: Redefining \. on input line 1766.
+LaTeX Info: Redefining \% on input line 1766.
 
 [13]
-LaTeX Info: Redefining \. on input line 1818.
-LaTeX Info: Redefining \% on input line 1818.
+LaTeX Info: Redefining \. on input line 1812.
+LaTeX Info: Redefining \% on input line 1812.
  [14
 
 ]
-Overfull \hbox (4.41954pt too wide) in paragraph at lines 1842--1842
+Overfull \hbox (4.41954pt too wide) in paragraph at lines 1836--1836
 []|\T1/phv/m/n/12 EVALUACION| 
  []
 
@@ -998,42 +1001,42 @@ Overfull \hbox (4.41954pt too wide) in paragraph at lines 1842--1842
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [15])
-LaTeX Info: Redefining \. on input line 1864.
-LaTeX Info: Redefining \% on input line 1864.
+LaTeX Info: Redefining \. on input line 1858.
+LaTeX Info: Redefining \% on input line 1858.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1868--1871
+Underfull \hbox (badness 10000) in paragraph at lines 1862--1865
 
  []
 
 
-Overfull \hbox (11.23555pt too wide) in paragraph at lines 1888--1888
+Overfull \hbox (11.23555pt too wide) in paragraph at lines 1882--1882
 |[] []
  []
 
-LaTeX Info: Redefining \. on input line 1937.
-LaTeX Info: Redefining \% on input line 1937.
+LaTeX Info: Redefining \. on input line 1931.
+LaTeX Info: Redefining \% on input line 1931.
 [17]
-LaTeX Info: Redefining \. on input line 1942.
-LaTeX Info: Redefining \% on input line 1942.
+LaTeX Info: Redefining \. on input line 1936.
+LaTeX Info: Redefining \% on input line 1936.
  [18] (./SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 ) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 1289 (\begingroup)
+### semi simple group (level 1) entered at line 1283 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8759 strings out of 492993
- 121473 string characters out of 6157172
- 271241 words of memory out of 5000000
- 13777 multiletter control sequences out of 15000+600000
- 51323 words of font info for 74 fonts, out of 8000000 for 9000
+ 9016 strings out of 480806
+ 129164 string characters out of 5905151
+ 525682 words of memory out of 6000000
+ 26196 multiletter control sequences out of 15000+600000
+ 451113 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,19n,64p,826b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,76p,582b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1044,7 +1047,7 @@ ype1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
 vetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.
 pfb>
 Output written on SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS
-.pdf (19 pages, 177490 bytes).
+.pdf (19 pages, 177294 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream

@@ -1,1 +1,0 @@
-git push https://educaysoft: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@github.com/educaysoft/FundamentosDeProgramacion.git

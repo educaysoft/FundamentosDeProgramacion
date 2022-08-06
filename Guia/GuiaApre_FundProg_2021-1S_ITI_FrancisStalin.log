@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  5 MAR 2022 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.4.26)  7 JUL 2022 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,7 +644,7 @@ Package: babel 2021/04/26 3.58 The Babel package
 File: babel.def 2021/04/26 3.58 Babel common definitions
 \babel@savecnt=\count312
 \U@D=\dimen297
-\l@unhyphenated=\language85
+\l@unhyphenated=\language3
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read4
@@ -653,6 +653,16 @@ File: babel.def 2021/04/26 3.58 Babel common definitions
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+Package babel Info: Hyphen rules for 'spanish' set to \l@english
+(babel)             (\language0). Reported on input line 52.
 \es@quottoks=\toks47
 \es@quotdepth=\count314
 Package babel Info: Making " an active character on input line 561.
@@ -662,8 +672,7 @@ Package babel Info: Making > an active character on input line 707.
 ))
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
@@ -1341,381 +1350,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1210--1233
 
 [1
 
-{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvb8y' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvb8yn' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvbo8y' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvbo8yn' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvr8y' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvr8yn' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvro8y' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvro8yn' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `UniClass[letter]': font file present but
- not included, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pagd8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pagdo8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pagk8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pagko8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pbkd8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pbkdi8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pbkl8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pbkli8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pcrb8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pcrbo8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pcrr8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pcrro8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvb8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvbo8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvr8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `phvro8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncb8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncbi8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncr8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pncri8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pplb8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pplbi8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pplr8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pplri8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `psyr' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `psyrgo' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `ptmb8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `ptmbi8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `ptmr8g' already exists, duplicates ignored
-
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `ptmri8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pzcmi8g' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `pzdr' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtcxbsl': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtcxbsso': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtcxsl': font file present but not inclu
-ded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtcxsssl': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxbsl': font file present but not inclu
-ded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxbsssl': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxphvb': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxphvb' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxphvbo': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxphvbo' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxphvr': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxphvr' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxphvro': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxphvro' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxptmb': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxptmb' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxptmbi': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxptmbi' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxptmbo': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxptmbo' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxptmr': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxptmr' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxptmri': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxptmri' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxptmro': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): fontmap entry for `rtxptmro' already exists, duplicates ignor
-ed
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxsl': font file present but not includ
-ed, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `rtxsssl': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `t1xbttsl': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `t1xttsl': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `tcxbttsl': font file present but not inc
-luded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `tcxttsl': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `txbttsl': font file present but not incl
-uded, will be treated as font file not present
-
-
-pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map): ambiguous entry for `txttsl': font file present but not inclu
-ded, will be treated as font file not present
-} <./images//logo_utelvte.png>]
-(./GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.toc
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images//lo
+go_utelvte.png>] (./GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -1725,7 +1361,8 @@ LaTeX Info: Redefining \% on input line 32.
  [1]
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
- [2]
+
+[2]
 Overfull \hbox (1.41573pt too wide) detected at line 87
  []\T1/phv/m/n/12 103
  []
@@ -1750,6 +1387,11 @@ Overfull \hbox (1.41573pt too wide) detected at line 90
 \openout7 = `GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.toc'.
 
 
+Underfull \hbox (badness 1603) in paragraph at lines 1262--1262
+[]|\T1/phv/m/n/12 Magister en Cien-cias de la Com-
+ []
+
+
 Overfull \hbox (7.00389pt too wide) in paragraph at lines 1244--1267
 [][] 
  []
@@ -1771,8 +1413,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
 LaTeX Info: Redefining \. on input line 1302.
 LaTeX Info: Redefining \% on input line 1302.
 [5]
+Underfull \hbox (badness 1845) in paragraph at lines 1334--1334
+[]|\T1/phv/m/n/12 Introducción a las com-puta-do-ras y los
+ []
+
+
 Underfull \hbox (badness 4779) in paragraph at lines 1347--1347
-[]|\T1/phv/m/n/12 Flujo de con-trol I: Es-truc-tu-ra se-lec-ti-
+[]|\T1/phv/m/n/12 Flujo de con-trol I: Es-truc-tura se-lec-ti-
  []
 
 
@@ -1883,6 +1530,16 @@ Overfull \vbox (48.64989pt too high) detected at line 1397
  []
 
 
+Underfull \hbox (badness 2181) in paragraph at lines 1398--1398
+[]\T1/phv/m/n/12 El do-cente ex-pli-ca co-mo los es-tu-di-antes
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 1398--1398
+\T1/phv/m/n/12 deben con-fig-u-rar y uti-lizar la platafor-ma
+ []
+
+
 Overfull \hbox (284.54276pt too wide) in alignment at lines 1396--1401
  [] [] [] [] [] [] [] [] 
  []
@@ -1908,12 +1565,12 @@ LaTeX Info: Redefining \% on input line 1456.
 
 ]
 Underfull \hbox (badness 2285) in paragraph at lines 1464--1464
-[]|\T1/phv/m/n/12 Se cons-tru-ye la compu-tado-ra Co-los-sus(Colossus
+[]|\T1/phv/m/n/12 Se con-struye la com-puta-do-ra Colos-sus(Colossus
  []
 
 
 Underfull \hbox (badness 2653) in paragraph at lines 1466--1466
-[]|\T1/phv/m/n/12 Comienza a ope-rar
+[]|\T1/phv/m/n/12 Comienza a op-er-ar
  []
 
 
@@ -1927,28 +1584,23 @@ Underfull \hbox (badness 5592) in paragraph at lines 1466--1466
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 1467--1467
-\T1/phv/m/n/12 John Wi-lliam Mau-
- []
-
-
 Underfull \hbox (badness 1533) in paragraph at lines 1468--1468
-\T1/phv/m/n/12 ter Brat-tain, Wi-lliam
+\T1/phv/m/n/12 ter Brat-tain, William
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1472--1472
-[]|\T1/phv/m/n/12 Bill Ga-tes y Paul
+[]|\T1/phv/m/n/12 Bill Gates y Paul
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1473--1473
-[]|\T1/phv/m/n/12 Steve Jobs, Ste-
+[]|\T1/phv/m/n/12 Steve Jobs, Steve
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1473--1473
-\T1/phv/m/n/12 ve Woz-niak, Mi-ke
+\T1/phv/m/n/12 Woz-ni-ak, Mike
  []
 
 LaTeX Info: Redefining \. on input line 1477.
@@ -2014,17 +1666,17 @@ Overfull \hbox (222.23332pt too wide) in alignment at lines 1546--1548
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 Leer crí-ti-
+\T1/phv/m/n/12 Leer críti-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 ca-men-te el
+\T1/phv/m/n/12 ca-mente el
  []
 
 
 Underfull \hbox (badness 4316) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 ca-pí-tu-lo 1 del
+\T1/phv/m/n/12 capí-tu-lo 1 del
  []
 
 
@@ -2034,32 +1686,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 ela-bo-rar un
+\T1/phv/m/n/12 elab-o-rar un
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 vi-deo don-de
+\T1/phv/m/n/12 video donde
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 uti-li-zan-do \T1/phv/b/n/12 la
+\T1/phv/m/n/12 uti-lizan-do \T1/phv/b/n/12 la
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
-\T1/phv/b/n/12 me-to-do-lo-gía
+\T1/phv/b/n/12 metodología
  []
 
 
 Underfull \hbox (badness 3343) in paragraph at lines 1551--1551
-\T1/phv/b/n/12 de la ex-po-si-
+\T1/phv/b/n/12 de la ex-posi-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
-\T1/phv/b/n/12 ción\T1/phv/m/n/12 , ex-pli-que
+\T1/phv/b/n/12 ción\T1/phv/m/n/12 , ex-plique
  []
 
 
@@ -2088,17 +1740,17 @@ Underfull \hbox (badness 2173) in paragraph at lines 1551--1551
 
 
 Underfull \hbox (badness 1152) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 fal-ta de co-no-ci-mien-tos
+\T1/phv/m/n/12 fal-ta de conocimien-tos
  []
 
 
 Underfull \hbox (badness 1484) in paragraph at lines 1551--1551
-\T1/phv/m/n/12 del te-ma. La in-for-ma-
+\T1/phv/m/n/12 del tema. La in-for-ma-
  []
 
 
 Underfull \hbox (badness 3930) in paragraph at lines 1551--1551
-[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : De-mues-tra con-fian-za
+[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : De-mues-tra con-fi-an-za
  []
 
 
@@ -2109,7 +1761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 
 
 Underfull \hbox (badness 4660) in paragraph at lines 1551--1551
-\T1/phv/m/n/10 pre-sen-tan-do in-for-ma-ción pre-ci-sa y
+\T1/phv/m/n/10 pre-sen-tan-do in-for-ma-ción pre-cisa y
  []
 
 
@@ -2124,7 +1776,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1552--1552
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1552--1552
-\T1/phv/m/n/12 ideas in-cohe-ren-tes
+\T1/phv/m/n/12 ideas in-co-her-entes
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 1552--1552
+\T1/phv/m/n/10.95 tir de conocimien-tos váli-dos so-
  []
 
 
@@ -2145,18 +1802,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
-\T1/phv/m/n/10.95 ex-po-si-ción ca-ren-te de
+\T1/phv/m/n/10.95 ex-posi-ción car-ente de
  []
 
 
 Underfull \hbox (badness 1803) in paragraph at lines 1553--1553
-\T1/phv/m/n/10.95 or-den o cui-da-do por la
+\T1/phv/m/n/10.95 or-den o cuida-do por la
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1553--1553
-[]|\T1/phv/b/n/12 Excelente\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Ofre-ce ex-po-si-
-ción
+[]|\T1/phv/b/n/12 Excelente\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Ofrece ex-posi-ci
+ón
  []
 
 
@@ -2302,8 +1959,8 @@ LaTeX Info: Redefining \. on input line 1665.
 LaTeX Info: Redefining \% on input line 1665.
  [18 <./images//lenguaje.jpg>]
 Overfull \hbox (4.80652pt too wide) in paragraph at lines 1691--1693
-[]\T1/phv/b/n/12 Pregunta # 4: \T1/phv/m/n/12 ¾A que nú-me-ro de-ci-mal equi-va
--le el si-guien-te nu-me-ro bi-na-rio 10100101?. 
+[]\T1/phv/b/n/12 Pregunta # 4: \T1/phv/m/n/12 ¾A que número dec-i-mal equiv-ale
+ el sigu-iente nu-mero bi-na-rio 10100101?. 
  []
 
 LaTeX Info: Redefining \. on input line 1701.
@@ -2375,7 +2032,7 @@ Overfull \vbox (48.64989pt too high) detected at line 1715
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1716--1716
-[]|\T1/phv/m/n/12 Paquetes de Lu-nux: eje-ci-cios prác-ti-
+[]|\T1/phv/m/n/12 Paquetes de Lunux: eje-ci-cios prác-ti-
  []
 
 
@@ -2588,9 +2245,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2066--2067
 LaTeX Info: Redefining \. on input line 2070.
 LaTeX Info: Redefining \% on input line 2070.
 [30 <./images//vim.png>]
-Overfull \hbox (12.98677pt too wide) in paragraph at lines 2074--2084
-\T1/phv/m/n/12 post, pe-ro po-deis echán-do-le un vis-ta-zo. Apren-de al-gu-nos
- ver-bos: v(visual), c(change/cambiar),
+Overfull \hbox (38.19864pt too wide) in paragraph at lines 2074--2084
+\T1/phv/m/n/12 mos post, pero podeis echán-dole un vis-ta-zo. Aprende al-gunos 
+ver-bos: v(visual), c(change/cambiar),
  []
 
 
@@ -2636,16 +2293,20 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Info: Redefining \. on input line 2185.
 LaTeX Info: Redefining \% on input line 2185.
  [33]
-LaTeX Info: Redefining \. on input line 2232.
-LaTeX Info: Redefining \% on input line 2232.
- [34]
-LaTeX Info: Redefining \. on input line 2274.
-LaTeX Info: Redefining \% on input line 2274.
- [35]
-LaTeX Info: Redefining \. on input line 2320.
-LaTeX Info: Redefining \% on input line 2320.
+Overfull \hbox (2.63416pt too wide) in paragraph at lines 2206--2207
+[]\T1/phv/m/n/12 Lista los archivos que hay en el di-rec-to-rio ac-tu-al (use l
+s -l), y ve-r-az el archi-vo \T1/phv/b/n/12 suma.cpp\T1/phv/m/n/12 . 
+ []
 
-[36]
+LaTeX Info: Redefining \. on input line 2233.
+LaTeX Info: Redefining \% on input line 2233.
+[34]
+LaTeX Info: Redefining \. on input line 2285.
+LaTeX Info: Redefining \% on input line 2285.
+ [35]
+LaTeX Info: Redefining \. on input line 2321.
+LaTeX Info: Redefining \% on input line 2321.
+ [36]
 LaTeX Info: Redefining \. on input line 2347.
 LaTeX Info: Redefining \% on input line 2347.
  [37]
@@ -2711,37 +2372,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-\T1/phv/m/n/12 Ana-li-sis y
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 2424--2424
-\T1/phv/m/n/12 di-se-ño de pro-
+\T1/phv/m/n/12 Anal-i-sis y
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-\T1/phv/m/n/12 ti-ca, uti-li-zan-do
+\T1/phv/m/n/12 le-mas bási-cos
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-\T1/phv/m/n/12 el dia-gra-ma
- []
-
-
-Underfull \hbox (badness 3302) in paragraph at lines 2424--2424
-\T1/phv/m/n/12 de flu-jo trans-
+\T1/phv/m/n/12 ti-ca, uti-lizan-do
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-\T1/phv/m/n/12 cri-bien-do-lo a
+\T1/phv/m/n/12 el di-a-gra-ma
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-\T1/phv/m/n/12 len-gua-je de
+\T1/phv/m/n/12 de flu-jo tran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
+\T1/phv/m/n/12 scri-bi-en-do-lo
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 2424--2424
+\T1/phv/m/n/12 a lengua-je de
  []
 
 
@@ -2760,22 +2421,28 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 2424--2424
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El pro-ble-ma
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El prob-le-ma
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-\T1/phv/m/n/10.95 no es-ta bien de-fi-ni-do,
+\T1/phv/m/n/10.95 no es-ta bi-en definido,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2424--2424
-\T1/phv/m/n/10.95 no se do-cu-men-ta las
+\T1/phv/m/n/10.95 no se doc-u-men-ta las
  []
 
 
 Underfull \hbox (badness 3954) in paragraph at lines 2424--2424
-\T1/phv/m/n/10.95 es-ta es-te-ti-ca-men-te bien
+\T1/phv/m/n/10.95 es-ta es-teti-ca-mente bi-en
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 2424--2424
+[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : \T1/phv/m/n/10.95 El prob-le-ma es-ta b
+i-en
  []
 
 
@@ -2785,12 +2452,18 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 2425--2425
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2425--2425
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La vari-ables
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2425--2425
-\T1/phv/m/n/10.95 uti-li-za-das no cum-plen
+\T1/phv/m/n/10.95 uti-lizadas no cumplen
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 2425--2425
+[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Al-gu-nas vari-ables 
+uti-
  []
 
 
@@ -2800,12 +2473,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 2426--2426
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2426--2426
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mod-e-lo
  []
 
 
 Underfull \hbox (badness 4582) in paragraph at lines 2426--2426
-\T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
+\T1/phv/m/n/10.95 matemáti-co uti-liza-do no
  []
 
 
@@ -2985,17 +2658,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
-\T1/phv/m/n/12 Avan-ces de
+\T1/phv/m/n/12 Avances de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
-\T1/phv/m/n/12 pro-yec-to: Dia-
+\T1/phv/m/n/12 proyec-to: Di-a-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2674--2674
-\T1/phv/m/n/12 ci-sio-nes so-bre
+\T1/phv/m/n/12 ci-siones so-bre
  []
 
 
@@ -3014,12 +2687,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 2674--2674
 
 
 Underfull \hbox (badness 2582) in paragraph at lines 2674--2674
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al códi-go le
  []
 
 
 Underfull \hbox (badness 2591) in paragraph at lines 2674--2674
-\T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
+\T1/phv/m/n/10.95 fal-ta co-men-tar-ios im-por-
  []
 
 
@@ -3029,12 +2702,18 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 2675--2675
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La vari-ables
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2675--2675
-\T1/phv/m/n/10.95 uti-li-za-das no cum-plen
+\T1/phv/m/n/10.95 uti-lizadas no cumplen
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 2675--2675
+[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Al-gu-nas vari-ables 
+uti-
  []
 
 
@@ -3044,12 +2723,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 2676--2676
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2676--2676
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mod-e-lo
  []
 
 
 Underfull \hbox (badness 4582) in paragraph at lines 2676--2676
-\T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
+\T1/phv/m/n/10.95 matemáti-co uti-liza-do no
  []
 
 
@@ -3111,8 +2790,13 @@ Overfull \hbox (270.31638pt too wide) has occurred while \output is active
 LaTeX Info: Redefining \. on input line 2688.
 LaTeX Info: Redefining \% on input line 2688.
 [47]
+Underfull \hbox (badness 1348) in paragraph at lines 2745--2746
+[]|\T1/phv/m/n/12 Habilita el tecla-do(o dis-
+ []
+
+
 Underfull \hbox (badness 3364) in paragraph at lines 2760--2761
-\T1/phv/m/n/12 po-si-ti-vo de sa-li-da) pa-ra
+\T1/phv/m/n/12 pos-i-ti-vo de sal-i-da) para
  []
 
 
@@ -3137,17 +2821,17 @@ Underfull \hbox (badness 2529) in paragraph at lines 2783--2784
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2797--2799
-[]|\T1/phv/m/n/12 Indica es-pe-ci-fi-ca-men-te
+[]|\T1/phv/m/n/12 Indica es-peci-fi-ca-mente
  []
 
 
 Underfull \hbox (badness 1424) in paragraph at lines 2797--2799
-\T1/phv/m/n/12 una ope-ra-ción ma-te-má-ti-
+\T1/phv/m/n/12 una op-eración matemáti-
  []
 
 
 Underfull \hbox (badness 1755) in paragraph at lines 2810--2810
-[]|\T1/phv/m/n/12 Indica la fi-na-li-za-ción del
+[]|\T1/phv/m/n/12 Indica la fi-nal-ización del
  []
 
 LaTeX Info: Redefining \. on input line 2830.
@@ -3189,12 +2873,12 @@ Overfull \hbox (3.25424pt too wide) in paragraph at lines 3113--3114
 
 
 Underfull \hbox (badness 3792) in paragraph at lines 3122--3122
-[]|\T1/phv/m/n/12 valor to-tal des-pués
+[]|\T1/phv/m/n/12 valor to-tal de-spués
  []
 
 
 Underfull \hbox (badness 1460) in paragraph at lines 3126--3126
-[]|\T1/phv/m/n/12 Valor to-tal del des-
+[]|\T1/phv/m/n/12 Valor to-tal del de-s-
  []
 
 
@@ -3315,17 +2999,22 @@ LaTeX Info: Redefining \% on input line 3390.
 
 ]
 Underfull \hbox (badness 3471) in paragraph at lines 3444--3444
-\T1/phv/m/n/12 nú-me-ros in-gre-sa-dos por
+\T1/phv/m/n/12 números in-gre-sa-dos por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3446--3446
+[]|\T1/phv/m/n/12 Contador de números
  []
 
 
 Underfull \hbox (badness 2503) in paragraph at lines 3448--3448
-[]|\T1/phv/m/n/12 Acumulador de nú-me-ros
+[]|\T1/phv/m/n/12 Acumulador de números
  []
 
 
 Underfull \hbox (badness 2503) in paragraph at lines 3449--3449
-[]|\T1/phv/m/n/12 Acumulador de nú-me-ros
+[]|\T1/phv/m/n/12 Acumulador de números
  []
 
 
@@ -3566,9 +3255,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3752--3763
 LaTeX Info: Redefining \. on input line 3763.
 LaTeX Info: Redefining \% on input line 3763.
 [69]
+Underfull \hbox (badness 10000) in paragraph at lines 3780--3782
+[]|\T1/phv/m/n/12 Contiene los pro-toti-pos de las fun-
+ []
+
 LaTeX Info: Redefining \. on input line 3800.
 LaTeX Info: Redefining \% on input line 3800.
- [70]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 3817--3823
 
  []
@@ -3708,17 +3401,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 4163--4163
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4163--4163
-\T1/phv/m/n/12 Ela-bo-rar un
+\T1/phv/m/n/12 Elab-o-rar un
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4163--4163
-\T1/phv/m/n/12 la ex-po-si-ción
+\T1/phv/m/n/12 la ex-posi-ción
  []
 
 
 Underfull \hbox (badness 4316) in paragraph at lines 4163--4163
-\T1/phv/m/n/12 ca-pí-tu-lo 1 del
+\T1/phv/m/n/12 capí-tu-lo 1 del
  []
 
 
@@ -3737,12 +3430,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4163--4163
 
 
 Underfull \hbox (badness 2582) in paragraph at lines 4163--4163
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al códi-go le
  []
 
 
 Underfull \hbox (badness 2591) in paragraph at lines 4163--4163
-\T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
+\T1/phv/m/n/10.95 fal-ta co-men-tar-ios im-por-
  []
 
 
@@ -3752,12 +3445,18 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4164--4164
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4164--4164
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La vari-ables
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4164--4164
-\T1/phv/m/n/10.95 uti-li-za-das no cum-plen
+\T1/phv/m/n/10.95 uti-lizadas no cumplen
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 4164--4164
+[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Al-gu-nas vari-ables 
+uti-
  []
 
 
@@ -3767,12 +3466,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4165--4165
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4165--4165
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mod-e-lo
  []
 
 
 Underfull \hbox (badness 4582) in paragraph at lines 4165--4165
-\T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
+\T1/phv/m/n/10.95 matemáti-co uti-liza-do no
  []
 
 
@@ -3914,33 +3613,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 4276--4276
-\T1/phv/m/n/12 ño de sim-ples
+Underfull \hbox (badness 2735) in paragraph at lines 4276--4276
+\T1/phv/m/n/12 Anal-i-sis y dis-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
-\T1/phv/m/n/12 pro-ble-mas de
+\T1/phv/m/n/12 prob-le-mas de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
-\T1/phv/m/n/12 ma-te-má-ti-ca y
+\T1/phv/m/n/12 matemáti-ca y
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
-\T1/phv/m/n/12 ló-gi-ca, con-sis-
+\T1/phv/m/n/12 lóg-i-ca, con-sis-
  []
 
 
 Underfull \hbox (badness 2285) in paragraph at lines 4276--4276
-\T1/phv/m/n/12 ten-te en crear
+\T1/phv/m/n/12 tente en crear
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4276--4276
-\T1/phv/m/n/12 dia-gra-mas de
+\T1/phv/m/n/12 di-a-gra-mas de
  []
 
 
@@ -3959,12 +3658,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4276--4276
 
 
 Underfull \hbox (badness 2582) in paragraph at lines 4276--4276
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al códi-go le
  []
 
 
 Underfull \hbox (badness 2591) in paragraph at lines 4276--4276
-\T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
+\T1/phv/m/n/10.95 fal-ta co-men-tar-ios im-por-
  []
 
 
@@ -3974,12 +3673,18 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4277--4277
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4277--4277
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La vari-ables
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4277--4277
-\T1/phv/m/n/10.95 uti-li-za-das no cum-plen
+\T1/phv/m/n/10.95 uti-lizadas no cumplen
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 4277--4277
+[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Al-gu-nas vari-ables 
+uti-
  []
 
 
@@ -3989,12 +3694,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4278--4278
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4278--4278
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mod-e-lo
  []
 
 
 Underfull \hbox (badness 4582) in paragraph at lines 4278--4278
-\T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
+\T1/phv/m/n/10.95 matemáti-co uti-liza-do no
  []
 
 
@@ -4234,22 +3939,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
-\T1/phv/m/n/12 Pro-yec-to fi-nal:
+\T1/phv/m/n/12 Proyec-to fi-nal:
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
-\T1/phv/m/n/12 fun-cio-na-li-da-des
+\T1/phv/m/n/12 fun-cional-i-dades
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
-\T1/phv/m/n/12 in-te-gra-das a
+\T1/phv/m/n/12 in-tegradas a
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
-\T1/phv/m/n/12 tra-vés de un
+\T1/phv/m/n/12 través de un
  []
 
 
@@ -4268,12 +3973,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4534--4534
 
 
 Underfull \hbox (badness 2582) in paragraph at lines 4534--4534
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al có-di-go le
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 Al códi-go le
  []
 
 
 Underfull \hbox (badness 2591) in paragraph at lines 4534--4534
-\T1/phv/m/n/10.95 fal-ta co-men-ta-rios im-por-
+\T1/phv/m/n/10.95 fal-ta co-men-tar-ios im-por-
  []
 
 
@@ -4283,12 +3988,18 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4535--4535
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4535--4535
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La va-ria-bles
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 La vari-ables
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4535--4535
-\T1/phv/m/n/10.95 uti-li-za-das no cum-plen
+\T1/phv/m/n/10.95 uti-lizadas no cumplen
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 4535--4535
+[]|\T1/phv/b/n/12 Bueno\T1/phv/m/n/12 : \T1/phv/m/n/10.95 Al-gu-nas vari-ables 
+uti-
  []
 
 
@@ -4298,12 +4009,12 @@ Overfull \hbox (60.3696pt too wide) in paragraph at lines 4536--4536
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4536--4536
-[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mo-de-lo
+[]|\T1/phv/b/n/12 Deficiente\T1/phv/m/n/12 :\T1/phv/m/n/10.95 El mod-e-lo
  []
 
 
 Underfull \hbox (badness 4582) in paragraph at lines 4536--4536
-\T1/phv/m/n/10.95 ma-te-má-ti-co uti-li-za-do no
+\T1/phv/m/n/10.95 matemáti-co uti-liza-do no
  []
 
 
@@ -4354,7 +4065,12 @@ Overfull \vbox (45.13412pt too high) detected at line 4551
 
 
 Underfull \hbox (badness 2165) in paragraph at lines 4552--4552
-[]\T1/phv/m/n/12 En do-cen-te vi-deo-con-fe-ren-cia re-vi-sa-rá los
+[]\T1/phv/m/n/12 En do-cente video-con-fer-en-cia re-vis-ará los
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 4553--4553
+[]\T1/phv/m/n/12 Los do-cente en video-con-fer-en-cia re-visa
  []
 
 
@@ -4738,29 +4454,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30317 strings out of 478862
- 615976 string characters out of 5858944
- 1683812 words of memory out of 6000000
- 47324 multiletter control sequences out of 15000+600000
+ 30321 strings out of 480806
+ 616045 string characters out of 5905151
+ 1678825 words of memory out of 6000000
+ 47074 multiletter control sequences out of 15000+600000
  460835 words of font info for 90 fonts, out of 8000000 for 9000
- 1137 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  99i,25n,104p,875b,1532s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/lm/lm-rep-cmrm.enc}</usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/lm/lmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvro8a.pfb>
-Output written on GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.pdf (112 pages, 9
-06471 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
+er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on GuiaApre_FundProg_2021-1S_ITI_FrancisStalin.pdf (112 pages, 8
+85301 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
+ 457 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

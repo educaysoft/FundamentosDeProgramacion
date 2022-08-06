@@ -1,0 +1,107 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Dong%
+\ \BBA {} Yang%
+}{%
+Dong%
+\ \BBA {} Yang%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+DongYang+2019}
+\APACinsertmetastar {%
+DongYang+2019}%
+\begin{APACrefauthors}%
+Dong, Y.%
+\BCBT {}\ \BBA {} Yang, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2019}.
+\newblock
+\APACrefbtitle {C++ Programming} {C++ programming}\ (L.~Zheng, \BED{}).
+\newblock
+\APACaddressPublisher{}{De Gruyter}.
+\newblock
+\begin{APACrefURL} [{2022-05-13}]\url{https://doi.org/10.1515/9783110471977}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{doi:10.1515/9783110471977} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Horton%
+}{%
+Horton%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+horton19:_begin_c_game_progr}
+\APACinsertmetastar {%
+horton19:_begin_c_game_progr}%
+\begin{APACrefauthors}%
+Horton, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2019}.
+\newblock
+\APACrefbtitle {Beginning C++ Game Programming: Learn to Program with C++ by
+  Building Fun Games.} {Beginning c++ game programming: Learn to program with
+  c++ by building fun games.}\ (\PrintOrdinal{Second}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Birmingham:Packt}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{ISO/IEC}%
+}{%
+{ISO/IEC}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Cpp17}
+\APACinsertmetastar {%
+Cpp17}%
+\begin{APACrefauthors}%
+{ISO/IEC}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{March}{}.
+\newblock
+\APACrefbtitle {Programming Languages --- C++} {Programming languages --- c++}\
+  \APACbVolEdTR {}{Draft International Standard\ \BNUM\ N4660}.
+\newblock
+\begin{APACrefURL}
+  \url{https://web.archive.org/web/20170325025026/http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4660.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Williams%
+}{%
+Williams%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+williams2019c++}
+\APACinsertmetastar {%
+williams2019c++}%
+\begin{APACrefauthors}%
+Williams, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2019}.
+\newblock
+\APACrefbtitle {C++ Concurrency in Action} {C++ concurrency in action}.
+\newblock
+\APACaddressPublisher{}{Manning Publications}.
+\newblock
+\begin{APACrefURL} \url{https://books.google.com.ec/books?id=PsPItwEACAAJ}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

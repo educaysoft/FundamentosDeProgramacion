@@ -1,0 +1,21 @@
+\documentclass[a4paper,12pt,draft]{scrartcl}
+
+\usepackage{apacite}
+
+\begin{document}
+
+libro1~\cite{6970da11edd844839f0eaa3e385b2569}\\
+libro2~\cite{Cpp17}\\
+libro3~\cite{10.5555/2543987}\\
+libro4~\cite{10.5555/2011949}\\
+libro5~\cite{d8aa0b9dd2224d6aa36d2593daefeae0}
+
+\bibliographystyle{apacite}
+\bibliography{Referencias}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

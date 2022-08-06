@@ -1,0 +1,64 @@
+@techreport{Cpp17,
+  added-at = {2018-02-01T12:31:24.000+0100},
+  author = {{ISO/IEC}},
+  biburl = {https://www.bibsonomy.org/bibtex/27e36ce1307fbcb3fe8ac2b6c9ff2fea0/gron},
+  interhash = {c7296cbed20a319bf09091c6185c85c0},
+  intrahash = {7e36ce1307fbcb3fe8ac2b6c9ff2fea0},
+  keywords = {C++ Standard},
+  month = {March},
+  number = {N4660},
+  timestamp = {2018-02-01T12:31:24.000+0100},
+  title = {Programming Languages --- C++},
+  type = {Draft International Standard},
+  url = {https://web.archive.org/web/20170325025026/http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4660.pdf},
+  year = 2017
+}
+
+
+
+@book{10.5555/2543987,
+author = {Stroustrup, Bjarne},
+title = {The C++ Programming Language},
+year = {2013},
+isbn = {0321563840},
+publisher = {Addison-Wesley Professional},
+edition = {4th},
+abstract = {C++11 has arrived: thoroughly master it, with the definitive new guide from C++ creator Bjarne Stroustrup, C++ Programming Language, Fourth Edition! The brand-new edition of the world's most trusted and widely read guide to C++, it has been comprehensively updated for the long-awaited C++11 standard. Extensively rewritten to present the C++11 language, standard library, and key design techniques as an integrated whole, Stroustrup thoroughly addresses changes that make C++11 feel like a whole new language, offering definitive guidance for leveraging its improvements in performance, reliability, and clarity. C++ programmers around the world recognize Bjarne Stoustrup as the go-to expert for the absolutely authoritative and exceptionally useful information they need to write outstanding C++ programs. Now, as C++11 compilers arrive and development organizations migrate to the new standard, they know exactly where to turn once more: Stoustrup's C++ Programming Language, Fourth Edition.}
+}
+
+@book{10.5555/2011949,
+author = {Deitel, Paul and Deitel, Harvey},
+title = {C++ How to Program},
+year = {2011},
+isbn = {0132662361},
+publisher = {Prentice Hall Press},
+address = {USA},
+edition = {8th},
+abstract = {For Introduction to Programming (CS1) and other more intermediate courses covering programming in C++. Also appropriate as a supplement for upper-level courses where the instructor uses a book as a reference for the C++ language. This best-selling comprehensive text is aimed at readers with little or no programming experience. It teaches programming by presenting the concepts in the context of full working programs and takes an early-objects approach. The authors emphasize achieving program clarity through structured and object-oriented programming, software reuse and component-oriented software construction. The Eighth Edition encourages students to connect computers to the community, using the Internet to solve problems and make a difference in our world. All content has been carefully fine-tuned in response to a team of distinguished academic and industry reviewers. }
+}
+
+  
+
+@book{d8aa0b9dd2224d6aa36d2593daefeae0,
+title = "Audio Programming in C and C++",
+author = "E. Lyon",
+year = "2006",
+language = "English",
+publisher = "MIT Press",
+address = "United States",
+
+}
+
+
+
+@book{6970da11edd844839f0eaa3e385b2569,
+title = "The fundamentals of C/C++ game development: using target based development on SBC's",
+keywords = "Programming C/C++ Raspberry",
+author = "BM Beuken",
+year = "2018",
+language = "English",
+isbn = "9780815355274",
+publisher = "Routledge",
+address = "United Kingdom",
+
+}

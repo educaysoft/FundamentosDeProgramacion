@@ -1,3 +1,0 @@
-Este proyecto comprende el análisis, diseño y codificación de un programa en C++ 
-que permita sumar N número dados por el usuario,
-Al fina presentara cuantos número fueron ingresados y cual fue el total de la suma
