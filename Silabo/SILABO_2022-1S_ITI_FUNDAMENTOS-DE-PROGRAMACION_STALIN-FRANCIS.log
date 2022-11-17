@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.4.26)  14 SEP 2022 11:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.4.26)  4 OCT 2022 22:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex
-(./SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex
+**SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex
+(./SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -464,13 +464,13 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box61
 )
-(./SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux
+(./SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 )
-\openout1 = `SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux'
+\openout1 = `SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux'
 .
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1116.
@@ -518,14 +518,14 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
 * v-part:(T,H,B)=(101.40665pt, 686.7347pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
+* \textwidth=512.14963pt
 * \textheight=686.7347pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
 * \topmargin=-19.23293pt
 * \headheight=42.67912pt
 * \headsep=5.69046pt
@@ -562,9 +562,32 @@ File: images//logo_utelvte.png Graphic file (type png)
 <use images//logo_utelvte.png>
 Package pdftex.def Info: images//logo_utelvte.png  used on input line 1134.
 (pdftex.def)             Requested size: 124.78398pt x 125.10518pt.
+
+./SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex:1134: Missi
+ng { inserted.
+<to be read again> 
+                   U
+l.1134 }
+        
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.tex:1134: Missi
+ng } inserted.
+<inserted text> 
+                }
+l.1134 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 113
 4.
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -574,11 +597,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 113
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (49.65627pt too wide) in paragraph at lines 1134--1157
-[][]  [][][]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1134--1157
 
  []
@@ -587,13 +605,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 1134--1157
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images//lo
 go_utelvte.png>]
-Underfull \hbox (badness 1603) in paragraph at lines 1186--1186
-[]|\T1/phv/m/n/12 Magister en Cien-cias de la Com-
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1173
+[]|\T1/phv/m/n/12 Correquisitos:Física, Análi-sis
  []
 
 
-Overfull \hbox (7.00389pt too wide) in paragraph at lines 1168--1191
+Underfull \hbox (badness 2269) in paragraph at lines 1176--1176
+[]|\T1/phv/m/n/12 Fin pe-ri-o-do académi-co: Di-ciem-bre
+ []
+
+
+Overfull \hbox (0.99265pt too wide) in paragraph at lines 1168--1183
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
+
  []
 
 
@@ -601,50 +629,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
 
  []
 
-LaTeX Info: Redefining \. on input line 1195.
-LaTeX Info: Redefining \% on input line 1195.
+LaTeX Info: Redefining \. on input line 1204.
+LaTeX Info: Redefining \% on input line 1204.
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
-
- []
-
-LaTeX Info: Redefining \. on input line 1216.
-LaTeX Info: Redefining \% on input line 1216.
-[2]
-Overfull \hbox (1.10951pt too wide) in paragraph at lines 1241--1241
+LaTeX Info: Redefining \. on input line 1213.
+LaTeX Info: Redefining \% on input line 1213.
+ [2]
+Overfull \hbox (1.10951pt too wide) in paragraph at lines 1238--1238
 []|[]| 
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 1247--1247
+Overfull \vbox (15.75pt too high) detected at line 1243
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 1243--1243
 []|\T1/phv/m/n/12 Introducción a las com-puta-do-ras y los
  []
 
 
-Overfull \hbox (0.64082pt too wide) in paragraph at lines 1249--1249
+Overfull \vbox (15.75pt too high) detected at line 1253
+ []
+
+
+Overfull \hbox (0.64082pt too wide) in paragraph at lines 1253--1253
 []|[]| 
  []
 
 
-Overfull \hbox (0.64082pt too wide) in paragraph at lines 1260--1260
+Overfull \vbox (15.75pt too high) detected at line 1258
+ []
+
+
+Overfull \hbox (0.64082pt too wide) in paragraph at lines 1258--1258
 []|[]| 
  []
 
 
-Overfull \hbox (0.64082pt too wide) in paragraph at lines 1265--1265
-[]|[]| 
- []
-
-
-Overfull \hbox (33.6136pt too wide) in paragraph at lines 1239--1276
+Overfull \hbox (5.16084pt too wide) in paragraph at lines 1236--1271
 [][] 
  []
 
-LaTeX Info: Redefining \. on input line 1278.
-LaTeX Info: Redefining \% on input line 1278.
+LaTeX Info: Redefining \. on input line 1273.
+LaTeX Info: Redefining \% on input line 1273.
 [3]
-LaTeX Info: Redefining \. on input line 1281.
-LaTeX Info: Redefining \% on input line 1281.
+LaTeX Info: Redefining \. on input line 1276.
+LaTeX Info: Redefining \% on input line 1276.
  [4]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -679,387 +710,401 @@ LaTeX Info: Redefining \% on input line 1281.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
+Underfull \hbox (badness 10000) in paragraph at lines 1321--1322
 []\T1/phv/m/n/12 Se toma una prue-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 1326--1327
+Underfull \hbox (badness 4673) in paragraph at lines 1321--1322
 \T1/phv/m/n/12 ba de di-ag-nós-ti-co de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
+Underfull \hbox (badness 10000) in paragraph at lines 1321--1322
 \T1/phv/m/n/12 conocimien-tos pre-vios
  []
 
-LaTeX Info: Redefining \. on input line 1337.
-LaTeX Info: Redefining \% on input line 1337.
+LaTeX Info: Redefining \. on input line 1332.
+LaTeX Info: Redefining \% on input line 1332.
 [5
 
 ]
-Underfull \hbox (badness 1082) in paragraph at lines 1370--1371
+
+LaTeX Warning: Citation `Arquiecturapc2' undefined on input line 1356.
+
+
+LaTeX Warning: Citation `Francis2020' undefined on input line 1360.
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1365--1366
 \T1/phv/m/n/12 de dis-pos-i-ti-vas co-mo her-ramien-ta de
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1381--1382
+Underfull \hbox (badness 3646) in paragraph at lines 1376--1377
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1382
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1381--1382
+Underfull \hbox (badness 4120) in paragraph at lines 1376--1377
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Overfull \hbox (8.27621pt too wide) in paragraph at lines 1385--1386
+Overfull \hbox (8.27621pt too wide) in paragraph at lines 1380--1381
 [][][][][][][] 
  []
 
 
 Overfull \vbox (21.68155pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1394.
-LaTeX Info: Redefining \% on input line 1394.
+LaTeX Info: Redefining \. on input line 1389.
+LaTeX Info: Redefining \% on input line 1389.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+
+LaTeX Warning: Citation `cobbaut15:_linux_fundam' undefined on input line 1415.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1432--1433
 
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 1439--1440
+Underfull \hbox (badness 2495) in paragraph at lines 1434--1435
 \T1/phv/m/n/12 en Ter-mux, creación de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
+Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
 \T1/phv/b/n/12 Teller3\T1/phv/m/n/12 : Ma-nip-u-lación
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
+Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
 \T1/phv/m/n/12 de archivos con vim
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1441--1442
+Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
 
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 1443--1444
+Underfull \hbox (badness 1824) in paragraph at lines 1438--1439
 []\T1/phv/b/n/12 Taller4\T1/phv/m/n/12 : Ma-nip-u-lación de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1443--1444
+Underfull \hbox (badness 10000) in paragraph at lines 1438--1439
 
  []
 
 
 Overfull \vbox (0.13951pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1451.
-LaTeX Info: Redefining \% on input line 1451.
+LaTeX Info: Redefining \. on input line 1446.
+LaTeX Info: Redefining \% on input line 1446.
 
 [7]
-Underfull \hbox (badness 2253) in paragraph at lines 1480--1481
+Underfull \hbox (badness 2253) in paragraph at lines 1475--1476
 []\T1/phv/m/n/12 Mediante \T1/phv/m/sc/12 La clase in-ver-ti-da\T1/phv/m/n/12 ,
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1481--1482
+Underfull \hbox (badness 10000) in paragraph at lines 1476--1477
 []\T1/phv/m/n/12 Aplicando \T1/phv/m/sc/12 pre-gun-tas y re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1481--1482
+Underfull \hbox (badness 10000) in paragraph at lines 1476--1477
 \T1/phv/m/n/12 que los es-tu-di-antes lo es-ten
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1493--1495
+Underfull \hbox (badness 3646) in paragraph at lines 1488--1490
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1493--1495
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1490
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1493--1495
+Underfull \hbox (badness 4120) in paragraph at lines 1488--1490
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1496.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1491.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1496--1496
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1491
 []\T1/phv/b/n/12 Actividad C1\T1/phv/m/n/12 :\T1/phv/m/sl/12 Análisis y
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1496--1496
+Underfull \hbox (badness 1629) in paragraph at lines 1491--1491
 \T1/phv/m/sl/12 Dis-eño de sim-ples prob-
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 1496--1496
+Underfull \hbox (badness 4441) in paragraph at lines 1491--1491
 \T1/phv/m/sl/12 le-mas de mátemáti-ca y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1496--1496
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1491
 \T1/phv/m/sl/12 lóg-i-cas\T1/phv/m/n/12 ; con-si-tente en
  []
 
 
-Overfull \hbox (8.27621pt too wide) in paragraph at lines 1496--1497
+Overfull \hbox (8.27621pt too wide) in paragraph at lines 1491--1492
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1492
 
  []
 
 
 Overfull \vbox (43.77516pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1504.
-LaTeX Info: Redefining \% on input line 1504.
+LaTeX Info: Redefining \. on input line 1499.
+LaTeX Info: Redefining \% on input line 1499.
 
 [8]
-Underfull \hbox (badness 4726) in paragraph at lines 1553--1553
+
+LaTeX Warning: Citation `sierra98' undefined on input line 1528.
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 1548--1548
 []\T1/phv/b/n/12 Actividad A1: \T1/phv/m/sc/12 Avances
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 1553--1553
+Underfull \hbox (badness 1708) in paragraph at lines 1548--1548
 \T1/phv/m/sc/12 de proyec-to: \T1/phv/m/n/12 Di-a-gra-ma
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 1551--1554
+Underfull \hbox (badness 2393) in paragraph at lines 1546--1549
 \T1/phv/m/n/12 o-ra un pro-gra-ma donde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1551--1554
+Underfull \hbox (badness 10000) in paragraph at lines 1546--1549
 
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1551--1554
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1546--1549
 [][][][][][]\T1/phv/m/n/12 . 
  []
 
 
 Overfull \vbox (8.42613pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1565.
-LaTeX Info: Redefining \% on input line 1565.
+LaTeX Info: Redefining \. on input line 1560.
+LaTeX Info: Redefining \% on input line 1560.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
 []\T1/phv/m/n/12 Aprendizaje basa-do en
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1601--1603
+Underfull \hbox (badness 3646) in paragraph at lines 1596--1598
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1601--1603
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1598
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1601--1603
+Underfull \hbox (badness 4120) in paragraph at lines 1596--1598
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 1604--1604
+Underfull \hbox (badness 1960) in paragraph at lines 1599--1599
 \T1/phv/m/n/12 ac-tivos utilzian-do la her-
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 1604--1604
+Underfull \hbox (badness 4940) in paragraph at lines 1599--1599
 \T1/phv/m/n/12 ramien-to For-mu-la-rios de
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1604--1605
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1599--1600
 [][][][][][][]\T1/phv/m/n/12 . 
  []
 
 
 Overfull \vbox (3.52351pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1616.
-LaTeX Info: Redefining \% on input line 1616.
+LaTeX Info: Redefining \. on input line 1611.
+LaTeX Info: Redefining \% on input line 1611.
 
 [10]
-Underfull \hbox (badness 3646) in paragraph at lines 1653--1655
+Underfull \hbox (badness 3646) in paragraph at lines 1648--1650
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1653--1655
+Underfull \hbox (badness 10000) in paragraph at lines 1648--1650
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1653--1655
+Underfull \hbox (badness 4120) in paragraph at lines 1648--1650
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 1656--1656
+Underfull \hbox (badness 2269) in paragraph at lines 1651--1651
 \T1/phv/m/sc/12 menu in-te-grador\T1/phv/m/n/12 ; este
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 1656--1656
+Underfull \hbox (badness 2150) in paragraph at lines 1651--1651
 \T1/phv/m/n/12 mostrará y eje-cu-tará los
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 1656--1656
+Underfull \hbox (badness 7667) in paragraph at lines 1651--1651
 \T1/phv/m/n/12 pro-gra-mas de los in-te-
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1656--1659
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1651--1654
 [][][][][][][]\T1/phv/m/n/12 .
  []
 
-LaTeX Info: Redefining \. on input line 1669.
-LaTeX Info: Redefining \% on input line 1669.
+LaTeX Info: Redefining \. on input line 1664.
+LaTeX Info: Redefining \% on input line 1664.
 [11]
-Underfull \hbox (badness 3646) in paragraph at lines 1708--1710
+
+LaTeX Warning: Citation `aguilar2008' undefined on input line 1687.
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 1703--1705
 []\T1/phv/b/n/12 PREGUNTAS PARA EL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1708--1710
+Underfull \hbox (badness 10000) in paragraph at lines 1703--1705
 \T1/phv/m/n/12 elab-o-radas en Google
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 1708--1710
+Underfull \hbox (badness 4120) in paragraph at lines 1703--1705
 \T1/phv/m/n/12 Form y ser-an en-vi-adas
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 1712--1712
+Underfull \hbox (badness 3942) in paragraph at lines 1707--1707
 \T1/phv/m/sc/12 fi-nal In-te-grador \T1/phv/m/n/12 ; El
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 1712--1712
+Underfull \hbox (badness 1122) in paragraph at lines 1707--1707
 \T1/phv/m/n/12 pro-gra-ma de la ac-tivi-dad
  []
 
 
-Overfull \hbox (11.61209pt too wide) in paragraph at lines 1712--1715
+Overfull \hbox (11.61209pt too wide) in paragraph at lines 1707--1710
 [][][][][][][]\T1/phv/m/n/12 .
  []
 
-LaTeX Info: Redefining \. on input line 1723.
-LaTeX Info: Redefining \% on input line 1723.
+LaTeX Info: Redefining \. on input line 1718.
+LaTeX Info: Redefining \% on input line 1718.
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1732--1732
+Underfull \hbox (badness 10000) in paragraph at lines 1727--1727
 []|\T1/phv/m/n/12 RESULTADO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1732--1732
+Underfull \hbox (badness 10000) in paragraph at lines 1727--1727
 \T1/phv/m/n/12 DEL APREN-
  []
 
 
 Overfull \vbox (22.1375pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1766.
-LaTeX Info: Redefining \% on input line 1766.
+LaTeX Info: Redefining \. on input line 1761.
+LaTeX Info: Redefining \% on input line 1761.
 
 [13]
-LaTeX Info: Redefining \. on input line 1813.
-LaTeX Info: Redefining \% on input line 1813.
+LaTeX Info: Redefining \. on input line 1808.
+LaTeX Info: Redefining \% on input line 1808.
  [14
 
 ]
-Overfull \hbox (4.41954pt too wide) in paragraph at lines 1836--1836
+Overfull \hbox (4.41954pt too wide) in paragraph at lines 1831--1831
 []|\T1/phv/m/n/12 EVALUACION| 
  []
 
-(./SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.bbl
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
- [15])
-LaTeX Info: Redefining \. on input line 1858.
-LaTeX Info: Redefining \% on input line 1858.
+(./SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.bbl
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 1862--1865
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+LaTeX Info: Redefining \. on input line 1853.
+LaTeX Info: Redefining \% on input line 1853.
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 1857--1860
 
  []
 
 
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 1870--1874
- [] 
- []
-
-
-Overfull \hbox (11.23555pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (11.23555pt too wide) in paragraph at lines 1877--1877
 |[] []
  []
 
-
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 1879--1884
- [] 
- []
-
+LaTeX Info: Redefining \. on input line 1926.
+LaTeX Info: Redefining \% on input line 1926.
+[16]
 LaTeX Info: Redefining \. on input line 1931.
 LaTeX Info: Redefining \% on input line 1931.
-[17]
-LaTeX Info: Redefining \. on input line 1936.
-LaTeX Info: Redefining \% on input line 1936.
- [18] (./SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux
+ [17] (./SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
-) )
+)
+
+LaTeX Warning: There were undefined references.
+
+ )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 1283 (\begingroup)
+### semi simple group (level 1) entered at line 1278 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9015 strings out of 480806
- 129147 string characters out of 5905151
- 526644 words of memory out of 6000000
- 26195 multiletter control sequences out of 15000+600000
- 451113 words of font info for 87 fonts, out of 8000000 for 9000
+ 9005 strings out of 480806
+ 128988 string characters out of 5905151
+ 509575 words of memory out of 6000000
+ 26186 multiletter control sequences out of 15000+600000
+ 445945 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,19n,76p,582b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,76p,582b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1069,11 +1114,11 @@ dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
 vetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.
 pfb>
-Output written on SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS
-.pdf (19 pages, 177468 bytes).
+Output written on SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS
+.pdf (18 pages, 173931 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

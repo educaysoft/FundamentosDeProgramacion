@@ -1,0 +1,1936 @@
+\documentclass[a4paper,12pt,spanish]{article}
+\usepackage{colortbl}
+\usepackage[dvipsnames,table]{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[headsep=0.2cm,headheight=1.5cm,left=1.5cm,right=1.5cm,bottom=2cm]{geometry}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{tgbonum}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage{lscape}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+\usepackage{apacite}
+\usepackage{tabularx,booktabs}
+\usepackage{arydshln}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem} 
+\usepackage{amsfonts}
+\usepackage{hhline}
+
+\usepackage{amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+
+
+
+%Para mostar checkmark en itemiza
+\setlist[itemize,1]{label=$\times$}
+\setlist[itemize,2]{label=$\checkmark$}
+\setlist[itemize,3]{label=$\diamond$}
+\setlist[itemize,4]{label=$\bullet$}
+
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+
+
+\renewcommand{\baselinestretch}{1.5}  % interlineado
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{12}\selectfont}
+\subsectionfont{\fontsize{12}{12}\selectfont}
+
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[L]{UTLVTE 2022-IS}
+
+\usepackage{etoolbox}
+% Para lanscape
+
+\makeatletter
+\def\ifGm@preamble#1{\@firstofone}
+\appto\restoregeometry{%
+\pdfpagewidth=\paperwidth%
+\pdfpageheight=\paperheight
+\headwidth=\textwidth
+
+}
+\apptocmd\newgeometry{%
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\headwidth=\textwidth
+}{}{}
+\makeatother
+
+
+\definecolor{unidad0}{rgb}{0.8,0.58,0.46}
+\definecolor{unidad1}{rgb}{0.6,0.4,0.8}
+\definecolor{unidad2}{rgb}{0.91,0.84,0.42}
+\definecolor{unidad3}{rgb}{0.0,0.2,0.3}
+\definecolor{unidad4}{rgb}{1.0,0.55,0.0}
+\definecolor{unidad5}{rgb}{0.5,1.0,0.0}
+\definecolor{unidad6}{rgb}{1.0,0.22,0.0}
+\definecolor{unidad7}{rgb}{1.0,0.94,0.0}
+
+
+
+\newcommand{\semanaAA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 1 - (01-junio-2020)}}    \\
+                             Presentación del docente y de los estudiantes. &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item Palabras de bienvenidad del docente.
+      \item Presentación de los estudiantes.
+      \item Análisis del silabo y metodología de trabajo.
+  \end{itemize}
+  \end{tabular}
+}
+
+%-----------------------------------------------------------------
+\newcommand{\semanaAB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 2(03-junioo-2020)}}    \\
+                            Presentación de la asignatura y uso de la  plataforma ClassRoom.  &
+
+      \begin{itemize}[label={$\checkmark$}]
+    
+      \item El docente explica  como los estudiantes deben configurar y utilizar la plataforma  ClassRoom.
+        
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaAC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+   \multicolumn{2}{c}{\textbf{SESIÓN 3 - (03-junio-2020)}}    \\
+           \makecell[l]{ \textsc{Introducción a las computadoras.} \\ \cite[cap.1]{aguilar2008} \\ \cite[cap. 1]{Francis2020} \\ \cite{HistoriaOrdenador}} &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Docente dicta una charla magistral del tema.
+      \item Test de diagnóstico de conocimiento previos.
+             \item \fbox{se envia la  {\Large\textbf{Actividad B1}}}
+   
+  \end{itemize}
+  \end{tabular}
+}
+
+%====================SEMANA 2==================================================
+
+\newcommand{\semanaBA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+   \multicolumn{2}{c}{\textbf{SESIÓN 4 - (08-junioo-2020)}}      \\
+            \makecell[l]{\textsc{Arquitectura del computador.} \\ \cite[cap.1]{aguilar2008} \\ \cite[cap. 1]{Francis2020} \\ \cite{Arquiecturapc1} \\ \cite{Arquiecturapc2}} &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente en una videoconferencia refuerza el tema.
+      \item Evaluación sobre la Tarea B1.
+  \end{itemize}
+  \end{tabular}
+}
+
+%-----------------------------------------------------------------
+\newcommand{\semanaBB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+  \multicolumn{2}{c}{\textbf{SESIÓN 5 - (10-junioo-2020)}}    \\
+        \makecell[l]{\textsc{Sistema de numeración.} \\ \cite[cap.1]{aguilar2008} \\ \cite[cap. 1]{Francis2020}}  &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente explicará los diferentes sistemas de numeración.
+      \item Evaluación  arquitectura del computador.
+        
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaBC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 6 - (12-junioo-2020)}}    \\
+          \makecell[l]{\textsc{Los lenguajes de programación.} \\ \cite[cap.1]{aguilar2008} \\ \cite[cap. 1]{Francis2020}} &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente en videoconferencia explicará sobre los diferentes lenguajes de programación.
+      \item Evaluación de los sistemas de numeración.
+        
+  \end{itemize}
+  \end{tabular}
+}
+
+%====================SEMANA 3  C==================================================
+
+
+\newcommand{\semanaCA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 7 - (15-junio-2020)}}    \\
+           Introducción a Linux y termux. &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente en una videoconferencia explicará conceptos básicos del Software Libre y el programa Termux para android.
+      \item Evaluación sobre lo aprendido la clase anterior.
+  \end{itemize}
+  \end{tabular}
+}
+
+%-----------------------------------------------------------------
+\newcommand{\semanaCB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 8 - (17-junio-2020)}}    \\
+                       Paquetes de Lunux: ejecicios prácticos(lang,vim,tree).  &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item Los estudiantes instalarán y configurarán los paquetes necesarios para trabajar en Termux.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaCC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 9 - (19-junio-2020)}}    \\
+             Taller de uso de comando de termux. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los estudiantes empiezan a elaborar informe sobre uso de termux y sus comandos.
+        \item \fbox{se califica la  {\Large\textbf{Actividad B1}}}
+
+        
+  \end{itemize}
+  \end{tabular}
+}
+
+%====================SEMANA 4  D==================================================
+
+
+\newcommand{\semanaDA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 10 - (22-junio-2020)}}    \\
+           Introducción a Vim y sus comandos. &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item En videoconferencia explicará sobre entornos de desarrollo aterrizando en Vim.
+      \item Evaluación sobre lo aprendido.
+  \end{itemize}
+  \end{tabular}
+}
+
+%-----------------------------------------------------------------
+\newcommand{\semanaDB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 11 - (24-junio-2020)}}    \\
+                       Ejecicios prácticos con Vim ( directorios y archivo) .  &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item Los estudiantes crearan y navegaran  directorios y subdirectorios.
+      \item Los estudiantes crearan y editaran archivos con Vim.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaDC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 12 - (26-junio-2020)}}    \\
+             Taller sobre Vim. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los estudiantes comenzan a elaborar un informa sobre el uso de Vim.
+
+         \item \fbox{se envia la  {\Large\textbf{Actividad C1}}}
+       
+  \end{itemize}
+  \end{tabular}
+}
+
+%====================SEMANA 5  E==================================================
+
+
+\newcommand{\semanaEA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 13 - (29-junio-2020)}}    \\
+           Introducción a la programación. &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente en una videoconferencia explicará sobre el ciclo de vida del software.
+      \item Se creara el programa de hola mundo(edición y copilacion) .
+  \end{itemize}
+  \end{tabular}
+}
+
+%-----------------------------------------------------------------
+\newcommand{\semanaEB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 14 - (01-julio-2020)}}    \\
+                       Taller de introducción a la  programación  .  &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item Los estudiantes editaran y compilarar el programa de +,-,*,/.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaEC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 15 - (03-julio-2020)}}    \\
+             Taller sobre introducción a la programación. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los estudiantes comenzan a elaborar un informa sobre la práctica.
+
+           \item \fbox{se califica la  {\Large\textbf{Actividad C1}}}
+         \item \fbox{se envia la  {\Large\textbf{Actividad A1}}}
+     
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+%====================SEMANA 6  F==================================================
+
+
+\newcommand{\semanaFA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 16 - (06-julio-2020)}}    \\
+           Ciclo de vida del software y Diagrama de Flujo. &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente explicará los elementos para el diagrama de flujo, con los programas de \textbf{suma}, \textbf{resta, multiplicación y división}.
+  \end{itemize}
+  \end{tabular}
+}
+
+%-----------------------------------------------------------------
+\newcommand{\semanaFB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 17 - (08-julio-2020)}}    \\
+
+    Ciclo de vida del software y Diagrama de Flujo .  &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente explicará los elementos de descisión con el programa de 'El número mayor ', 'La resta con resultado positivo'.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaFC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+   \multicolumn{2}{c}{\textbf{ SESIÓN 18 - (10-julio-2020)}}    \\
+             Taller de Diagrama de Flujo. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los estudiantes comienzan a elaborar un informa sobre las prácticas  Digrama de Flujo.
+
+        
+  \end{itemize}
+  \end{tabular}
+}
+
+
+%====================SEMANA 7  G==================================================
+
+
+\newcommand{\semanaGA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 19 - (13-julio-2020)}}    \\
+           Diagrama de Flujo(Desciones). &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente explicará las figura de descisión con los diagrama de flujo de las operaciones ``El mayor de 3 número'', ``El calculo de la edad''.
+  \end{itemize}
+  \end{tabular}
+}
+
+%-----------------------------------------------------------------
+\newcommand{\semanaGB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 20 - (15-julio-2020)}}    \\
+
+     Diagrama de Flujo (Estructura repetiva) .  &
+
+      \begin{itemize}[label={$\checkmark$}]
+      \item Suma de varios número, Facturación de varios artículos, Cuenta monegas, El más alto del curso.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaGC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 21 - (17-julio-2020)}}    \\
+             Taller de Diagrama de Flujo. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los estudiantes comenzan a elaborar un informa sobre las prácticas  Digrama de Flujo.         \item \fbox{se califica la  {\Large\textbf{Actividad A1}}}
+
+        
+  \end{itemize}
+  \end{tabular}
+}
+
+%====================SEMANA 8  H==================================================
+\newcommand{\semanaHA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \textcolor{ForestGreen}{\textbf{SESIÓN 22 - (20-julio-2020)}}  & SESIÓN 22    \\
+    Examen Primer Hemisemestre. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente elabora y envia el formulario para tomar el examen del primer hemesemestre.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaHB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \textcolor{ForestGreen}{\textbf{SESIÓN 23 - (22-julio-2020)}}  & SESIÓN 23    \\
+     Examen del primer Hemisemestre.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente elabora y envia el formulario para tomar el examen del primer hemesemestre.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaHC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \textcolor{ForestGreen}{\textbf{SESIÓN 24 - (24-julio-2020)}}      \\
+            Examen del primer Hemisemestre. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente elabora y envia el formulario para tomar el examen del primer hemesemestre.
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+
+
+%====================SEMANA 9  I==================================================
+\newcommand{\semanaIA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+   \multicolumn{2}{c}{\textbf{ SESIÓN 25 - (31-agosto-2020)}}    \\
+    Estructura básica del un programa en C++. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente en videoconferencia explicará la estructura básica de un programa en c++ y su función principal con el programa \textbf{Hola Mundo} y  \textbf{Suma de Dos números}.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaIB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 26 - (02-septiembre-2020)}}    \\
+     Tipo de datos y declaración de variables.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item En videoconferencia el tema con el programa  \textbf{Operaciones matemáticas}.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaIC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 27 - (04-septiembre-2020)}}    \\
+             Taller en C++. &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  Los estudiantes elaborarar u informe con sobre el programas de \textbf{Factuación simple}.
+     \item \fbox{se envía la {\Large\textbf{Actividad B2}}}
+     \item \fbox{se califica la {\Large\textbf{Actividad B2}}}
+
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+
+%====================SEMANA 10  J==================================================
+\newcommand{\semanaJA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 28 - (07-septiembre-2020)}}    \\
+    Estructura de selección (if-else) en C++. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  En videoconferencia se explicará el tema con los programa \textbf{El mayor de dos números},  \textbf{Resta de con saldos negativos} y \textbf{El vehiculo más veloz}.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaJB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 29 - (09-septiembre-2020)}}    \\
+     Estructura de selección (if-else) en C++.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  En videoconferencia se explica los programas  \textbf{El mayor de 3 números}, \textbf{Calculo de la edad } y \textbf{Contador de  monedas}.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaJC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 30 - (11-septiembre-2020)}}    \\
+             Taller en C++. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los estudiantes elaborarán un informe con los programas de \textbf{Clasificación de monedas}.
+     \item \fbox{se envía la {\Large\textbf{Actividad C2}}}
+
+     \end{itemize}
+  \end{tabular}
+}
+
+
+%====================SEMANA 11  K==================================================
+\newcommand{\semanaKA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 31 - (14-septiembre-2020)}}    \\
+    Estructura de Repetición (do-while) en C++. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente en videoconferencia explicará la estructura de selección  en c++ y su función principal con el programa \textbf{Suma de varios números},  \textbf{El estudiante más altos}.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaKB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 32 - (16-septiembre-2020)}}    \\
+     Estructura de Repetición (do-while) en C++.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  En videoconferencia se explica los programas  \textbf{Contador de monedas}, \textbf{Tabla de multiplicar }.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaKC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 33 - (18-septiembre-2020)}}    \\
+             Taller en C++. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los estudiantes comenzaran a elaborar un informe con los programas de \textbf{Facturación de varios articulos ingresado por teclado}.
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+%====================SEMANA 12  L==================================================
+\newcommand{\semanaLA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 34 - (21-septiembre-2020)}}    \\
+     Proyecto Final integrador. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente en videoconferencia explicará de forma detallada los lineamiento a seguir para hacer y presentar el proyecto final.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaLB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 35 - (23-septiembre-2020)}}    \\
+      Plantilla de menu integrador.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  En videoconferencia se explica una plantilla para crer el menu integrador del proyecto final.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaLC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 36 - (25-septiembre-2020)}}    \\
+            Taller en tema proyecto final  C++. &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  Los docente en videoconferencia explicara un problema de Matemática, Física y Estadística.
+             \item \fbox{se envía la {\Large\textbf{Actividad A2}}}
+
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+
+
+
+%====================SEMANA 13  M==================================================
+\newcommand{\semanaMA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 37 - (28-septiembre-2020)}}    \\
+      Revisión de Avances Grupo A,B,C. &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  El docente en videoconferencia revisará los avances de algunos grupos de estudiantes.
+        \item \fbox{se califica la {\Large\textbf{Actividad C2}}}
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaMB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 38 - (30-septiembre-2020)}}   \\
+      Revisión de Avance grupo D,E,F.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  En docente videoconferencia revisará los avances de otro grupo de estudiante.
+        \item \fbox{se califica la {\Large\textbf{Actividad C2}}}
+
+      \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaMC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 39 - (02-octubre-2020)}}    \\
+            Revisión de Avances G,H, I. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los docente en videoconferencia revisa avances de otro grupos de estudiantes.
+        \item \fbox{se califica la {\Large\textbf{Actividad C2}}}
+
+     \end{itemize}
+  \end{tabular}
+}
+
+
+%====================SEMANA 14  N==================================================
+\newcommand{\semanaNA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 40 - (05-octubre-2020)}}    \\
+      Funciones, Librerias y Clases &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente en videoconferencia explicará que son y como funcionan las Funciones, Librerias y la Clases.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaNB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 41 - (07-octubre-2020)}}    \\
+      Programa de Funciones y Libreria Operaciones básicas  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  En docente videoconferencia explicara el progra de las operacioens básicas utilizando funcioens y librerias.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaNC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 42 - (09-octubre-2020)}}    \\
+            Programa con clases llamada persona &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  Los docente en videoconferencia explicará el programa que maneja una clase llamada persona y su aplicación.
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+
+
+%====================SEMANA 15  O==================================================
+\newcommand{\semanaOA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 43 - (12-octubre-2020)}}    \\
+      Revisión de Avances Grupo A,B,C. &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  El docente en videoconferencia revisará los avances de algunos grupos de estudiantes.
+      \item {\Large\textbf{Actividad A2}}
+
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaOB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 44 - (14-octrubre-2020)}}    \\
+      Revisión de Avance grupo D,E,F.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  EL docente en videoconferencia revisará el proyecto final de los grupos D,E,F y asignara la calificación.
+     \item {\Large\textbf{Actividad A2}}
+
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaOC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \multicolumn{2}{c}{\textbf{SESIÓN 45 - (16-octubre-2020)}}    \\
+            Revisión de Avances G,H, I. &
+      \begin{itemize}[label={$\checkmark$}]
+      \item  En videoconferencia se revisa  proyecto final al grupo G,H,I y asigna la calificación.
+      \item {\Large\textbf{Actividad A2}}
+     
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+
+
+
+
+%====================SEMANA 16  P==================================================
+\newcommand{\semanaPA}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \textcolor{ForestGreen}{\textbf{SESIÓN 46 - (19-octubre-2020)}}  & SESIÓN 46    \\
+    Examen 2do Hemisemestre. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente elabora y envia el formulario para tomar el examen del 2do hemesemestre.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaPB}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \textcolor{ForestGreen}{\textbf{SESIÓN 47 - (21-octubre-2020)}}  & SESIÓN 47    \\
+     Examen del 2dor Hemisemestre.  &
+      \begin{itemize}[label={$\checkmark$}]
+      \item El docente elabora y envia el formulario para tomar el examen del 2do hemesemestre.
+  \end{itemize}
+  \end{tabular}
+}
+%-----------------------------------------------------------------
+\newcommand{\semanaPC}{
+  \begin{tabular}[H]{m{9.5cm}|m{9.5cm}}
+    \textcolor{ForestGreen}{\textbf{SESIÓN 48 - (23-octubre-2020)}}  & SESIÓN 48    \\
+            Examen del 2do Hemisemestre. &
+      \begin{itemize}[label={$\checkmark$}]
+     \item  El docente elabora y envia el formulario para tomar el examen del 2do hemesemestre.
+  \end{itemize}
+  \end{tabular}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+%Resultado de aprendizaje de la Unidad 1
+\newcommand{\ResuApreA}{El estudiante podrá identificar las diferentes partes constitutivas de un ordenar e imaginar cual es su funcionamiento en el momento que entre en ejecución un programas.}
+%Resultado de aprendizaje de la Unidad 1
+\newcommand{\ResuApreB}{El estudiante tendrá los conocimiento, habilidades y destrezas para utilizar el sistema opertavo Android de su Smartphone para programar en C++.}
+% Resultado de aprendizaje de la Unidad 2
+\newcommand{\ResuApreC}{El estudiante podrá analizar un problema matemático para diseñarlo utilizando los diagrama de flujo.}
+% Resultado de aprendizaje de la Unidad 2
+\newcommand{\ResuApreD}{El estudiante tendrá los conocimiento, habilidades y destrezas para crear un conjunto de instrucciones en C++ bien estructurada.}
+
+% Resultado de aprendizaje de la Unidad 3
+\newcommand{\ResuApreE}{El estudiante podrá analizar un problema matemático y lógico para  diseñarlo utilizando estructura de selección en los diagramas de flujo.}
+
+% Resultado de aprendizaje de la Unidad 3
+\newcommand{\ResuApreF}{El estudiante podrá analizar un problema matemático y lógico para  diseñarlo utilizando estructura de repetición en los diagrama de flujo.}
+
+% Resultado de aprendizaje de la Unidad 4
+\newcommand{\ResuApreG}{El estudiante podrá crear un programa utilizando funciones almacenadas en librerias personales.}
+
+
+
+
+% =================================================================================
+% ====================  ACTIVIDADES  PRIMER PARCIAL
+% =================================================================================
+%======================PARA LA ACTIVIAD B1==========================================
+
+
+\newcommand{\actividadBA}{
+  \begin{minipage}[H]{1.0\linewidth}
+  \fbox{ Actividad B1:} \\ Leer críticamente el capítulo 1 del libro guía y elaborar  un video donde utilizando \textbf{la metodología de la exposición},  explique  lo que comprendio.
+  \end{minipage}
+  }
+\newcommand{\criterioBAA}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Conocimiento y \\preparación del \\ tema}}.
+  \end{tabular}
+  }
+\newcommand{\nivelBAA}{
+
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}: Demuestra falta de conocimientos del tema. La información dada es irrelevante.& \textbf{Bueno}: Demuestra confianza en conocimientos, pero falla en algunos momentos tratar ofrecer la información más precisa. &\textbf{Excelente}:{\footnotesize Demuestra solvencia, confianza al expresar conocimientos, presentando información precisa y pertinente para desarrollo del tema}. \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50}\makecell[r]{20} & \cellcolor{green!50} \makecell[r]{30}
+  \end{tabular}
+  }
+
+
+\newcommand{\criterioBAB}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Expresión de un\\ punto de vista \\personal}} .
+  \end{tabular}
+  }
+
+  \newcommand{\nivelBAB}{
+
+    \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}: Expresa ideas incoherentes respecto del tema de la exposición.& \textbf{Bueno}: {\small Argumenta ideas a partir de conocimientos válidos sobre tema elegido, aunque no logra sostenerse en idea central}. &\textbf{Excelente}: {\small Argumenta ideas a partir de conocimientos válidos sobre el tema elegido, así como el énfasis en las ideas centrales}. \\ \hline   \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{30} 
+  \end{tabular}
+  }
+  
+\newcommand{\criterioBAC}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Estructura \\ y orden}}.  \end{tabular}
+  }
+
+  \newcommand{\nivelBAC}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small Ofrece una exposición carente de orden o cuidado por la organización del tema}.& \textbf{Bueno}: {\small La exposición es organizada de manera adecuada, aunque sin terminar en tiempo establecido y dejando ideas sueltas}. &\textbf{Excelente}: {\small Ofrece exposición muy organizada, respeta tiempos, facilita la captación de su discurso desde el inicio hasta el final.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+%======================PARA LA ACTIVIAD C1==========================================
+
+
+\newcommand{\actividadCA}{
+  \begin{minipage}[H]{1.0\linewidth}
+   \fbox{Actividad C1:} Analisis y diseño de problemas básicos de matemática, física o estadística, utilizando  el diagrama de flujo transcribiendolo a lenguaje de código  C++.
+  \end{minipage}
+  }
+
+\newcommand{\criterioCAA}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Documentación y \\ estética en el  \\  diagrama de flujo}}.
+  \end{tabular}
+  }
+
+
+  \newcommand{\nivelCAA}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small El problema no esta bien definido, no se documenta las variables y el diagrama no esta esteticamente bien formado}.& \textbf{Bueno}: {\small El problema esta bien definido pero el diagrama no esta esteticamente bien formado o no hay documentación suficiente.}. &\textbf{Excelente}: {\small Buena definición del problema, buena documentación y buena estética del diagrama.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+  
+
+
+  \newcommand{\criterioCAB}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Uso de standares  \\ en nombre de  \\ variables}}.
+  \end{tabular}
+  }
+
+
+  \newcommand{\nivelCAB}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small La variables utilizadas no cumplen para nada con standares enseñados y utilados en clase}.& \textbf{Bueno}: {\small Algunas variables utilizadas no cumplen con standares utilizas en clase ni en textos.}. &\textbf{Excelente}: {\small Los nombres de las variables se siñen  perfectamente a los standares indicados en la tería.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+  
+
+  \newcommand{\criterioCAC}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Correcto uso del \\  modelo matemático }}.
+  \end{tabular}
+  }
+
+  
+  \newcommand{\nivelCAC}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small El modelo matemático utilizado no es el correcto y brinda una salida con errores lógicos}.& \textbf{Bueno}: {\small El modelo matemático es correcto pero no se aplica de toda su dimensión.}. &\textbf{Excelente}: {\small El modelo matemático es el correcto y se aplica en todas sus dimensiones.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+%======================PARA LA ACTIVIAD A1==========================================
+
+
+\newcommand{\actividadAA}{
+  \begin{minipage}[H]{1.0\linewidth}
+  \fbox{Actividad A1:} Avances de proyecto: Diagrama de flujo y código C++ de un problema de matemática, estadística o física que comprenda la toma de decisiones sobre los resultados.
+  \end{minipage}
+  }
+
+
+
+\newcommand{\criterioAAA}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Documentación y \\ estética en el  \\  código}}.
+  \end{tabular}
+  }
+
+
+  \newcommand{\nivelAAA}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small Al código le falta comentarios importantes y no tiene estética en su presentación}.& \textbf{Bueno}: {\small El código tiene estética en su presentación pero faltan los comenarios importantes.}. &\textbf{Excelente}: {\small El código tiene todos los comentarios y una buena estética.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+
+\newcommand{\criterioAAB}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Aplicaciones correctas \\ de standares  \\ en variables}}.
+  \end{tabular}
+  }
+
+  
+  \newcommand{\nivelAAB}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small La variables utilizadas no cumplen para nada con standares enseñados y utilados en clase}.& \textbf{Bueno}: {\small Algunas variables utilizadas no cumplen con standares utilizas en clase ni en textos.}. &\textbf{Excelente}: {\small Los nombres de las variables se siñen  perfectamente a los standares indicados en la tería.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+\newcommand{\criterioAAC}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Aplicaciones correctas \\ de modelos  \\ matemáticos}}.
+  \end{tabular}
+  }
+  
+  
+
+
+    \newcommand{\nivelAAC}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small El modelo matemático utilizado no es el correcto y brinda una salida con errores lógicos}.& \textbf{Bueno}: {\small El modelo matemático es correcto pero no se aplica de toda su dimensión.}. &\textbf{Excelente}: {\small El modelo matemático es el correcto y se aplica en todas sus dimensiones.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+% =================================================================================
+% ====================  ACTIVIDADES  SEGUNDO PARCIAL
+% =================================================================================
+%======================PARA LA ACTIVIAD B2==========================================
+
+
+\newcommand{\actividadBB}{
+  \begin{minipage}[H]{1.0\linewidth}
+   \fbox{Actividad B2:} Elaborar un video utilizando la exposición para explicar el capítulo 1 del libro Guia.
+  \end{minipage}
+  }
+
+\newcommand{\criterioBBA}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Documentación \\ y estética en el  \\ código}}.
+  \end{tabular}
+  }
+
+
+
+  \newcommand{\nivelBBA}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small Al código le falta comentarios importantes y no tiene estética en su presentación}.& \textbf{Bueno}: {\small El código tiene estética en su presentación pero faltan los comenarios importantes.}. &\textbf{Excelente}: {\small El código tiene todos los comentarios y una buena estética.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+  
+
+
+\newcommand{\criterioBBB}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Uso de standares \\ con varialbes  \\ en el código}}.
+  \end{tabular}
+  }
+
+  
+
+
+  \newcommand{\nivelBBB}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small La variables utilizadas no cumplen para nada con standares enseñados y utilados en clase}.& \textbf{Bueno}: {\small Algunas variables utilizadas no cumplen con standares utilizas en clase ni en textos.}. &\textbf{Excelente}: {\small Los nombres de las variables se siñen  perfectamente a los standares indicados en la tería.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+
+  \newcommand{\criterioBBC}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Uso correcto \\ de modelos   \\ matemáticos}}.
+  \end{tabular}
+  }
+
+  
+
+
+
+  \newcommand{\nivelBBC}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small El modelo matemático utilizado no es el correcto y brinda una salida con errores lógicos}.& \textbf{Bueno}: {\small El modelo matemático es correcto pero no se aplica de toda su dimensión.}. &\textbf{Excelente}: {\small El modelo matemático es el correcto y se aplica en todas sus dimensiones.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+  
+%======================PARA LA ACTIVIAD C2==========================================
+
+
+\newcommand{\actividadCB}{
+  \begin{minipage}[H]{1.0\linewidth}
+   \fbox{Actividad C2:} Analisis y diseño de simples problemas de matemática y lógica, consistente en crear diagramas de flujo y la edición de su código en C++.
+  \end{minipage}
+  }
+
+\newcommand{\criterioCBA}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Documentación \\ y estética en el  \\ código}}.
+  \end{tabular}
+  }
+  
+
+  \newcommand{\nivelCBA}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small Al código le falta comentarios importantes y no tiene estética en su presentación}.& \textbf{Bueno}: {\small El código tiene estética en su presentación pero faltan los comenarios importantes.}. &\textbf{Excelente}: {\small El código tiene todos los comentarios y una buena estética.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+
+\newcommand{\criterioCBB}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Uso de standares \\ con varialbes  \\ en el código}}.
+  \end{tabular}
+  }
+  
+
+
+
+  \newcommand{\nivelCBB}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small La variables utilizadas no cumplen para nada con standares enseñados y utilados en clase}.& \textbf{Bueno}: {\small Algunas variables utilizadas no cumplen con standares utilizas en clase ni en textos.}. &\textbf{Excelente}: {\small Los nombres de las variables se siñen  perfectamente a los standares indicados en la tería.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+  
+
+\newcommand{\criterioCBC}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Uso correcto \\ de modelos   \\ matemáticos}}.
+  \end{tabular}
+  }
+
+  
+
+
+
+  \newcommand{\nivelCBC}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small El modelo matemático utilizado no es el correcto y brinda una salida con errores lógicos}.& \textbf{Bueno}: {\small El modelo matemático es correcto pero no se aplica de toda su dimensión.}. &\textbf{Excelente}: {\small El modelo matemático es el correcto y se aplica en todas sus dimensiones.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+  
+
+
+%======================PARA LA ACTIVIAD A2==========================================
+
+
+\newcommand{\actividadAB}{
+  \begin{minipage}[H]{1.0\linewidth}
+   \fbox{Actividad A2:} Proyecto final: Un programa en C++ con varias funcionalidades integradas a través de un menú.
+  \end{minipage}
+}
+
+\newcommand{\criterioABA}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Documentación \\ y estética en el  \\ código}}.
+  \end{tabular}
+  }
+
+
+
+
+  \newcommand{\nivelABA}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small Al código le falta comentarios importantes y no tiene estética en su presentación}.& \textbf{Bueno}: {\small El código tiene estética en su presentación pero faltan los comenarios importantes.}. &\textbf{Excelente}: {\small El código tiene todos los comentarios y una buena estética.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+  
+
+\newcommand{\criterioABB}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Uso de standares \\ con varialbes  \\ en el código}}.
+  \end{tabular}
+  }
+
+
+
+
+
+
+  \newcommand{\nivelABB}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small La variables utilizadas no cumplen para nada con standares enseñados y utilados en clase}.& \textbf{Bueno}: {\small Algunas variables utilizadas no cumplen con standares utilizas en clase ni en textos.}. &\textbf{Excelente}: {\small Los nombres de las variables se siñen  perfectamente a los standares indicados en la tería.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+  
+\newcommand{\criterioABC}{
+  \begin{tabular}{p{4cm}}
+   \rotatebox{90}{ \makecell{Uso correcto \\ de modelos   \\ matemáticos}}.
+  \end{tabular}
+  }
+  
+
+
+  
+  \newcommand{\nivelABC}{
+  \begin{tabular}{p{\linewidth/4}|p{\linewidth/3}|p{\linewidth/3}}
+    \textbf{Deficiente}:{\small El modelo matemático utilizado no es el correcto y brinda una salida con errores lógicos}.& \textbf{Bueno}: {\small El modelo matemático es correcto pero no se aplica de toda su dimensión.}. &\textbf{Excelente}: {\small El modelo matemático es el correcto y se aplica en todas sus dimensiones.} \\ \hline
+  \cellcolor{red!50} \makecell[r]{ 0-10}   & \cellcolor{yellow!50} \makecell[r]{20} & \cellcolor{green!50} \makecell[r]{40} 
+  \end{tabular}
+  }
+
+
+
+
+  
+  
+  
+
+
+\begin{document}
+\begin{titlepage}
+
+\framebox{
+  \begin{minipage}[H]{0.6\linewidth}
+\vspace{2cm}
+    \begin{center}
+    \includegraphics[scale=0.2]{logo_utelvte}\par \vspace{1cm}
+    {\large {\uppercase Universidad Técnica Luis Vargas Torres de Esmeraldas} \par}
+  \vspace{4cm}
+
+   { \Large \textcolor{red}{ FORMATO INSTITUCIONAL DEL SILABO} \par}
+
+   \vspace{6cm}
+  \end{center}
+ 
+  
+\end{minipage}
+}
+{\setlength{\fboxrule}{0.4pt}
+\fcolorbox{black}{red!10}{
+
+
+  \begin{minipage}[H]{0.3\linewidth}
+
+    \begin{center}
+ \vspace{8cm}
+
+   { \large \textcolor{red}{ \textbf{ASIGNATURA:} FUNDAMENTOS DE PROGRAMACIÓN} \par}
+
+   \vspace{6.5cm}
+  \end{center}
+ 
+  
+  \begin{center}
+  {\large Esmeraldas - Ecuador \\ IS-2022\par}
+\end{center}
+\vspace{1.8cm}
+\end{minipage}
+}
+}
+
+
+
+
+\end{titlepage}
+
+
+
+
+\section{DATOS INFORMATIVOS DE LA ASIGNATURA}
+\subsection{Datos Generales}
+\begin{tabular}[H]{|l|m{5cm}c|m{7cm}|}
+  \hline
+  \multicolumn{2}{|l}{Facultad: Ingenierías } &:& Carrera: Tecnología de la Información \\ \hline 
+  \multicolumn{2}{|l}{Asignatura: Fundamentos de Programación} &:& Código: ITICI1104 \\ \hline
+   \multicolumn{2}{|l}{Unidad de formación:Profesional} &:&Campo de formación: Tecnología \\ \hline
+  \multicolumn{2}{|l}{Prerrequisito (s):Nivelación} &:& Correquisitos:Física, Análisis matemático  \\ \hline
+  \multicolumn{2}{|l}{Horas presenciales: 64}&:&Horas prácticas: 32 \\  \hline
+  \multicolumn{2}{|l}{Horas autónomas: 64}&:&Total horas de aprendizaje: 160 horas \\  \hline
+  \multicolumn{2}{|l}{Inicio Periodo Académico: 18-mayo-2022} &:& Fin periodo académico: Diciembre 2022 \\ \hline
+  \multicolumn{2}{|l}{Nivel académico: Primero } &:& \makecell[l]{Profesor: Ing. Stalin Francis M.sc  } \\ \hline
+  \multicolumn{2}{|l}{Título de tercer nivel: Ingeniero en Computación} &:&Título cuarto nivel: Magister en Ciencias de la Computación.\\ \hline
+  \multicolumn{2}{|l}{Email:stalin.francis@utelvt.edu.ec } &:&Contacto telefónico: 0997919650  \\ \hline
+
+
+\end{tabular}
+
+\section{APORTE DE LA ASIGNATURA A LA CARRERA}
+\label{sec:aporte-de-la}
+
+
+
+\subsection{JUSTIFICACIÓN:}
+
+Dentro de la formación de un ingeniero la planificación lógica y secuencial de actividades es una tarea indispensable a al hora de querar realizar una tarea que resuelva un problema; por eso la programación es una tarea que que el ser humano ha realizado mucho antes que las computadoras existieran como actualmente la conocemos.\\
+
+
+Las computadoras permiten mantener registradas actividades y muchas de ellas ejecutarlas de forma automática liberando al hombre de la carga de llevar al control con el riesgo de no cumplir con los tiempos planificados.\\
+
+
+
+
+La asignatura de Fundamentos de programación que se dicta en el primer semestre de la carrera de Ingeniería en Tecnología de la Información, brinda al estudiante la habilidad de analizar problemas y luego diseñar su solución computacional utilizando los diagramas de flujo que serviran para llevarlos a un programa de computador.
+
+
+
+
+\subsection{PROBLEMA DE LA PROFESIÓN:}
+
+
+Uno de los más grandes problemas de la profesión es perfeccionar el pensamiento lógico en los estudiantes, para poder tener la capacidad de llevar la solución natural  de un problema número,  a una representación digital que pueda ser comprendido y utilizado por el computador.
+
+
+\subsection{OBJETO DE ESTUDIO}
+Problemas de matemática y de lógica resolubles utilizando el lenguaje  C++.
+
+\newpage
+
+\section{OBJETIVOS}
+\subsection{Objetivo General}
+Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y crear soluciones a problemas de matemática, física a través del diagrama de flujo y la programación  en C++.
+
+\subsection{Resultados de aprendizaje:}
+
+\begin{enumerate}
+\item \ResuApreA
+\item \ResuApreB
+\item \ResuApreC
+\item \ResuApreD
+\item \ResuApreE
+\item \ResuApreF
+\item \ResuApreG
+
+\end{enumerate}
+
+
+\section{CONTENIDOS}
+\label{sec:contenidos}
+\begin{table}[H]
+\begin{tabular}[H]{|p{0.5cm}|p{8cm}|c|c|c|c|c||c||c|c|}
+\cline{1-9}
+\multirow{3}{*}{No} & \multirow{3}{*}{Unidades} &\multicolumn{6}{c|}{Componentes} & \makecell{Total \\ Horas} \\  \cline{3-8}
+                 &  &\multicolumn{4}{c|}{Docencia}&\multicolumn{2}{c|}{\makecell{Práctica \\ Experimental}}& \\ \cline{3-8}
+                    & &C &L&S& E& CP &TA&   \\  \cline{1-9}
+
+
+\multirow{-1}{*}{\LARGE 1}  &Introducción a las computadoras y los lenguajes de programación (Nociones de linux, vim, clang,GitHub y Git)  &12&4 & & & 8 &20 & 44 \\\hhline{~--------}
+
+
+  \cellcolor{cyan!20}  \vfill  {\LARGE 2} &Metodología de la programación y Diagrama de flujo e introducción a C++  &4&2 & & & 12 &16 & 34 \\\cline{1-9}
+  \rowcolor{gray!25}
+                    &\makecell{Semana de evaluación sumativa  } && & &6 &  & & 6 \\\hline
+  \rowcolor{blue!10}
+
+                    &Total parcial &16 &6& &6 &20  &36 & &84 \\\hline
+
+ \multirow{1}{*}{ \hfil \LARGE 3} &Flujo de control I: Estructura selectivas y estructura repetitiva &8& & & &14 &16 & 38 \\\cline{2-9}
+
+
+
+
+    \multirow{1}{*}{ \hfil \LARGE 4}           &  Funciones,  librerías personales, arreglos y matrices &6& & &&14 &12 & 32 \\\cline{2-9}
+
+
+  \rowcolor{gray!25}
+
+                 &\makecell{Ex amen 2do Parcial} & & & &6 &  & & 6 \\\hline
+  \rowcolor{blue!10}
+
+                    &Total parcial &14 & & &6 &28  &28 & &76 \\\hline
+
+  \multicolumn{2}{|l|}{TOTAL HORAS POR TIPO DE CLASE:} &30&6 & &12  &48 &64 & &160 \\ \hline
+  
+\end{tabular}
+\caption{Tipo de clases: C:\@Conferencia L: Lecciones Oral S: Seminario, CP: Clases Prácticas, TA: Taller}
+\end{table}
+
+
+
+\newgeometry{hmargin=2cm,vmargin=2cm,landscape}
+
+\begingroup
+
+\section{PROGRAMA ANALÍTICO - 1er HEMICICLO}
+\subsection{Unidad de aprendizaje No 0}
+\label{sec:unid-de-aprend0}
+
+\begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
+  \rowcolor{unidad0!50}
+
+  \hline \hline
+
+  \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad0!50}{\makecell[l]{{\Large Unidad 0:} \\ Presentación, motivación y diagnóstico}}} & \cellcolor{unidad0!50} N.Horas: 4 \\ \hline
+  \multicolumn{3}{|m{21cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  Los estudiantes conocerán al docente, y la asignatura a tomar, así como recordarán conceptos de lógica matemática y de informática base necesaria para la asignatura.} \\ \hline
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{10pt}
+    \begin{enumerate}
+    
+    \item Presentación del Docente    \vspace{1cm}
+    \item  Presentación del estudiante   \vspace{1cm}
+    \item Presentación de la asignatura
+    \end{enumerate}}
+      
+  \end{minipage}
+         &
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{10pt}
+      \vspace{0.5cm}
+      
+    \begin{enumerate}
+
+    \item El docente utiliza \textbf{\textsc{la exposición}} para presentarse antes los estudiantes . \vspace{0.5cm} 
+    \item El docente pide a los estudiantes que utilicen \textbf{\textsc{la exposición}} para presentarse antes sus compañeros. \vspace{0.5cm}
+    \item El docente utiliza \textsc{la exposición} para dar una introducción sobre las asignatura, revisar  el sílabo con los estudiantes y brindar una inducción en el uso de LMS llamado \textbf{ClassRoom} del Google.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+
+                     &
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{10pt}
+    \begin{enumerate}
+
+    \item Se toma una prueba de diagnóstico de conocimientos previos sobre lógica matemática e informática. \vspace{0.5cm} 
+
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+
+
+  \\ \hline
+
+\end{tabular}
+
+\newpage
+% --------------------------
+% UNIDAD 1:
+%---------------------------
+\subsection{Unidad de aprendizaje No 1}
+\label{sec:unid-de-aprend1}
+
+
+\begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
+  \hline
+  \rowcolor{unidad1!40}
+  \multicolumn{2}{|m{\textwidth-7cm}|}{ \cellcolor{unidad1!40}{\makecell[l]{{\Large Unidad 1:} \\ Introducción a las computadoras y los lenguajes de programación.}}} & \cellcolor{unidad1!40} N.Horas: 16 \\ \hline
+   \multicolumn{3}{|m{\textwidth-2cm}|}{ \textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreA} \\ \hline
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+      \vspace{0.5cm}
+    \begin{enumerate}
+    \item Introducción a la computadora.
+    \item Aquitectura de la computadora.
+    \item Sistema de númeración.
+    \item Lenguajes de programación.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \cite{Arquiecturapc2}
+  \end{minipage}
+                                                         &
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}\cite{Francis2020}
+      \vspace{0.5cm}
+    \begin{enumerate}
+    \item Mediante \textsc{La clase invertida}, el docente proveera la bibliografía textual y audiovisual sobre los témas a tratar para que los estudiantes lean, miren y escuchen en casa.
+    \item Aplicando \textsc{preguntas y respuesta}, se  envía un formulario con pregunta sobre el material enviado, para comprobar que los estudiantes lo esten revisando.
+    \item A través de \textsc{la exposición}, valiendose de dispositivas como herramienta de apoyo, se reforzará el contenido de todo el material enviado.
+
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+
+                     &
+
+  \begin{minipage}[H]{1.0\linewidth}
+ 
+
+     \textbf{PREGUNTAS PARA EL AUTOCONTROL:} Estarán elaboradas en Google Form y seran enviadas mediante el ClassRoom.
+    
+      \vspace{0.5cm}
+     \colorbox{green!30}{\parbox[t]{2in}{\textbf{Actividad B1}: Consiste en grabar un video
+      explicativo sobre el capítulo 1 del Libro Guía.}}
+      
+  \end{minipage}
+
+  \\ \hline
+
+\end{tabular}
+
+
+\newpage
+
+% --------------------------
+% UNIDAD 1:
+%---------------------------
+
+\subsection{Unidad de aprendizaje No 1}
+\label{sec:unid-de-aprend}
+
+
+
+\begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
+  \hline
+  \rowcolor{unidad2!40}
+  \multicolumn{2}{|m{\textwidth-7cm}|}{ \cellcolor{unidad2!40}{\makecell[l]{{\Large Unidad 1:}\\ Nociones de Termux, Linux, Vim, Github y Git }}} & \cellcolor{unidad2!40} N.Horas: 24 \\ \hline
+  \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreB} \\ \hline
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Introducción a Linux y termux.
+    \item paquetes de linux: ejercicios prácticos.
+    \item Introducción a Vim y sus comandos.
+    \item Ejercicios prácticos con Vim.
+      
+    \end{enumerate}}
+~\cite{cobbaut15:_linux_fundam}
+  \vspace{0.2cm}
+  \end{minipage}
+                     &
+                         \begin{minipage}[H]{1.0\linewidth}
+                           {\setlength{\leftmargini}{15pt}
+                             \vspace{0.5cm}
+    \begin{enumerate}
+    \item Mediante \textsc{La clase invertida}, el docente proveerá la bibliografía textual y audiovisual sobre los témas a tratar para que los estudiantes lean, miren y escuchen en casa.
+    \item Para utilizar \textsc{el aprendizaje coperativo}, se designan grupos de trabajo segun la afinidad.
+   \item Se comparte un  formulario por cada equipo para que llenen un informe sobre los taller realizado (Las prácticas estarán indicadas en el informe compartido).
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+
+                     & 
+  \begin{minipage}[H]{1.0\linewidth}
+    \textbf{Taller1}:Instalación de termux y paquetes de linux.\\
+
+    \textbf{Taller2}: Uso de comando en Termux, creación de directorios y navegación.\\
+    
+  \noindent  \textbf{Teller3}: Manipulación de archivos con vim (crear,modificar).\\
+    
+    \textbf{Taller4}: Manipulación de archivo con comandos de linux(Borrar,copiar,mover).\\
+  \end{minipage}
+
+  \\ \hline
+  
+\end{tabular}
+
+
+\newpage
+\subsection{Unidad de aprendizaje No 2}
+\label{sec:unid-de-aprend3}
+
+\begin{tabular}[H]{|m{9cm}|m{7cm}|m{5cm}|}
+  \hline
+  \rowcolor{unidad3!40}
+ \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad3!40}{ \makecell[l]{{\Large Unidad 2:} \\ Metodología de la programación y Diagrama de flujo }}} & \cellcolor{unidad3!40} N.Horas: 34 \\ \hline
+  \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreC} \\ \hline
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Introducción a la programación.
+    \item  Ciclo de vida del software.
+    \item Diagrama de Flujo: Hola mundo.
+    \item Diagrama de Flujo: Suma de dos números.
+    \item Diagrama de Flujo: Suma, multiplicación, División, Resta.
+    \item Diagrama de Flujo: El mayor de dos números.
+    \item Diagrama de Flujo: La resta con sueldo negativos.
+    \item Diagrama de Flujo: El mayor de 3 números.
+    \item Diagrama de Flujo: Cálculo de la edad.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+                                     &
+ \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Mediante \textsc{La clase invertida}, el docente proveerá la bibliografía textual y audiovisual sobre los témas a tratar para que los estudiantes lean, miren y escuchen en casa.
+       \item Aplicando \textsc{preguntas y respuesta}, el docente enviará un formulario con pregunta sobre el material enviado, para comprabar que los estudiantes lo esten revisando.
+    \item A través de \textsc{la exposición}, valiendose de dispositivas como apoyo, el docente reforzará el contenido de todo el material enviado.
+
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+
+
+                     &
+
+  \begin{minipage}[H]{1.0\linewidth}
+
+     \textbf{PREGUNTAS PARA EL AUTOCONTROL:} Estarán elaboradas en Google Form y seran enviadas mediante el ClassRoom.
+    \vspace{0.8cm}
+
+     \colorbox{green!30}{\parbox[t]{2in}{ \textbf{Actividad C1}:\textit{Análisis y Diseño de simples problemas de mátemática y  lógicas};  consitente en crear diagramas de flujo y la  edición de su código en C++:}} \\
+    
+  \end{minipage}
+
+  \\ \hline
+
+\end{tabular}
+
+\newpage
+\section{PROGRAMA ANALÍTICO - 2do HEMICICLO}
+
+
+\subsection{Unidad de aprendizaje No 2}
+\label{sec:unid-de-aprend4}
+
+
+\begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
+  \hline  \hline
+  \rowcolor{unidad4!40}
+
+  \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad4!40}{ \makecell[l]{{\Large Unidad 2:}  \\Programación en C++: Introducción}}} & \cellcolor{unidad4!40} N.Horas: 10 \\ \hline
+  \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreD} \\ \hline \hline
+
+  
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    \vspace{0.5cm}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Estructura básica de un programa en C++;
+    \item La función principal main y sus variantes;
+    \item Declaración de variables en C++.
+    \item Tipos de datos en C++;
+    \item Palabras reservadas en C++.
+    \item Tipos de instrucciones en C++.
+    \end{enumerate}}
+  \vspace{0.2cm}
+ \cite{sierra98}
+  
+  \end{minipage}
+                                                                            &
+
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Aula invertida~(Flipped ClassRoom).
+    \item Aprendizaje basado en proyecto.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+                     &
+
+  \begin{minipage}[H]{1.0\linewidth}
+    \vspace{0.5cm}
+
+    \textbf{Taller}: El estudiante elabora un programa  donde utiliza los comandos que se han dado en la unidad. \\ 
+    \vspace{0.5cm}
+   \colorbox{red!30}{\parbox[t]{2in}{ \textbf{Actividad A1:} \textsc{Avances de proyecto:} Diagrama de flujo y código C++ de un  problema de matemática, estadística o física que comprenda la toma de decisiones sobre los resultados}}.
+   
+  \end{minipage}
+
+
+  \\ \hline
+
+\end{tabular}
+
+
+
+
+\newpage
+\subsection{Unidad de aprendizaje No 3}
+\label{sec:unid-de-aprend5}
+
+\begin{tabular}[H]{|m{10cm}|m{6cm}|m{5cm}|}
+  \hline
+  \rowcolor{unidad5!40}
+ \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad5!40}{ \large{\makecell[l]{{\Large Unidad 3:} \\ Flujo de control I: Estructura selectiva}}}} & \cellcolor{unidad5!40} N.Horas: 20 \\ \hline
+  \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreD} \\ \hline
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item El mayor de dos un número
+    \item La resta con saldo negativos.
+    \item El vehículo más veloz.
+    \item El mayor de 3 número
+    \item Cálculo de la edad.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+                                                            &
+
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Aula invertida~(Flipped ClassRoom)
+    \item Aprendizaje basado en proyecto.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+
+
+                     &
+                       \begin{minipage}[H]{1.0\linewidth}
+                        \vspace{0.5cm}
+     \textbf{PREGUNTAS PARA EL AUTOCONTROL:} Estarán elaboradas en Google Form y seran enviadas mediante el ClassRoom.
+\vspace{0.5cm}
+
+    \colorbox{green!30}{\parbox[t]{2in}{ \textbf{Actividad B2}: Evaluación sobre conocimientos básicos en c++ (Se crea reactivos utilziando la herramiento Formularios de Google)}}. 
+
+    \vspace{2cm}
+    \vspace{0.2cm}
+  \end{minipage}
+
+
+  \\ \hline
+
+\end{tabular}
+
+
+\newpage
+\subsection{Unidad de aprendizaje No 3}
+\label{sec:unid-de-aprend6}
+
+
+\begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
+  \hline
+ \rowcolor{unidad6!40} 
+ \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad6!40}{ \makecell[l]{{\Large Unidad 3:} \\ Flujo de control: Estructura repetitiva}}} & \cellcolor{unidad6!40} N.Horas: 20 \\ \hline
+  \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreE} \\ \hline
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Suma de varios números
+    \item Calculo del Iva, DEscuento y Valor a pagar de varios productos.
+    \item Cálculo del programa de varios estudiantes
+    \item Contador de monedas.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+                     &
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Aula invertida~(Flipped ClassRoom)
+    \item Aprendizaje basado en proyecto.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+
+
+
+                     &
+
+  \begin{minipage}[H]{1.0\linewidth}
+                        \vspace{0.5cm}
+     \textbf{PREGUNTAS PARA EL AUTOCONTROL:} Estarán elaboradas en Google Form y seran enviadas mediante el ClassRoom.
+\vspace{0.5cm}
+
+    \colorbox{green!30}{\parbox[t]{2in}{\textbf{Actividad C2}: \textsc{Crear un menu integrador}; este mostrará y ejecutará los programas de los integrantes del grupo de trabajo}}. 
+    \vspace{2cm}
+    \vspace{0.2cm}
+  \end{minipage}
+
+
+
+
+  \\ \hline
+
+\end{tabular}
+
+
+\newpage
+\subsection{Unidad de aprendizaje No 4}
+\label{sec:unid-de-aprend7}
+
+
+\begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
+  \hline
+  \rowcolor{unidad7!50}
+  \multicolumn{2}{|m{\textwidth-7cm}|}{ \cellcolor{unidad7!50}{\makecell[l]{{\Large Unidad 4:}  \\Funciones y librerías personales}}} & \cellcolor{unidad7!50} N.Horas: 36 \\ \hline
+  \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreG} \\ \hline
+  CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Funciones.
+    \item Declaración de funciones.
+    \item Invocación de funciones
+    \item Procedimineto (Subrutina)
+    \item Ambito: Variables locales y globales.
+    \item Paso de parámetros por parámetros.
+    \item Paso de parámetros por valor.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \cite{aguilar2008}
+  \end{minipage}
+                                                                            &
+
+  \begin{minipage}[H]{1.0\linewidth}
+    {\setlength{\leftmargini}{15pt}
+    \begin{enumerate}
+    \item Aula invertida~(Flipped ClassRoom)
+    \item Aprendizaje basado en proyecto.
+    \end{enumerate}}
+  \vspace{0.2cm}
+  \end{minipage}
+                     &
+
+  \begin{minipage}[H]{1.0\linewidth}
+                        \vspace{0.5cm}
+     \textbf{PREGUNTAS PARA EL AUTOCONTROL:} Estarán elaboradas en Google Form y seran enviadas mediante el ClassRoom.
+\vspace{0.5cm}
+
+    
+   \colorbox{red!50}{\parbox[t]{2in}{ \textbf{Actividad A2}: \textsc{Proyecto final Integrador }; El programa de la actividad C2 sera mejorado utilizando funciones y librerías}}. 
+    \vspace{2cm}
+    \vspace{0.2cm}
+  \end{minipage}
+
+
+  \\ \hline
+
+\end{tabular}
+
+
+\newpage
+
+\section{APORTE DE LOS RESULTADOS O LOGROS DEL APRENDIZAJE}
+\label{sec:aporte-de-los}
+
+\begin{tabular}[H]{|m{8cm}|m{3cm}|m{10cm}|}
+  \hline
+  \rowcolor{unidad7!50}
+ 
+  RESULTADOS DEL APRENDIZAJE & RESULTADO DEL APRENDIZAJE  & EL ESTUDIANTE SERA CAPAZA DE: \\ \hline
+Aplicación de las Ciencias Básicas   & Alta
+                     & Usar de modelos matemáticos, físicos y estadísticos  \\ \hline
+  Identificación y definición de problemas
+                             & Alta
+                     & Identificar y definir problemas matemáticos, físicos y estadísticos.  \\ \hline
+  Sulución de problemas
+                             & Alta
+                     & Utilizar el diagrama de flujo y el lenguaje de programación C++ para darle solución a los problemas planteados  \\ \hline
+  Utilizarlización de herramientas especializadas
+                             & Alta
+                     & Utilizar de forma eficiente el ordenador y los paquetes de software  necesarios para crear sus programas  \\ \hline
+  Trabajo en equipo
+                             & Alta
+                     & Trabajar junto a otras personas para crear soluciones complejas  \\ \hline
+  Comportamiento ético
+                             & Alta
+                     & Respertar el trabajo de los demás y utilizarlo con consideración y respeto  \\ \hline
+  Comunicación efectiva
+                             & Alta
+                     & Utilizar terminos técnicos apropiados para transmitir sus conocimientos  \\ \hline
+  Compromiso del aprendizaje continuo
+                             & Alta
+                     & Actulizar constantemente sus conocimientos buscando nuevos problemas a resolver y soluciones más novedosas  \\ \hline
+  Conocimiento del entorno
+                             & Alta
+                     & Reconocer el entorno donde se encuentra los problemas que debe solucionar  \\ \hline
+
+\end{tabular}
+
+
+
+
+
+\newpage
+
+
+
+
+\restoregeometry
+
+\section{Métodos, Metodologías e instrumentos}
+\label{sec:metod-metod-e}
+
+\subsection{Métodos para el desarrollo educativo}
+\label{sec:metodos-para-el}
+
+\begin{todolist}
+\item  [\done] Inductivo-Deductivo: De lo particular a lo general.
+\item [\done] Analítico-sintético: Diferenciador integrador.
+\item [\done] Experimental: prácticas y uso del laboratorio.
+\item [\done] Heurístico: Descubrimiento, creación del conocimiento.
+\item [\done] Lógico: De lo conocido a lo desconocido.
+\item [\done] Dogmático: Imposición de conocimientos a normas.
+\end{todolist}
+
+\subsection{Metodologías para el proceso}
+\label{sec:metodologias-para-el}
+
+\begin{itemize}
+\item [\done] Conferencia o lecciones magistrales.
+\item [\done] Estudios de caso (seminario).
+\item [\done] Resolución de ejercicios y/o problemas.
+\item [\done] Aprendizaje orientado a proyecto.
+\item [\done] Aprendizaje colaborativo (cooperativo).
+\item [\done] Trabajo grupal.
+\item [\done] Trabajo práctico.
+\item [\done] Trabajo autónomo.
+\item [\done] Clase invertida.
+
+\end{itemize}
+
+\subsection{Ambiente e instrumento de aprendizaje}
+\label{sec:ambi-e-instr}
+
+\subsubsection{Ambientes virtuales}
+\label{sec:ambientes-virtuales}
+\begin{itemize}
+\item [\done] correo institucional.
+\item [\wontfix] ClassRoom.
+\item [\done] GoogleMeet.
+\item [\done] Moodle.
+\item [\done] Internet y redes sociales.
+\item [\done] Biblioteca Virtual.
+\end{itemize}
+
+\subsubsection{Instrumentos:}
+\label{sec:instrumentos}
+
+\begin{itemize}
+\item [\done] Texto básicos.
+\item [\done] Hardware: PC, Smartphone.
+\item [\done] Sistemas Operativo:  Windows, Android.
+\item [\done] Aplicativos: Termux, vim, Dev C++, CLANG.
+\end{itemize}
+
+
+
+\subsection{Formas y tipos de evaluación}
+\label{sec:formas-y-tipos}
+
+\begin{tabular}[H]{|m{2.5cm}|m{4cm}|m{5cm}|r|r|}
+  \hline
+  \rowcolor{green!10}
+  EVALUACION & TIPOS & OPCIONES & PTOS. & $\sum$ \\ \hline \cline{1-4}
+   \multirow{4}{*}{Medio Ciclo} & \multirow{3}{*}{Acumulativa 70\%} & Actividad A1 & 3 \\ \cline{3-3}
+             &                                    & Actividad B1 & 1.5 \\ \cline{3-3}
+             &                                    & Actividad C1 & 1.5\\ \cline{2-3}
+             &Examen medio ciclo 30\% & Evaluación sumativa (E1) &4 \\ \hline 
+  \multicolumn{4}{r}{SUBTOTAL :} & 10 \\ \hline
+   \multirow{4}{*}{Fin de Ciclo} & \multirow{3}{*}{Acumulativa 70\%} & Actividad A2 & 3 \\ \cline{3-3}
+             &                                    & Actividad B2 & 1.5 \\ \cline{3-3}
+             &                                    & Actividad C3 & 1.5\\ \cline{2-3}
+             &Examen final 30\% & Evaluación sumativa (E2) &4 \\ \hline
+  \multicolumn{4}{|r}{SUBTOTAL:} & 10 \\ \hline
+  \multicolumn{4}{|r}{PROMEDIO $ \frac{PH+SH}{2} $:} & 10 \\ \hline
+
+  
+\end{tabular}
+
+\bibliographystyle{apacite}
+
+\setlength{\bibleftmargin}{.125in}
+\setlength{\bibindent}{-\bibleftmargin}
+\bibliography{Referencia}
+
+\newpage
+\vspace{0.3cm}
+
+
+\noindent \textbf{Fecha de elaboración:} 10 de julio del 2020. \\
+\textbf{Autor del silabo: } Ing. Staln Francis Quinde. \\
+\textbf{Revisión del silabo: } Ing. Staln Francis Quinde. \\
+
+\vspace{4cm}
+
+\vspace{3cm}
+\begin{center}
+\begin{tabular}[H]{m{8cm}lm{8cm}}
+  \rule{7cm}{0.4pt}& &\rule{7cm}{0.4pt} \\
+  \makecell[c]{Ing. Stalin Francis Ms.c\\\textbf{ DOCENTE}}  & &\makecell[c]{Ing. Teresa Mina  MSc. \\ \textbf{COORDINADOR DE ÁREA ACADÉMICA} \\ \textbf{DE PROGRAMACIÓN}} \\ 
+\end{tabular}
+\end{center}
+
+\vspace{3cm}
+\begin{center}
+
+\begin{tabular}[H]{m{8cm}lm{8cm}}
+  
+  \rule{7cm}{0.4pt}&  &\rule{7cm}{0.4pt} \\
+  \makecell[c]{Ing. Baster Estupiñan Ortiz, MSc. \\ \textbf{DIRECTOR DE CARRERA DE INGENIERÍA} \\ \textbf{EN TECNOLOGÍÁ DE LA INFORMACIÓN}} & & \makecell[c]{Ing. Fabiola Espantoso \\ \textbf{SECRETARIA}} 
+\end{tabular}
+\end{center}
+
+
+
+
+
+\subsection{Rubricas para autoevaluación del silabo}
+\label{sec:rubr-para-aprob}
+
+\begin{center}
+\renewcommand{\arraystretch}{1}%
+\begin{tabular}[H]{|l|l|l|}
+  \hline
+\rowcolor{gray!50}
+
+ \textcolor{white}{\textbf{CRITERIO}}  & \textcolor{white}{\textbf{SI}} & \textcolor{white}{\textbf{NO}} \\ \hline \hline
+\rowcolor{green!20}
+  \multicolumn{3}{l}{\textbf{DESCRIPCIÓN DE LA ASIGNATURA}} \\ \hline \hline
+
+  Los datos informativos esta completos: & {\Large $\square$} &{\Large $\square$} \\ \hline
+  La descripción de la asignatura es clara: &{\Large $\square$}  &{\Large $\square$} \\ \hline
+  El Objetivo General es claro:&{\Large $\square$}  &{\Large $\square$} \\ \hline
+  Los resultados de aprendizaje son claros(1 por cada unidad) &{\Large $\square$} &{\Large $\square$} \\ \hline 
+  Se indica la metodología de aprendizaje(Aula invertida, otros) &{\Large $\square$} &{\Large $\square$} \\ \hline 
+  Se indica los contenidos (Unidades y tema)  &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Estan definidas las 6 actividades (A1,B1,C1,A2,B2,C2) &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Estan definidas las 3 evaluaciones( E1, E1,R(Recuperacion)) &{\Large $\square$} &{\Large $\square$} \\ \hline \hline
+  \rowcolor{green!20}
+  \multicolumn{3}{l}{\textbf{GESTIÓN DURACIÓN DE ESTUDIO}} \\ \hline \hline
+  Estan definidas las 16 semanas de clases &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Estan defindos los días y horas de cada \textbf{clases `` virtual''} &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Estan definidas las \textbf{actividades autónomas} y su duración &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Estan definidas las fechas y horas de \textbf{tutorias} &{\Large $\square$} &{\Large $\square$} \\ \hline \hline
+  \rowcolor{green!20}
+  \multicolumn{3}{l}{\textbf{GETIÓN INTERACCIÓN DOCENTE-ESTUDIANTE}} \\ \hline \hline
+ Estan definidos los temas para cada clase ``virtual'' &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Esta definido el orden del día para las clases virtuales  &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Esta definido el tema para cada tutoria   &{\Large $\square$} &{\Large $\square$} \\ \hline \hline
+    \rowcolor{green!20}
+  \multicolumn{3}{l}{\textbf{BIBLIOGRAFÍA}} \\ \hline \hline
+  
+  Esta indicada la bibliografía básica &{\Large $\square$} &{\Large $\square$} \\  \hline
+  Esta indicada la bibliografía complementaria &{\Large $\square$} &{\Large $\square$} \\ \hline
+  Esta indicada la bibliografía recomendada &{\Large $\square$} &{\Large $\square$}  \\ \hline 
+  Esta indicada la bibliografía audiovidual &{\Large $\square$} &{\Large $\square$} \\ \hline \hline
+  
+\end{tabular}
+\end{center}
+
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

@@ -1,10 +1,10 @@
 (TeX-add-style-hook
- "SILABO_2021-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS"
+ "SILABO_2022-1S_ITI_FUNDAMENTOS-DE-PROGRAMACION_STALIN-FRANCIS"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "a4paper" "12pt" "spanish")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("xcolor" "dvipsnames" "table") ("geometry" "headsep=0.2cm" "headheight=1.5cm" "left=2cm" "right=2cm" "bottom=2cm") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "spanish") ("enumitem" "shortlabels")))
+                     '(("xcolor" "dvipsnames" "table") ("geometry" "headsep=0.2cm" "headheight=1.5cm" "left=1.5cm" "right=1.5cm" "bottom=2cm") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "spanish") ("enumitem" "shortlabels")))
    (TeX-run-style-hooks
     "latex2e"
     "article"
@@ -142,6 +142,7 @@
     "criterioABC"
     "nivelABC")
    (LaTeX-add-labels
+    "sec:aporte-de-la"
     "sec:contenidos"
     "sec:unid-de-aprend0"
     "sec:unid-de-aprend1"

@@ -80,11 +80,11 @@
 \contentsline {subsection}{\numberline {17.1}Personalizando el espacio de nombre}{72}{}%
 \contentsline {section}{\numberline {18}Datos, tipos de datos y operaciones primitivas}{73}{}%
 \contentsline {subsubsection}{\numberline {18.0.1}Estructura de selección (if-else) en C++}{83}{}%
-\contentsline {subsubsection}{\numberline {18.0.2}Estructura de repetición (do-while) }{87}{}%
-\contentsline {subsubsection}{\numberline {18.0.3}Taller para estructura de repetición}{88}{}%
-\contentsline {subsubsection}{\numberline {18.0.4}Proyecto Final Integrador }{91}{}%
-\contentsline {section}{\numberline {19}Funciones declaradas por el usuario}{98}{}%
-\contentsline {subsection}{\numberline {19.1}Clases: Estructura}{103}{}%
-\contentsline {subsection}{\numberline {19.2}Preguntas de autocontrol}{106}{}%
-\contentsline {subsection}{\numberline {19.3}Formas y tipos de evaluación}{110}{}%
-\contentsline {subsection}{\numberline {19.4}Rubricas para autoevaluación del silabo}{111}{}%
+\contentsline {subsection}{\numberline {18.1}Estructura de repetición (do-while) }{87}{}%
+\contentsline {subsubsection}{\numberline {18.1.1}Taller para la práctica de estructura de repetición en la programación de C++}{88}{}%
+\contentsline {subsubsection}{\numberline {18.1.2}Proyecto Final Integrador }{93}{}%
+\contentsline {section}{\numberline {19}Funciones declaradas por el usuario}{100}{}%
+\contentsline {subsection}{\numberline {19.1}Clases: Estructura}{105}{}%
+\contentsline {subsection}{\numberline {19.2}Preguntas de autocontrol}{108}{}%
+\contentsline {subsection}{\numberline {19.3}Formas y tipos de evaluación}{112}{}%
+\contentsline {subsection}{\numberline {19.4}Rubricas para autoevaluación del silabo}{113}{}%

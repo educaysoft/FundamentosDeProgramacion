@@ -1,4 +1,4 @@
-\documentclass[a4pa<per,12pt,spanish]{article}
+\documentclass[a4paper,12pt,spanish]{article}
 \usepackage{colortbl}
 \usepackage[dvipsnames,table]{xcolor}
 \usepackage{booktabs}
@@ -717,21 +717,21 @@
 
 %Resultado de aprendizaje de la Unidad 1
 \newcommand{\ResuApreA}{El estudiante podrá identificar las diferentes partes constitutivas de un ordenar e imaginar cual es su funcionamiento en el momento que entre en ejecución un programas.}
-%Resultado de aprendizaje de la Unidad 2
-\newcommand{\ResuApreB}{El estudiante tendra los conocimiento, habilidades y destrezas para utilizar el sistema opertavo Android de su Smartphone para programar en C++.}
+%Resultado de aprendizaje de la Unidad 1
+\newcommand{\ResuApreB}{El estudiante tendrá los conocimiento, habilidades y destrezas para utilizar el sistema opertavo Android de su Smartphone para programar en C++.}
+% Resultado de aprendizaje de la Unidad 2
+\newcommand{\ResuApreC}{El estudiante podrá analizar un problema matemático para diseñarlo utilizando los diagrama de flujo.}
+% Resultado de aprendizaje de la Unidad 2
+\newcommand{\ResuApreD}{El estudiante tendrá los conocimiento, habilidades y destrezas para crear un conjunto de instrucciones en C++ bien estructurada.}
+
 % Resultado de aprendizaje de la Unidad 3
-\newcommand{\ResuApreC}{El estudiante podra analizar un problema matemático para diseñarlo utilizando los diagrama de flujo.}
+\newcommand{\ResuApreE}{El estudiante podrá analizar un problema matemático y lógico para  diseñarlo utilizando estructura de selección en los diagramas de flujo.}
+
+% Resultado de aprendizaje de la Unidad 3
+\newcommand{\ResuApreF}{El estudiante podrá analizar un problema matemático y lógico para  diseñarlo utilizando estructura de repetición en los diagrama de flujo.}
+
 % Resultado de aprendizaje de la Unidad 4
-\newcommand{\ResuApreD}{El estudiante tendra los conocimiento, habilidades y destrezas para crear un conjunto de instrucciones en C++ bien estructurada.}
-
-% Resultado de aprendizaje de la Unidad 5
-\newcommand{\ResuApreE}{El estudiante podra analizar un problema matemático y lógico para  diseñarlo utilizando estructura de selección en los diagramas de flujo.}
-
-% Resultado de aprendizaje de la Unidad 6
-\newcommand{\ResuApreF}{El estudiante podra analizar un problema matemático y lógico para  diseñarlo utilizando estructura de repetición en los diagrama de flujo.}
-
-% Resultado de aprendizaje de la Unidad 7
-\newcommand{\ResuApreG}{El estudiante podra crear un programa utilizando funciones almacenadas en librerias personales.}
+\newcommand{\ResuApreG}{El estudiante podrá crear un programa utilizando funciones almacenadas en librerias personales.}
 
 
 
@@ -1141,14 +1141,14 @@
     \begin{center}
  \vspace{8cm}
 
-   { \large \textbf{ASIGNATURA:} FUNDAMENTOS DE PROGRAMACIÓN \par}
+   { \large \textcolor{red}{ \textbf{ASIGNATURA:} FUNDAMENTOS DE PROGRAMACIÓN} \par}
 
    \vspace{6.5cm}
   \end{center}
  
   
   \begin{center}
-  {\large Esmeraldas - Ecuador \\ 2021\par}
+  {\large Esmeraldas - Ecuador \\ IS-2022\par}
 \end{center}
 \vspace{1.8cm}
 \end{minipage}
@@ -1181,7 +1181,7 @@
     &\makecell[l]{Prácticas de aplicación \\ y colaboración} &:& 32 horas \\ \cline{2-4}
                                 & Aprendizaje autónomo &:& 64 horas \\ \hline
   \multicolumn{2}{|l}{Total horas de aprendizaje}&:&160 horas \\  \hline \hline
-  \multicolumn{2}{|l}{Periodo Académico} &:& septiembre 2021 -- Enero 2022 \\ \hline
+  \multicolumn{2}{|l}{Periodo Académico} &:& mayo 2022 -- Diciembre 2022 \\ \hline
   \multicolumn{2}{|l}{Profesor} &:& \makecell[l]{Ing. Stalin Francis M.sc  } \\ \hline
   \multicolumn{2}{|l}{Título cuarto nivel} &:& Magister en Ciencias de la Computación.\\ \hline
   \multicolumn{2}{|l}{Email} &:& stalin.francis@utelvt.edu.ec \\ \hline
@@ -1246,7 +1246,7 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
                0 &\makecell[l]{Presentación,motivación, diagnóstico \\ (10 - 14 Agosto 2020)}  &4& & & &  & & 4 \\\cline{1-9} \rowcolor{unidad1!40}
 \cellcolor{magenta!10}  &Introducción a las computadoras y los lenguajes de programación  &4&4 & & &  &8 & 16 \\\hhline{~--------}
   \rowcolor{unidad2!40}
- \multirow{-2}{*}{\cellcolor{magenta!10} \hfil {\LARGE 1}}  &Nociones de linux, vim, clang  &4& & & &8 & 12 &24 \\\cline{1-9}
+ \multirow{-2}{*}{\cellcolor{magenta!10} \hfil {\LARGE 1}}  &Nociones de linux, vim, clang,GitHub y Git  &4& & & &8 & 12 &24 \\\cline{1-9}
   \rowcolor{unidad3!40}
   \cellcolor{cyan!20}  \vfill  {\LARGE 2} &Metodología de la programación y Diagrama de flujo e introducción a C++  &4&2 & & & 12 &16 & 34 \\\cline{1-9}
   \rowcolor{gray!25}
@@ -1262,7 +1262,7 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 
     \cellcolor{yellow!20}             &  Funciones y librerias personales &4& & &8&8 &8 & 28 \\\cline{2-9}
 
-        \multirow{-2}{*}{\cellcolor{yellow!20} \hfil \LARGE 4}         &  Introducción a la POO &2& & &8&4 &4 & 18 \\\cline{1-9}
+        \multirow{-2}{*}{\cellcolor{yellow!20} \hfil \LARGE 4}         &  Arreglos y matrices &2& & &8&4 &4 & 18 \\\cline{1-9}
   \rowcolor{gray!25}
 
                  &\makecell{Ex amen 2do Parcial\\ (23 -27 noviembre 2020)} & & & &6 &  & & 6 \\\hline
@@ -1394,10 +1394,10 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 \newpage
 
 % --------------------------
-% UNIDAD 2:
+% UNIDAD 1:
 %---------------------------
 
-\subsection{Unidad de aprendizaje No 2}
+\subsection{Unidad de aprendizaje No 1}
 \label{sec:unid-de-aprend}
 
 
@@ -1405,7 +1405,7 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 \begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
   \hline
   \rowcolor{unidad2!40}
-  \multicolumn{2}{|m{\textwidth-7cm}|}{ \cellcolor{unidad2!40}{\makecell[l]{{\Large Unidad 2:}\\ Nociones de Linux,Termux y Vim }}} & \cellcolor{unidad2!40} N.Horas: 24 \\ \hline
+  \multicolumn{2}{|m{\textwidth-7cm}|}{ \cellcolor{unidad2!40}{\makecell[l]{{\Large Unidad 1:}\\ Nociones de Termux, Linux, Vim, Github y Git }}} & \cellcolor{unidad2!40} N.Horas: 24 \\ \hline
   \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreB} \\ \hline
   CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
   \begin{minipage}[H]{1.0\linewidth}
@@ -1449,13 +1449,13 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 
 
 \newpage
-\subsection{Unidad de aprendizaje No 3}
+\subsection{Unidad de aprendizaje No 2}
 \label{sec:unid-de-aprend3}
 
 \begin{tabular}[H]{|m{9cm}|m{7cm}|m{5cm}|}
   \hline
   \rowcolor{unidad3!40}
- \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad3!40}{ \makecell[l]{{\Large Unidad 3:} \\ Metodología de la programación y Diagrama de flujo }}} & \cellcolor{unidad3!40} N.Horas: 34 \\ \hline
+ \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad3!40}{ \makecell[l]{{\Large Unidad 2:} \\ Metodología de la programación y Diagrama de flujo }}} & \cellcolor{unidad3!40} N.Horas: 34 \\ \hline
   \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreC} \\ \hline
   CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
   \begin{minipage}[H]{1.0\linewidth}
@@ -1505,7 +1505,7 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 \section{PROGRAMA ANALÍTICO - 2do HEMICICLO}
 
 
-\subsection{Unidad de aprendizaje No 4}
+\subsection{Unidad de aprendizaje No 2}
 \label{sec:unid-de-aprend4}
 
 
@@ -1513,7 +1513,7 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
   \hline  \hline
   \rowcolor{unidad4!40}
 
-  \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad4!40}{ \makecell[l]{{\Large Unidad 4:}  \\Programación en C++: Introducción}}} & \cellcolor{unidad4!40} N.Horas: 10 \\ \hline
+  \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad4!40}{ \makecell[l]{{\Large Unidad 2:}  \\Programación en C++: Introducción}}} & \cellcolor{unidad4!40} N.Horas: 10 \\ \hline
   \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreD} \\ \hline \hline
 
   
@@ -1563,13 +1563,13 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 
 
 \newpage
-\subsection{Unidad de aprendizaje No 5}
+\subsection{Unidad de aprendizaje No 3}
 \label{sec:unid-de-aprend5}
 
 \begin{tabular}[H]{|m{10cm}|m{6cm}|m{5cm}|}
   \hline
   \rowcolor{unidad5!40}
- \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad5!40}{ \large{\makecell[l]{{\Large Unidad 5:} \\ Flujo de control I: Estructura selectiva}}}} & \cellcolor{unidad5!40} N.Horas: 20 \\ \hline
+ \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad5!40}{ \large{\makecell[l]{{\Large Unidad 3:} \\ Flujo de control I: Estructura selectiva}}}} & \cellcolor{unidad5!40} N.Horas: 20 \\ \hline
   \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreD} \\ \hline
   CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
   \begin{minipage}[H]{1.0\linewidth}
@@ -1614,14 +1614,14 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 
 
 \newpage
-\subsection{Unidad de aprendizaje No 6}
+\subsection{Unidad de aprendizaje No 3}
 \label{sec:unid-de-aprend6}
 
 
 \begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
   \hline
  \rowcolor{unidad6!40} 
- \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad6!40}{ \makecell[l]{{\Large Unidad 6:} \\ Flujo de control: Estructura repetitiva}}} & \cellcolor{unidad6!40} N.Horas: 20 \\ \hline
+ \multicolumn{2}{|m{\textwidth-7cm}|}{\cellcolor{unidad6!40}{ \makecell[l]{{\Large Unidad 3:} \\ Flujo de control: Estructura repetitiva}}} & \cellcolor{unidad6!40} N.Horas: 20 \\ \hline
   \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreE} \\ \hline
   CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
   \begin{minipage}[H]{1.0\linewidth}
@@ -1667,14 +1667,14 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 
 
 \newpage
-\subsection{Unidad de aprendizaje No 7}
+\subsection{Unidad de aprendizaje No 4}
 \label{sec:unid-de-aprend7}
 
 
 \begin{tabular}[H]{|m{8cm}|m{8cm}|m{5cm}|}
   \hline
   \rowcolor{unidad7!50}
-  \multicolumn{2}{|m{\textwidth-7cm}|}{ \cellcolor{unidad7!50}{\makecell[l]{{\Large Unidad 7:}  \\Funciones y librerias personales}}} & \cellcolor{unidad7!50} N.Horas: 36 \\ \hline
+  \multicolumn{2}{|m{\textwidth-7cm}|}{ \cellcolor{unidad7!50}{\makecell[l]{{\Large Unidad 4:}  \\Funciones y librerías personales}}} & \cellcolor{unidad7!50} N.Horas: 36 \\ \hline
   \multicolumn{3}{|m{\textwidth-2cm}|}{\textbf{RESULTADOS DE APRENDIZAJE:}  \ResuApreG} \\ \hline
   CONTENIDOS MÍNIMOS & METODOLOGÍA & EVALUACIÓN \\ \hline
   \begin{minipage}[H]{1.0\linewidth}
@@ -1709,7 +1709,7 @@ Desarrollar destrezas y habilidades en los estudiantes para analizar, diseñar y
 \vspace{0.5cm}
 
     
-   \colorbox{red!50}{\parbox[t]{2in}{ \textbf{Actividad A2}: \textsc{Proyecto final Integrador }; El programa de la actividad C2 sera mejorado utilizando funciones y librerias}}. 
+   \colorbox{red!50}{\parbox[t]{2in}{ \textbf{Actividad A2}: \textsc{Proyecto final Integrador }; El programa de la actividad C2 sera mejorado utilizando funciones y librerías}}. 
     \vspace{2cm}
     \vspace{0.2cm}
   \end{minipage}
@@ -1738,7 +1738,7 @@ Aplicación de las Ciencias Básicas   & Alta
   Sulución de problemas
                              & Alta
                      & Utilizar el diagrama de flujo y el lenguaje de programación C++ para darle solución a los problemas planteados  \\ \hline
-  Utilización de herramientas especializadas
+  Utilizarlización de herramientas especializadas
                              & Alta
                      & Utilizar de forma eficiente el ordenador y los paquetes de software  necesarios para crear sus programas  \\ \hline
   Trabajo en equipo
@@ -1869,7 +1869,7 @@ Aplicación de las Ciencias Básicas   & Alta
 \begin{center}
 \begin{tabular}[H]{m{8cm}lm{8cm}}
   \rule{7cm}{0.4pt}& &\rule{7cm}{0.4pt} \\
-  \makecell[c]{Ing. Stalin Francis Ms.c\\\textbf{ DOCENTE}}  & &\makecell[c]{Ing. Jonathan Cardenas  MSc. \\ \textbf{COORDINADOR DE ÁREA ACADÉMICA} \\ \textbf{DE PROGRAMACIÓN}} \\ 
+  \makecell[c]{Ing. Stalin Francis Ms.c\\\textbf{ DOCENTE}}  & &\makecell[c]{Ing. Teresa Mina  MSc. \\ \textbf{COORDINADOR DE ÁREA ACADÉMICA} \\ \textbf{DE PROGRAMACIÓN}} \\ 
 \end{tabular}
 \end{center}
 

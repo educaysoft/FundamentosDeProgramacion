@@ -1,5 +1,5 @@
-% Created 2021-12-06 Mon 01:39
-% Intended LaTeX compiler: pdflatex
+Created 2022-08-06 sáb 13:16
+Intended LaTeX compiler: pdflatex
 \documentclass[presentation, aspectratio=54]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -43,8 +43,8 @@
 
 
 \section{Cración de grupos wattsapp}
-\label{sec:org3926ea4}
-\begin{frame}[label={sec:orge942bd8}]{Grupos de Whatsapp}
+\label{sec:org4fd3c9a}
+\begin{frame}[label={sec:org00a5e5c}]{Grupos de Whatsapp}
 \begin{itemize}
 \item Fundamentos-2020-2S-PB
 \begin{itemize}
@@ -56,15 +56,15 @@
 \end{itemize}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:orgf88dc08}]{Grupos de trabajos}
+\begin{frame}[label={sec:org5a1bbaa}]{Grupos de trabajos}
 \begin{itemize}
 \item 5 personas
 \end{itemize}
 \end{frame}
 
 \section{UNIDAD 0: Presentación.}
-\label{sec:orgbb81a18}
-\begin{frame}[label={sec:org87fb2b4}]{\textit{<2021-09-13 Mon 09:00>--<2021-09-13 Mon 11:00> } Session No 1}
+\label{sec:org72fbb6d}
+\begin{frame}[label={sec:orgd26d695}]{\textit{<2021-09-13 lun 09:00>--<2021-09-13 lun 11:00> } Session No 1}
 \begin{block}{Presentación del Docente}
 \begin{enumerate}
 \item Nombre: Stalin Francis Quinde.
@@ -88,15 +88,15 @@ Curriculo(UTLVTE)
 \end{block}
 \end{block}
 \end{frame}
-\begin{frame}[label={sec:org8f0bad9}]{\textit{<2021-09-14 Tue 11:00>--<2021-09-14 Tue 13:00> } Session No 2}
-\begin{block}{\textit{<2021-09-14 Tue 11:00>--<2021-09-14 Tue 10:00> } Video motivacionales}
+\begin{frame}[label={sec:org1b6d8b2}]{\textit{<2021-09-14 mar 11:00>--<2021-09-14 mar 13:00> } Session No 2}
+\begin{block}{\textit{<2021-09-14 mar 11:00>--<2021-09-14 mar 10:00> } Video motivacionales}
 \begin{itemize}
 \item Se dedicará una clase a ver los videos y luego cada estudiante realizará un comentario del mensaje que dejo el video.
 \item \url{https://www.youtube.com/watch?v=xKka6kzTQgw\&t=822s}
 \end{itemize}
 \end{block}
 
-\begin{block}{\textit{<2021-09-14 Tue 11:00>--<2021-09-14 Tue 13:00> } Prueba de diagnostivo:}
+\begin{block}{\textit{<2021-09-14 mar 11:00>--<2021-09-14 mar 13:00> } Prueba de diagnostivo:}
 \begin{itemize}
 \item Para esta prueba se dedicará un sesión de clase para que los estudiates respondan en las dos horas de clases.
 \end{itemize}
@@ -104,8 +104,8 @@ Curriculo(UTLVTE)
 \end{frame}
 
 \section{UNIDAD 1: Introducción a las computadoras y los lenguajes de programación.}
-\label{sec:org74e0768}
-\begin{frame}[label={sec:org6897069}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Introducción a la computadora}
+\label{sec:org7dbae57}
+\begin{frame}[label={sec:org333fd96}]{\textit{<2021-09-15 mié 09:00>--<2021-09-15 mié 10:00> } Introducción a la computadora}
 \begin{itemize}
 \item ¿Que es el computador?
 \begin{itemize}
@@ -121,7 +121,7 @@ Curriculo(UTLVTE)
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:org866e288}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Historia del computador}
+\begin{frame}[label={sec:org9d031c3}]{\textit{<2021-09-15 mié 09:00>--<2021-09-15 mié 10:00> } Historia del computador}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=180px]{./images/historia1.png}
@@ -130,7 +130,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:org994b496}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Historia del computador}
+\begin{frame}[label={sec:orga35c0cc}]{\textit{<2021-09-15 mié 09:00>--<2021-09-15 mié 10:00> } Historia del computador}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=180px]{./images/historia2.png}
@@ -139,7 +139,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:orgae91db4}]{\textit{<2021-09-15 Wed 09:00>--<2021-09-15 Wed 10:00> } Arquitectura del computador}
+\begin{frame}[label={sec:orgb61b7be}]{\textit{<2021-09-15 mié 09:00>--<2021-09-15 mié 10:00> } Arquitectura del computador}
 \begin{block}{Diagrama de la arquitectura Von Neuman}
 \begin{figure}[htbp]
 \centering
@@ -150,7 +150,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:orgbc7743f}]{El software.}
+\begin{frame}[label={sec:orga5ec6df}]{El software.}
 \begin{itemize}
 \item ¿Que es el software?
 \item ¿Qué es numeración binaria?
@@ -161,7 +161,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:orgcefcd57}]{Sistema de Numeración Binaria}
+\begin{frame}[label={sec:orgbdb9771}]{Sistema de Numeración Binaria}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=120px]{./images/memoria.png}
@@ -169,7 +169,7 @@ Curriculo(UTLVTE)
 \end{figure}
 \end{frame}
 
-\begin{frame}[label={sec:org98e3b9d}]{Sistemas de Numeración}
+\begin{frame}[label={sec:org9e8ebea}]{Sistemas de Numeración}
 \begin{itemize}
 \item Sistema de númeración Binaria.
 \item Sistema de númeración Octal.
@@ -178,7 +178,7 @@ Curriculo(UTLVTE)
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:orgba218f1}]{Conversión Sistemas de Númeración.}
+\begin{frame}[label={sec:org8c9d90d}]{Conversión Sistemas de Númeración.}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=250px]{./images/DecimalBinario.jpg}
@@ -188,14 +188,14 @@ Curriculo(UTLVTE)
 
 
 
-\begin{frame}[label={sec:orgb9eabdd}]{Lenguaje de programación}
+\begin{frame}[label={sec:org867230a}]{Lenguaje de programación}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./images/LenguajesDeProgramacion.jpg}
 \caption{Todos los lenguajes de programación}
 \end{figure}
 \end{frame}
-\begin{frame}[label={sec:orgf944ff1}]{Lenguaje a utilizar para esta curso.}
+\begin{frame}[label={sec:orgc303462}]{Lenguaje a utilizar para esta curso.}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=150px]{./images/cpp.jpg}
@@ -204,30 +204,57 @@ Curriculo(UTLVTE)
 \end{frame}
 
 \section{UNIDAD 2: Nociones de linux, vim, clang}
-\label{sec:org79769cd}
-\begin{frame}[label={sec:org009e6d6}]{Introducción a Linux y termux}
+\label{sec:org46cd919}
+\begin{frame}[label={sec:org1f009fa}]{Introducción a Linux y termux}
 \end{frame}
-\begin{frame}[label={sec:org32eced3}]{Paquetes de Linux: ejercicios prácticos}
+\begin{frame}[label={sec:org2ce04a6}]{Paquetes de Linux: ejercicios prácticos}
 \end{frame}
-\begin{frame}[label={sec:org6ecc671}]{Introducción a Vim  y sus comandos.}
+\begin{frame}[label={sec:org43de377}]{Introducción a Vim  y sus comandos.}
 \end{frame}
-\begin{frame}[label={sec:org19868cd}]{Ejercicios prácticos con Vim.}
+\begin{frame}[label={sec:orgb06342c}]{Ejercicios prácticos con Vim.}
 \end{frame}
 \section{UNIDAD 3: Metodología de la programación y Diagrama de flujo}
-\label{sec:orgdef4223}
-\begin{frame}[label={sec:org7e7ad38}]{Introducción a al programación}
+\label{sec:org1f9e0a3}
+\begin{frame}[label={sec:orga87186d}]{Introducción a al programación}
 \end{frame}
-\begin{frame}[label={sec:orgc0e8cf8}]{Ciclo de Vida del Software.}
+\begin{frame}[label={sec:orge6fccdc}]{Ciclo de Vida del Software.}
 \end{frame}
-\begin{frame}[label={sec:org8781636}]{Diagrama de Flujo: Hola Mundo.}
+\begin{frame}[label={sec:org7176c37}]{Diagrama de Flujo: Hola Mundo.}
 \end{frame}
 \section{Semana de Evuación sumativa}
-\label{sec:org65e579e}
-\section{UNIDAD 4: Programaciíón en C++: Introducción}
-\label{sec:org4330d9d}
+\label{sec:orgcdb27f9}
+\section{UNIDAD 4: Programación en C++: Introducción.}
+\label{sec:org8d6a6f0}
+\begin{frame}[label={sec:org800c307}]{Elementos básicos en un programa en c++.}
+\begin{block}{Básicos.}
+\begin{itemize}
+\item Palabras reservadas (main, return, if while, do ,.. etc.).
+\item Identificadores (nombre de variables, nombre de funciones, nombres de programas, etc.).
+\item Caracteres especiales (coma,punto,punto y coma, etc.).
+\item Constantes.
+\item Variables.
+\item Expresiones.
+\item Instrucciones.
+\end{itemize}
+\end{block}
+\begin{block}{Derivados.}
+\begin{itemize}
+\item Bucles.
+\item Contadores.
+\item Acumuladores.
+\item Interruptores.
+\item Estructuras (secuenciales, selectivas, repetitivas).
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[label={sec:org94ab15e}]{Un programa básico en C++.}
+\begin{itemize}
+\item 
+\end{itemize}
+\end{frame}
 \section{UNIDAD 5: Flujo de control :Selección y Repetición.}
-\label{sec:orge241be2}
-\begin{frame}[label={sec:orgc569fc7}]{Estructuras de control son:}
+\label{sec:orgf77bdb6}
+\begin{frame}[label={sec:org0087da8}]{Estructuras de control son:}
 \begin{block}{Estructura de selección}
 \begin{itemize}
 \item Estructura if-else
@@ -243,7 +270,7 @@ Curriculo(UTLVTE)
 \end{itemize}
 \end{block}
 \end{frame}
-\begin{frame}[label={sec:org90cc701}]{Estructura de selección (if-else).}
+\begin{frame}[label={sec:org892808f}]{Estructura de selección (if-else).}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -258,7 +285,7 @@ Curriculo(UTLVTE)
 \end{columns}
 \end{frame}
 
-\begin{frame}[label={sec:orgcd49a3a}]{Estructura de control (if-else)}
+\begin{frame}[label={sec:org2f26c16}]{Estructura de control (if-else)}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -275,7 +302,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:org7fadc40}]{Estructura de control (if)}
+\begin{frame}[label={sec:org1389d9c}]{Estructura de control (if)}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -291,7 +318,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:org9ac9aee}]{Estructura de control (if excluyentes)}
+\begin{frame}[label={sec:orgdb149cc}]{Estructura de control (if excluyentes)}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -309,7 +336,7 @@ Curriculo(UTLVTE)
 
 
 
-\begin{frame}[label={sec:org1a1d6cc}]{Estructura de control (switch)}
+\begin{frame}[label={sec:org0a06320}]{Estructura de control (switch)}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -329,7 +356,7 @@ Curriculo(UTLVTE)
 
 
 
-\begin{frame}[label={sec:org55ea943}]{Estructura de control (do-while)}
+\begin{frame}[label={sec:orge6f0db9}]{Estructura de control (do-while)}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -345,7 +372,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:orgf0bb77f}]{Estructura de control (while)}
+\begin{frame}[label={sec:org78ee5a2}]{Estructura de control (while)}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -362,7 +389,7 @@ Curriculo(UTLVTE)
 \end{frame}
 
 
-\begin{frame}[label={sec:org40153c7}]{Estructura de control (for)}
+\begin{frame}[label={sec:org1d842d0}]{Estructura de control (for)}
 \begin{columns}
 \begin{column}{0.4\columnwidth}
 \begin{center}
@@ -379,15 +406,20 @@ Curriculo(UTLVTE)
 
 
 \section{UNIDAD 6: Flujo de control II: Estructura Repetiviva}
-\label{sec:org15d3265}
-\begin{frame}[label={sec:org2308126}]{org-mode + beamer =  love}
-\begin{columns}
+\label{sec:org0b17c67}
+\begin{frame}[label={sec:orgdccc81f},fragile]{org-mode + beamer =  love}
+ \begin{columns}
 \begin{column}{0.7\columnwidth}
 <example block>
 \end{column}
 \begin{column}{0.3\columnwidth}
 \begin{block}{Simple block}
 it's that easy!
+\begin{verbatim}
+int a=1;
+int b=1;
+printf("%d\n", a+b);
+\end{verbatim}
 \end{block}
 \end{column}
 \end{columns}
@@ -395,30 +427,34 @@ it's that easy!
 
 
 
+
+
+
+
 \section{UNIDAD 7: Funciones y librerias personales}
-\label{sec:orgf598b1a}
-\begin{frame}[label={sec:orgc264c4f}]{monolítico}
+\label{sec:orgf9ddc98}
+\begin{frame}[label={sec:org75feb21}]{monolítico}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.5\linewidth]{./images/codigo/monolitico-1.png}
 monolítico-1.cpp
 \end{figure}
 \end{frame}
-\begin{frame}[label={sec:org9a22977}]{monolítico2}
+\begin{frame}[label={sec:orgd8dbc00}]{monolítico2}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.1\linewidth]{./images/codigo/monolitico-2.png}
 monolítico-2.cpp
 \end{figure}
 \end{frame}
-\begin{frame}[label={sec:org7341fe4}]{Programación monolítica con funciones}
+\begin{frame}[label={sec:org85689ea}]{Programación monolítica con funciones}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./images/codigo/funcion1.png}
 funcion-1.cpp
 \end{figure}
 \end{frame}
-\begin{frame}[label={sec:org0c43cd5}]{Programación monolítica con prototipo de funciones}
+\begin{frame}[label={sec:org84c68bd}]{Programación monolítica con prototipo de funciones}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\linewidth]{./images/codigo/funcion2.png}
@@ -426,7 +462,7 @@ funcion-2.cpp
 \end{figure}
 \end{frame}
 
-\begin{frame}[label={sec:org6661cb5}]{Programa monolítico.}
+\begin{frame}[label={sec:org8017c07}]{Programa monolítico.}
 \begin{columns}
 \begin{column}{0.45\columnwidth}
 \begin{figure}[htbp]
@@ -448,5 +484,9 @@ milibreria.h
 
 
 \section{UNIDAD 8: Programación Orientada a Objetos: clases}
-\label{sec:orgb495cc5}
+\label{sec:orga477318}
 \end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

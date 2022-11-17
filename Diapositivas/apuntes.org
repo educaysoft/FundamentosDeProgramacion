@@ -307,6 +307,15 @@
     :BEAMER_env: block
     :END:
 it's that easy!
+#+begin_src C++ :includes <stdio.h>
+  int a=1;
+  int b=1;
+  printf("%d\n", a+b);
+#+end_src
+
+
+
+
 
 
 
